@@ -101,7 +101,7 @@ const WhatWeDo = () => {
   ];
 
   return (
-    <div className="bg-[#fffefb] text-black font-sans antialiased py-8 sm:py-12 md:py-16">
+    <div className="bg-[#fffefb] text-black font-sans antialiased py-8 overflow-x-hidden sm:py-12 md:py-16">
       <main className="max-w-[1200px] mx-auto px-3 sm:px-4" role="main">
         {/* Header Section */}
         <motion.section 
