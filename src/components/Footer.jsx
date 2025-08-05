@@ -453,14 +453,14 @@ const Footer = () => {
                   <div>
                     <p className="text-gray-400 text-2xs xs:text-xs sm:text-sm">Email</p>
                     <motion.a 
-                      href="mailto:illusionbarrisol@gmail.com" 
+                      href="mailto:textilebarrisol@gmail.com" 
                       className="text-white font-semibold text-2xs xs:text-xs sm:text-sm"
                       whileHover={{ 
                         color: "#60A5FA",
                         textShadow: "0 0 10px rgba(96, 165, 250, 0.5)"
                       }}
                     >
-                      illusionbarrisol@gmail.com
+                      textilebarrisol@gmail.com
                     </motion.a>
                   </div>
                 </motion.div>

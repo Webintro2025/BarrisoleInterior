@@ -332,7 +332,7 @@ const ServiceBanner = ({ service }) => {
                 </div>
                 <div className="space-y-1">
                   <p className="text-gray-200 text-xs">📞 +91 97189 21229</p>
-                  <p className="text-gray-200 text-xs">📧 illusionbarrisol@gmail.com</p>
+                  <p className="text-gray-200 text-xs">📧 textilebarrisol@gmail.com</p>
                   <p className="text-gray-200 text-xs">⏰ 24/7 Available</p>
                 </div>
               </motion.div>

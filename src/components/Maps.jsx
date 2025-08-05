@@ -199,7 +199,7 @@ const Maps = () => {
           </motion.a>
           
           <motion.a 
-            href="mailto:illusionbarrisol@gmail.com"
+            href="mailto:textilebarrisol@gmail.com"
             className="flex items-center gap-1.5 sm:gap-2 text-gray-600 hover:text-[#b07f52] text-xs xs:text-sm sm:text-base transition-colors duration-300"
             whileHover={{ scale: 1.05 }}
           >

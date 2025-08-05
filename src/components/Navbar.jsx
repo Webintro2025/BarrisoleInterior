@@ -179,9 +179,9 @@ const Navbar = () => {
               transition: { duration: 0.2 }
             }}
           >
-            <span className="block sm:hidden">BARRISOL</span>
-            <span className="hidden sm:block md:hidden">BARRISOL INTERIOR</span>
-            <span className="hidden md:block">BARRISOL INTERIOR SOLUTION</span>
+            <span className="block sm:hidden">TEXTILE BARRISOL STRETCH CEILING</span>
+            <span className="hidden sm:block md:hidden">TEXTILE BARRISOL STRETCH CEILING</span>
+            <span className="hidden md:block">TEXTILE BARRISOL STRETCH CEILING</span>
           </motion.div>
         </Link>
 

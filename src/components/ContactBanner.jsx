@@ -51,9 +51,9 @@ const ContactBanner = () => {
     {
       icon: FiMail,
       title: "Email Us", 
-      details: ["illusionbarrisol@gmail.com"],
+      details: ["textilebarrisol@gmail.com"],
       color: "from-blue-500 to-blue-600",
-      link: "mailto:illusionbarrisol@gmail.com"
+      link: "mailto:textilebarrisol@gmail.com"
     },
     {
       icon: FiMapPin,

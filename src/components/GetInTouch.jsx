@@ -69,7 +69,7 @@ const GetInTouch = () => {
         </svg>
       ),
       label: "Email",
-      value: "illusionbarrisol@gmail.com"
+      value: "textilebarrisol@gmail.com"
     },
     {
       icon: (
