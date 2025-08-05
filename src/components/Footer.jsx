@@ -2,6 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import { CEILING_SERVICES } from '@/data/servicesData';
 
 const Footer = () => {
   // Animation variants
@@ -230,18 +231,7 @@ const Footer = () => {
                   whileInView="visible"
                   viewport={{ once: true }}
                 >
-                  {[
-                    "3D Stretch Ceiling",
-                    "3D Textile Paper Craft Ceiling", 
-                    "3D Live Cloud Stretch Ceiling",
-                    "RGBW Programming Stretch Ceiling",
-                    "Tunnable & Dimmable Stretch Ceiling",
-                    "3D Translucent Stretch Ceiling",
-                    "2X2 Printed Panel Ceiling",
-                    "Mural Ceiling Art",
-                    "Star Fiber Optic Ceiling",
-                    "Dreamsol Virtual French Ceiling"
-                  ].map((service, index) => (
+                  {CEILING_SERVICES.map((service, index) => (
                     <motion.li 
                       key={index}
                       className="cursor-pointer p-3 rounded-lg border border-gray-700/50 bg-gray-800/30"
@@ -255,15 +245,17 @@ const Footer = () => {
                         transition: { duration: 0.3 }
                       }}
                     >
-                      <motion.span
-                        className="block text-gray-200 font-medium"
-                        whileHover={{ 
-                          color: "#60A5FA",
-                          textShadow: "0 0 10px rgba(96, 165, 250, 0.5)"
-                        }}
-                      >
-                        {service}
-                      </motion.span>
+                      <Link href={`/${service.slug}`}>
+                        <motion.span
+                          className="block text-gray-200 font-medium"
+                          whileHover={{ 
+                            color: "#60A5FA",
+                            textShadow: "0 0 10px rgba(96, 165, 250, 0.5)"
+                          }}
+                        >
+                          {service.title}
+                        </motion.span>
+                      </Link>
                     </motion.li>
                   ))}
                 </motion.ul>
@@ -319,9 +311,9 @@ const Footer = () => {
                   { name: "Home", link: "/" },
                   { name: "About Us", link: "/about" },
                   { name: "Our Services", link: "/services" },
-                  { name: "Portfolio", link: "/portfolio" },
+                
                   { name: "Contact Us", link: "/contact" },
-                  { name: "Get Quote", link: "/quote" }
+             
                 ].map((link, index) => (
                   <motion.li 
                     key={index}

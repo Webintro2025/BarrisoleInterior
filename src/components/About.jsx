@@ -1,10 +1,51 @@
 'use client';
 
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const About = () => {
   const [activeTab, setActiveTab] = useState(0);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  // Image gallery data for auto-scroll
+  const galleryImages = [
+    {
+      src: "/star.png",
+      alt: "Interior room with a beige armchair",
+      title: "Premium Star Design"
+    },
+    {
+      src: "/textile.png", 
+      alt: "Cozy living room with textile ceiling",
+      title: "Textile Ceiling Solutions"
+    },
+    {
+      src: "/RGBWpROGRAMMINGsTRETCHcEILING.png",
+      alt: "RGB programmable stretch ceiling",
+      title: "RGB Programming Ceiling"
+    },
+    {
+      src: "/3dstrechceling.png",
+      alt: "3D stretch ceiling design",
+      title: "3D Stretch Ceiling"
+    },
+    {
+      src: "/CLOUDSTRETCHCEILING.png",
+      alt: "Cloud stretch ceiling",
+      title: "Cloud Stretch Ceiling"
+    }
+  ];
+
+  // Auto-scroll effect
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => 
+        (prevIndex + 1) % galleryImages.length
+      );
+    }, 3000); // Change image every 3 seconds
+
+    return () => clearInterval(interval);
+  }, [galleryImages.length]);
 
   const text = "Barrisol Interior Solution";
   const tabs = ['History', 'Mission', 'Vision'];
@@ -248,56 +289,117 @@ const About = () => {
           className="max-w-[1200px] mx-auto px-5 py-10 flex flex-wrap gap-10"
           variants={staggerContainer}
         >
-          {/* Image Gallery Section - Slide In Left with Stagger */}
+          {/* Image Gallery Section - Auto-Scroll Carousel */}
           <motion.section 
-            className="relative flex-1 min-w-[280px] max-w-[600px] h-[400px] md:h-[320px]"
+            className="relative flex-1 min-w-[280px] max-w-[600px] h-[450px] md:h-[400px] bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl overflow-hidden"
             variants={slideInLeft}
           >
-            <motion.img
-              src="star.png"
-              alt="Interior room with a beige armchair"
-              className="absolute top-10 left-0 z-10 w-[400px] max-w-full h-[320px] object-cover md:top-5 md:left-10 md:w-[280px] md:h-[220px] rounded-lg shadow-lg"
-              initial={{ opacity: 0, scale: 0.8, rotate: -5 }}
-              whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2, duration: 0.8 }}
-              whileHover={{ 
-                scale: 1.05, 
-                rotate: 2,
-                zIndex: 40,
-                boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)"
-              }}
-            />
-            <motion.img
-              src="Textle.png"
-              alt="Cozy living room with sofa"
-              className="absolute top-5 left-10 z-20 w-[400px] max-w-full h-[320px] object-cover md:top-2 md:left-7 md:w-[280px] md:h-[220px] rounded-lg shadow-lg"
-              initial={{ opacity: 0, scale: 0.8, rotate: 5 }}
-              whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.4, duration: 0.8 }}
-              whileHover={{ 
-                scale: 1.05, 
-                rotate: -2,
-                zIndex: 40,
-                boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)"
-              }}
-            />
-            <motion.img
-              src="/RGBWpROGRAMMINGsTRETCHcEILING.png"
-              alt="Beige armchair with decorative vase"
-              className="absolute top-0 left-20 z-30 w-[400px] max-w-full h-[320px] object-cover md:top-0 md:left-14 md:w-[280px] md:h-[220px] rounded-lg shadow-lg"
-              initial={{ opacity: 0, scale: 0.8, rotate: -3 }}
-              whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.6, duration: 0.8 }}
-              whileHover={{ 
-                scale: 1.05, 
-                rotate: 3,
-                zIndex: 40,
-                boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)"
-              }}
-            />
+            {/* Main Image Container */}
+            <div className="relative w-full h-full flex items-center justify-center">
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={currentImageIndex}
+                  className="absolute inset-0 flex items-center justify-center"
+                  initial={{ opacity: 0, scale: 0.8, x: 100 }}
+                  animate={{ opacity: 1, scale: 1, x: 0 }}
+                  exit={{ opacity: 0, scale: 0.8, x: -100 }}
+                  transition={{ duration: 0.8, ease: "easeInOut" }}
+                >
+                  <motion.img
+                    src={galleryImages[currentImageIndex].src}
+                    alt={galleryImages[currentImageIndex].alt}
+                    className="w-[95%] h-[90%] object-cover rounded-lg shadow-2xl"
+                    whileHover={{ 
+                      scale: 1.03,
+                      rotateY: 3,
+                      rotateX: 3,
+                      boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.4)"
+                    }}
+                    transition={{ duration: 0.3 }}
+                  />
+                </motion.div>
+              </AnimatePresence>
+
+              {/* Image Title Overlay */}
+              <motion.div
+                className="absolute bottom-6 left-6 right-6 bg-black/70 backdrop-blur-sm rounded-lg p-3"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.5, duration: 0.5 }}
+              >
+                <motion.h3 
+                  key={currentImageIndex}
+                  className="text-white font-bold text-base"
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.3, duration: 0.5 }}
+                >
+                  {galleryImages[currentImageIndex].title}
+                </motion.h3>
+                <motion.p 
+                  className="text-gray-300 text-xs mt-1"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.5, duration: 0.5 }}
+                >
+                  Premium Interior Solutions
+                </motion.p>
+              </motion.div>
+
+              {/* Navigation Dots */}
+              <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex space-x-2">
+                {galleryImages.map((_, index) => (
+                  <motion.button
+                    key={index}
+                    onClick={() => setCurrentImageIndex(index)}
+                    className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                      currentImageIndex === index 
+                        ? 'bg-white scale-125' 
+                        : 'bg-white/50 hover:bg-white/75'
+                    }`}
+                    whileHover={{ scale: 1.2 }}
+                    whileTap={{ scale: 0.9 }}
+                  />
+                ))}
+              </div>
+
+              {/* Previous/Next Arrows */}
+              <motion.button
+                onClick={() => setCurrentImageIndex(
+                  (currentImageIndex - 1 + galleryImages.length) % galleryImages.length
+                )}
+                className="absolute left-3 top-1/2 transform -translate-y-1/2 bg-white/20 backdrop-blur-sm rounded-full p-2 text-white hover:bg-white/30 transition-all duration-300"
+                whileHover={{ scale: 1.1, x: -3 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                </svg>
+              </motion.button>
+
+              <motion.button
+                onClick={() => setCurrentImageIndex(
+                  (currentImageIndex + 1) % galleryImages.length
+                )}
+                className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-white/20 backdrop-blur-sm rounded-full p-2 text-white hover:bg-white/30 transition-all duration-300"
+                whileHover={{ scale: 1.1, x: 3 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </motion.button>
+
+              {/* Progress Bar */}
+              <div className="absolute top-3 left-3 right-3 h-1 bg-white/20 rounded-full overflow-hidden">
+                <motion.div
+                  className="h-full bg-gradient-to-r from-red-500 to-blue-500 rounded-full"
+                  initial={{ width: 0 }}
+                  animate={{ width: `${((currentImageIndex + 1) / galleryImages.length) * 100}%` }}
+                  transition={{ duration: 0.5 }}
+                />
+              </div>
+            </div>
           </motion.section>
 
           {/* Content and Tabs Section - Slide In Right */}

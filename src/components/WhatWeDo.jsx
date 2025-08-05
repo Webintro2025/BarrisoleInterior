@@ -79,7 +79,7 @@ const WhatWeDo = () => {
       alt: "Mural Ceiling Art"
     },
     {
-      image: "/Textle.png",
+      image: "/textile.png",
       title: "Epoxy Flooring & Surface Coating",
       alt: "Textile and Surface Solutions"
     },
