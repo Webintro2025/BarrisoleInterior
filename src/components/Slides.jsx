@@ -136,7 +136,7 @@ const Slides = () => {
     setCurrentSlide(index);
   };
   return (
-    <div className="relative w-full h-[80vh] overflow-hidden bg-black">
+    <div className="relative w-full h-[50vh] xs:h-[55vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] xl:h-[85vh] overflow-hidden bg-black">
       {/* Main Slideshow */}
       <AnimatePresence mode="wait">
         <motion.div
@@ -165,14 +165,14 @@ const Slides = () => {
           
           {/* Title */}
           <motion.div
-            className="absolute bottom-0 left-0 right-0 p-8 text-white"
+            className="absolute bottom-0 left-0 right-0 p-2 xs:p-3 sm:p-4 md:p-6 lg:p-8 text-white"
             variants={titleVariants}
             initial="enter"
             animate="center"
             exit="exit"
           >
             <motion.h2 
-              className="text-4xl md:text-6xl font-bold mb-4 font-montserrat"
+              className="text-sm xs:text-base sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl font-bold mb-1 xs:mb-2 sm:mb-3 lg:mb-4 font-montserrat"
               whileHover={{ scale: 1.02 }}
             >
               <span className="bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text text-transparent">
@@ -180,7 +180,7 @@ const Slides = () => {
               </span>
             </motion.h2>
             <motion.p 
-              className="text-lg md:text-xl opacity-80 max-w-2xl"
+              className="text-2xs xs:text-xs sm:text-sm md:text-base lg:text-lg opacity-80 max-w-xs sm:max-w-md lg:max-w-2xl"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 0.8, y: 0 }}
               transition={{ delay: 0.8, duration: 0.5 }}
@@ -193,32 +193,32 @@ const Slides = () => {
 
       {/* Navigation Arrows */}
       <motion.button
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white p-3 rounded-full backdrop-blur-sm transition-all duration-300"
+        className="absolute left-2 xs:left-3 sm:left-4 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white p-1.5 xs:p-2 sm:p-3 rounded-full backdrop-blur-sm transition-all duration-300"
         onClick={handlePrev}
         whileHover={{ scale: 1.1, x: -5 }}
         whileTap={{ scale: 0.9 }}
         aria-label="Previous slide"
       >
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-3 h-3 xs:w-4 xs:h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
         </svg>
       </motion.button>
 
       <motion.button
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white p-3 rounded-full backdrop-blur-sm transition-all duration-300"
+        className="absolute right-2 xs:right-3 sm:right-4 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white p-1.5 xs:p-2 sm:p-3 rounded-full backdrop-blur-sm transition-all duration-300"
         onClick={handleNext}
         whileHover={{ scale: 1.1, x: 5 }}
         whileTap={{ scale: 0.9 }}
         aria-label="Next slide"
       >
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-3 h-3 xs:w-4 xs:h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
         </svg>
       </motion.button>
 
       {/* Slide Indicators */}
       <motion.div 
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-3"
+        className="absolute bottom-2 xs:bottom-3 sm:bottom-4 lg:bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-1.5 xs:space-x-2 sm:space-x-3"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1, duration: 0.5 }}
@@ -226,7 +226,7 @@ const Slides = () => {
         {images.map((_, index) => (
           <motion.button
             key={index}
-            className={`w-3 h-3 rounded-full transition-all duration-300 ${
+            className={`w-2 h-2 xs:w-2.5 xs:h-2.5 sm:w-3 sm:h-3 rounded-full transition-all duration-300 ${
               index === currentSlide 
                 ? 'bg-gradient-to-r from-red-500 to-blue-500' 
                 : 'bg-white/40 hover:bg-white/60'
@@ -249,29 +249,29 @@ const Slides = () => {
 
       {/* Slide Counter */}
       <motion.div
-        className="absolute top-4 right-4 bg-black/40 text-white px-4 py-2 rounded-full backdrop-blur-sm"
+        className="absolute top-2 xs:top-3 sm:top-4 right-2 xs:right-3 sm:right-4 bg-black/40 text-white px-2 xs:px-3 sm:px-4 py-1 xs:py-1.5 sm:py-2 rounded-full backdrop-blur-sm"
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 0.5, duration: 0.3 }}
       >
-        <span className="font-semibold">
+        <span className="font-semibold text-2xs xs:text-xs sm:text-sm">
           {currentSlide + 1} / {images.length}
         </span>
       </motion.div>
 
       {/* Auto-play indicator */}
       <motion.div
-        className="absolute top-4 left-4 flex items-center gap-2 bg-black/40 text-white px-4 py-2 rounded-full backdrop-blur-sm"
+        className="absolute top-2 xs:top-3 sm:top-4 left-2 xs:left-3 sm:left-4 flex items-center gap-1 xs:gap-1.5 sm:gap-2 bg-black/40 text-white px-2 xs:px-3 sm:px-4 py-1 xs:py-1.5 sm:py-2 rounded-full backdrop-blur-sm"
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ delay: 0.7, duration: 0.5 }}
       >
         <motion.div
-          className="w-2 h-2 bg-red-500 rounded-full"
+          className="w-1.5 h-1.5 xs:w-2 xs:h-2 bg-red-500 rounded-full"
           animate={{ opacity: [1, 0.3, 1] }}
           transition={{ repeat: Infinity, duration: 1.5 }}
         />
-        <span className="text-sm font-medium">Auto Play</span>
+        <span className="text-3xs xs:text-2xs sm:text-xs font-medium">Auto Play</span>
       </motion.div>
 
       {/* Custom Styles */}

@@ -144,7 +144,7 @@ const ServiceBanner = ({ service }) => {
 
   return (
     <motion.section
-      className="relative h-[70vh] overflow-hidden"
+      className="relative h-[60vh] sm:h-[65vh] md:h-[70vh] lg:h-[75vh] xl:h-[80vh] overflow-hidden"
       variants={bannerVariants}
       initial="initial"
       animate="animate"
@@ -204,39 +204,39 @@ const ServiceBanner = ({ service }) => {
         className="relative z-20 h-full flex items-center"
         style={{ y: contentY }}
       >
-        <div className="max-w-7xl mx-auto px-6 w-full">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 w-full">
+          <div className="grid lg:grid-cols-2 gap-6 lg:gap-12 items-center">
             
             {/* Left Content */}
             <motion.div
               variants={contentVariants}
-              className="text-white space-y-8"
+              className="text-white space-y-4 sm:space-y-6 lg:space-y-8"
             >
               <motion.div variants={itemVariants}>
                 <motion.h1 
-                  className="text-3xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300"
+                  className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-2 sm:mb-3 md:mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300"
                   whileHover={{ scale: 1.02 }}
                   transition={{ duration: 0.3 }}
                 >
                   {slides[currentSlide].title}
                 </motion.h1>
                 <motion.p 
-                  className="text-lg md:text-xl text-gray-200 leading-relaxed mb-6"
+                  className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-200 leading-relaxed mb-3 sm:mb-4 lg:mb-6"
                   variants={itemVariants}
                 >
                   {slides[currentSlide].subtitle}
                 </motion.p>
                 <motion.p 
-                  className="text-base text-gray-300 leading-relaxed"
+                  className="text-xs sm:text-sm md:text-base text-gray-300 leading-relaxed"
                   variants={itemVariants}
                 >
                   {service?.description ? service.description.substring(0, 150) + "..." : "Experience premium quality and professional service with our expert team."}
                 </motion.p>
               </motion.div>
 
-              {/* Quick Benefits */}
+              {/* Quick Benefits - Hidden on Mobile/Tablet */}
               <motion.div 
-                className="grid grid-cols-2 gap-4"
+                className="hidden lg:grid lg:grid-cols-2 gap-4"
                 variants={contentVariants}
               >
                 {(service?.benefits || ["Quality Service", "Expert Team", "Best Prices", "24/7 Support"]).slice(0, 4).map((benefit, index) => (
@@ -244,17 +244,17 @@ const ServiceBanner = ({ service }) => {
                     key={index}
                     variants={itemVariants}
                     whileHover={{ scale: 1.05, backgroundColor: "rgba(255, 255, 255, 0.1)" }}
-                    className="flex items-center p-3 rounded-lg backdrop-blur-sm border border-white/20 hover:border-white/40 transition-all duration-300"
+                    className="flex items-center p-2 sm:p-3 rounded-lg backdrop-blur-sm border border-white/20 hover:border-white/40 transition-all duration-300"
                   >
-                    <FiCheck className="text-green-400 mr-2 text-base" />
-                    <span className="text-xs font-medium">{benefit}</span>
+                    <FiCheck className="text-green-400 mr-1.5 sm:mr-2 text-sm sm:text-base" />
+                    <span className="text-xs sm:text-xs md:text-sm font-medium">{benefit}</span>
                   </motion.div>
                 ))}
               </motion.div>
 
               {/* CTA Buttons */}
               <motion.div 
-                className="flex flex-wrap gap-4"
+                className="flex flex-col sm:flex-row gap-3 sm:gap-4"
                 variants={contentVariants}
               >
                 <motion.a
@@ -265,10 +265,10 @@ const ServiceBanner = ({ service }) => {
                   initial="rest"
                   whileHover="hover"
                   whileTap={{ scale: 0.95 }}
-                  className="flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-full font-semibold shadow-lg hover:shadow-2xl transition-all duration-300"
+                  className="flex items-center justify-center gap-2 sm:gap-3 px-4 sm:px-6 py-2.5 sm:py-3 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-full font-semibold shadow-lg hover:shadow-2xl transition-all duration-300"
                 >
-                  <FaWhatsapp className="text-lg" />
-                  <span className="text-sm">WhatsApp Now</span>
+                  <FaWhatsapp className="text-base sm:text-lg" />
+                  <span className="text-xs sm:text-sm">WhatsApp Now</span>
                 </motion.a>
                 
                 <motion.a
@@ -277,30 +277,30 @@ const ServiceBanner = ({ service }) => {
                   initial="rest"
                   whileHover="hover"
                   whileTap={{ scale: 0.95 }}
-                  className="flex items-center gap-3 px-6 py-3 bg-white/20 backdrop-blur-sm text-white rounded-full font-semibold border border-white/30 hover:bg-white/30 transition-all duration-300"
+                  className="flex items-center justify-center gap-2 sm:gap-3 px-4 sm:px-6 py-2.5 sm:py-3 bg-white/20 backdrop-blur-sm text-white rounded-full font-semibold border border-white/30 hover:bg-white/30 transition-all duration-300"
                 >
-                  <FiPhone className="text-lg" />
-                  <span className="text-sm">Call Now</span>
+                  <FiPhone className="text-base sm:text-lg" />
+                  <span className="text-xs sm:text-sm">Call Now</span>
                 </motion.a>
               </motion.div>
             </motion.div>
 
-            {/* Right Content - Service Info Cards */}
+            {/* Right Content - Service Info Cards (Hidden on Mobile) */}
             <motion.div
               variants={contentVariants}
-              className="space-y-6"
+              className="hidden lg:block space-y-4 xl:space-y-6"
             >
               {/* Service Highlights */}
               <motion.div
                 variants={cardVariants}
                 whileHover={{ scale: 1.02, rotateY: 5 }}
-                className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20"
+                className="bg-white/10 backdrop-blur-md rounded-2xl p-4 lg:p-5 xl:p-6 border border-white/20"
               >
-                <div className="flex items-center mb-3">
-                  <FiStar className="text-yellow-400 text-xl mr-2" />
-                  <h3 className="text-lg font-bold text-white">Premium Quality</h3>
+                <div className="flex items-center mb-2 lg:mb-3">
+                  <FiStar className="text-yellow-400 text-lg lg:text-xl mr-2" />
+                  <h3 className="text-base lg:text-lg font-bold text-white">Premium Quality</h3>
                 </div>
-                <p className="text-gray-200 text-xs leading-relaxed">
+                <p className="text-gray-200 text-xs lg:text-xs leading-relaxed">
                   Experience the finest quality materials and expert craftsmanship with our professional service.
                 </p>
               </motion.div>
@@ -309,13 +309,13 @@ const ServiceBanner = ({ service }) => {
               <motion.div
                 variants={cardVariants}
                 whileHover={{ scale: 1.02, rotateY: -5 }}
-                className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20"
+                className="bg-white/10 backdrop-blur-md rounded-2xl p-4 lg:p-5 xl:p-6 border border-white/20"
               >
-                <div className="flex items-center mb-3">
-                  <FiTool className="text-blue-400 text-xl mr-2" />
-                  <h3 className="text-lg font-bold text-white">Expert Installation</h3>
+                <div className="flex items-center mb-2 lg:mb-3">
+                  <FiTool className="text-blue-400 text-lg lg:text-xl mr-2" />
+                  <h3 className="text-base lg:text-lg font-bold text-white">Expert Installation</h3>
                 </div>
-                <p className="text-gray-200 text-xs leading-relaxed">
+                <p className="text-gray-200 text-xs lg:text-xs leading-relaxed">
                   Our skilled craftsmen ensure perfect installation with attention to every detail.
                 </p>
               </motion.div>
@@ -324,15 +324,15 @@ const ServiceBanner = ({ service }) => {
               <motion.div
                 variants={cardVariants}
                 whileHover={{ scale: 1.02, rotateY: 5 }}
-                className="bg-gradient-to-r from-red-500/20 to-blue-500/20 backdrop-blur-md rounded-2xl p-6 border border-white/20"
+                className="bg-gradient-to-r from-red-500/20 to-blue-500/20 backdrop-blur-md rounded-2xl p-4 lg:p-5 xl:p-6 border border-white/20"
               >
-                <div className="flex items-center mb-3">
-                  <FiPhone className="text-green-400 text-xl mr-2" />
-                  <h3 className="text-lg font-bold text-white">Get Free Quote</h3>
+                <div className="flex items-center mb-2 lg:mb-3">
+                  <FiPhone className="text-green-400 text-lg lg:text-xl mr-2" />
+                  <h3 className="text-base lg:text-lg font-bold text-white">Get Free Quote</h3>
                 </div>
                 <div className="space-y-1">
                   <p className="text-gray-200 text-xs">📞 +91 97189 21229</p>
-                  <p className="text-gray-200 text-xs">📧 info@barrisolinterior.com</p>
+                  <p className="text-gray-200 text-xs">📧 illusionbarrisol@gmail.com</p>
                   <p className="text-gray-200 text-xs">⏰ 24/7 Available</p>
                 </div>
               </motion.div>
@@ -343,15 +343,15 @@ const ServiceBanner = ({ service }) => {
 
       {/* Slide Indicators */}
       <motion.div 
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-30"
+        className="absolute bottom-6 sm:bottom-8 left-1/2 transform -translate-x-1/2 z-30"
         variants={contentVariants}
       >
-        <div className="flex space-x-3">
+        <div className="flex space-x-2 sm:space-x-3">
           {slides.map((_, index) => (
             <motion.button
               key={index}
               onClick={() => setCurrentSlide(index)}
-              className={`w-3 h-3 rounded-full transition-all duration-300 ${
+              className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all duration-300 ${
                 currentSlide === index 
                   ? 'bg-white scale-125' 
                   : 'bg-white/50 hover:bg-white/75'
@@ -365,16 +365,16 @@ const ServiceBanner = ({ service }) => {
 
       {/* Scroll Indicator */}
       <motion.div
-        className="absolute bottom-8 right-8 z-30"
+        className="hidden sm:block absolute bottom-6 sm:bottom-8 right-4 sm:right-8 z-30"
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 2, repeat: Infinity }}
       >
         <div className="flex flex-col items-center text-white">
           <span className="text-xs mb-1">Scroll</span>
-          <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
+          <div className="w-5 h-8 sm:w-6 sm:h-10 border-2 border-white rounded-full flex justify-center">
             <motion.div
-              className="w-1 h-2 bg-white rounded-full mt-2"
-              animate={{ y: [0, 12, 0] }}
+              className="w-1 h-1.5 sm:h-2 bg-white rounded-full mt-1.5 sm:mt-2"
+              animate={{ y: [0, 10, 0] }}
               transition={{ duration: 1.5, repeat: Infinity }}
             />
           </div>

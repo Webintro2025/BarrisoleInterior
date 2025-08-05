@@ -77,13 +77,13 @@ const Footer = () => {
       </div>
       {/* Main Footer Content */}
       <motion.div 
-        className="relative z-10 max-w-7xl mx-auto px-6 py-12"
+        className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-10 lg:py-12"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
       >
-        <div className="flex flex-col space-y-8 lg:grid lg:grid-cols-4 lg:gap-8 lg:space-y-0">
+        <div className="flex flex-col space-y-6 sm:space-y-8 lg:grid lg:grid-cols-4 lg:gap-8 lg:space-y-0">
           
           {/* Company Information */}
           <motion.div 
@@ -100,10 +100,8 @@ const Footer = () => {
                 <motion.div className="flex items-center space-x-4 mb-4 cursor-pointer">
                   <motion.img 
                     alt="Barrisol Interior Solution logo" 
-                    className="object-contain rounded-lg shadow-lg" 
-                    height={60} 
-                    src="/logo.png" 
-                    width={80}
+                    className="object-contain rounded-lg shadow-lg w-14 h-11 sm:w-16 sm:h-12 lg:w-20 lg:h-15" 
+                    src="/logo.png"
                     whileHover={{ 
                       rotate: [0, -10, 10, 0],
                       scale: 1.15,
@@ -117,7 +115,7 @@ const Footer = () => {
                     }}
                   />
                   <motion.h1 
-                    className="text-2xl md:text-3xl font-bold" 
+                    className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold" 
                     style={{fontFamily: 'Montserrat, sans-serif'}}
                     whileHover={{ 
                       scale: 1.05,
@@ -129,14 +127,14 @@ const Footer = () => {
                       Barrisol Interior
                     </span>
                     <br />
-                    <span className="text-lg bg-gradient-to-r from-blue-400 to-red-400 bg-clip-text text-transparent">
+                    <span className="text-sm sm:text-base lg:text-lg bg-gradient-to-r from-blue-400 to-red-400 bg-clip-text text-transparent">
                       Solution
                     </span>
                   </motion.h1>
                 </motion.div>
               </Link>
               <motion.p 
-                className="text-sm font-medium mb-4"
+                className="text-xs sm:text-sm font-medium mb-3 sm:mb-4"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ delay: 0.3, duration: 0.6 }}
@@ -150,7 +148,7 @@ const Footer = () => {
                 </span>
               </motion.p>
               <motion.div 
-                className="text-gray-300 text-sm leading-relaxed space-y-3"
+                className="text-gray-300 text-xs sm:text-sm leading-relaxed space-y-2 sm:space-y-3"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ delay: 0.5, duration: 0.6 }}
@@ -178,7 +176,7 @@ const Footer = () => {
           </motion.div>
 
           {/* Services and Quick Links - Side by Side on Mobile */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:contents">
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 md:gap-6 lg:contents">
             {/* Services */}
             <motion.div 
               variants={itemVariants}
@@ -189,7 +187,7 @@ const Footer = () => {
               }}
             >
               <motion.h3 
-                className="text-lg lg:text-xl font-semibold mb-2"
+                className="text-xs sm:text-sm lg:text-base xl:text-lg font-semibold mb-1 sm:mb-2"
                 whileHover={{ 
                   scale: 1.05,
                   textShadow: "0 0 15px rgba(239, 68, 68, 0.5)",
@@ -201,9 +199,9 @@ const Footer = () => {
                 </span>
               </motion.h3>
               <motion.div 
-                className='w-20 lg:w-24 h-1 bg-gradient-to-r from-red-500 to-blue-500 mb-4'
+                className='w-12 sm:w-16 lg:w-20 h-0.5 sm:h-1 bg-gradient-to-r from-red-500 to-blue-500 mb-2 sm:mb-3'
                 initial={{ width: 0 }}
-                whileInView={{ width: "6rem" }}
+                whileInView={{ width: "3rem" }}
                 animate={{
                   boxShadow: [
                     "0 0 0 0 rgba(239, 68, 68, 0.7)",
@@ -218,14 +216,14 @@ const Footer = () => {
                 }}
               />
               <motion.div 
-                className="h-48 overflow-y-auto scrollbar-thin scrollbar-track-gray-800 scrollbar-thumb-gradient-to-r scrollbar-thumb-from-red-500 scrollbar-thumb-to-blue-500"
+                className="h-32 sm:h-36 lg:h-40 overflow-y-auto scrollbar-thin scrollbar-track-gray-800 scrollbar-thumb-gradient-to-r scrollbar-thumb-from-red-500 scrollbar-thumb-to-blue-500"
                 style={{
                   scrollbarWidth: 'thin',
                   scrollbarColor: '#ef4444 #1f2937'
                 }}
               >
                 <motion.ul 
-                  className="text-gray-300 text-sm space-y-2 pr-2"
+                  className="text-gray-300 text-3xs xs:text-2xs sm:text-xs space-y-0.5 xs:space-y-1 sm:space-y-1.5 pr-1"
                   variants={containerVariants}
                   initial="hidden"
                   whileInView="visible"
@@ -234,7 +232,7 @@ const Footer = () => {
                   {CEILING_SERVICES.map((service, index) => (
                     <motion.li 
                       key={index}
-                      className="cursor-pointer p-3 rounded-lg border border-gray-700/50 bg-gray-800/30"
+                      className="cursor-pointer p-1 xs:p-1.5 sm:p-2 rounded-lg border border-gray-700/50 bg-gray-800/30"
                       variants={listItemVariants}
                       whileHover={{ 
                         backgroundColor: "rgba(239, 68, 68, 0.1)",
@@ -247,7 +245,7 @@ const Footer = () => {
                     >
                       <Link href={`/${service.slug}`}>
                         <motion.span
-                          className="block text-gray-200 font-medium"
+                          className="block text-gray-200 font-medium text-3xs xs:text-2xs sm:text-xs"
                           whileHover={{ 
                             color: "#60A5FA",
                             textShadow: "0 0 10px rgba(96, 165, 250, 0.5)"
@@ -272,7 +270,7 @@ const Footer = () => {
               }}
             >
               <motion.h3 
-                className="text-lg lg:text-xl font-semibold mb-2"
+                className="text-xs sm:text-sm lg:text-base xl:text-lg font-semibold mb-1 sm:mb-2"
                 whileHover={{ 
                   scale: 1.05,
                   textShadow: "0 0 15px rgba(59, 130, 246, 0.5)",
@@ -284,9 +282,9 @@ const Footer = () => {
                 </span>
               </motion.h3>
               <motion.div 
-                className='w-20 lg:w-24 h-1 bg-gradient-to-r from-blue-500 to-red-500 mb-4'
+                className='w-12 sm:w-16 lg:w-20 h-0.5 sm:h-1 bg-gradient-to-r from-blue-500 to-red-500 mb-2 sm:mb-3'
                 initial={{ width: 0 }}
-                whileInView={{ width: "6rem" }}
+                whileInView={{ width: "3rem" }}
                 animate={{
                   boxShadow: [
                     "0 0 0 0 rgba(59, 130, 246, 0.7)",
@@ -301,7 +299,7 @@ const Footer = () => {
                 }}
               />
               <motion.ul 
-                className="text-gray-300 text-sm space-y-2"
+                className="text-gray-300 text-3xs xs:text-2xs sm:text-xs space-y-0.5 xs:space-y-1 sm:space-y-1.5"
                 variants={containerVariants}
                 initial="hidden"
                 whileInView="visible"
@@ -321,7 +319,7 @@ const Footer = () => {
                   >
                     <Link href={link.link}>
                       <motion.span
-                        className="cursor-pointer block p-3 rounded-lg border border-gray-700/50 bg-gray-800/30 font-medium"
+                        className="cursor-pointer block p-1 xs:p-1.5 sm:p-2 rounded-lg border border-gray-700/50 bg-gray-800/30 font-medium text-3xs xs:text-2xs sm:text-xs"
                         whileHover={{ 
                           backgroundColor: "rgba(59, 130, 246, 0.1)",
                           borderColor: "rgba(59, 130, 246, 0.5)",
@@ -343,7 +341,7 @@ const Footer = () => {
           </div>
 
           {/* Contact Info and Follow Us - Side by Side on Mobile */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:block">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 md:gap-6 lg:block">
             {/* Contact Information */}
             <motion.div 
               variants={itemVariants}
@@ -354,7 +352,7 @@ const Footer = () => {
               }}
             >
               <motion.h3 
-                className="text-lg lg:text-xl font-semibold mb-2"
+                className="text-xs sm:text-sm lg:text-base xl:text-lg font-semibold mb-1 sm:mb-2"
                 whileHover={{ 
                   scale: 1.05,
                   textShadow: "0 0 15px rgba(168, 85, 247, 0.5)",
@@ -366,20 +364,20 @@ const Footer = () => {
                 </span>
               </motion.h3>
               <motion.div 
-                className='w-20 lg:w-24 h-1 bg-gradient-to-r from-purple-500 via-red-500 to-blue-500 mb-4'
+                className='w-12 sm:w-16 lg:w-20 h-0.5 sm:h-1 bg-gradient-to-r from-purple-500 via-red-500 to-blue-500 mb-2 sm:mb-3'
                 initial={{ width: 0 }}
-                whileInView={{ width: "6rem" }}
+                whileInView={{ width: "3rem" }}
                 transition={{ delay: 1.2, duration: 1, ease: "easeOut" }}
               />
               <motion.div 
-                className="space-y-4"
+                className="space-y-2 sm:space-y-3"
                 variants={containerVariants}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
               >
                 <motion.div 
-                  className="flex items-center space-x-4 p-3 rounded-xl border border-red-500/20"
+                  className="flex items-center space-x-2 sm:space-x-3 p-1.5 sm:p-2 rounded-xl border border-red-500/20"
                   variants={listItemVariants}
                   whileHover={{ 
                     backgroundColor: "rgba(239, 68, 68, 0.1)",
@@ -391,7 +389,7 @@ const Footer = () => {
                   }}
                 >
                   <motion.div 
-                    className="w-10 h-10 bg-gradient-to-r from-red-500 to-red-600 rounded-full flex items-center justify-center"
+                    className="w-6 h-6 sm:w-8 sm:h-8 bg-gradient-to-r from-red-500 to-red-600 rounded-full flex items-center justify-center"
                     variants={iconVariants}
                     whileHover="hover"
                     animate={{ 
@@ -399,14 +397,14 @@ const Footer = () => {
                       transition: { duration: 2, repeat: Infinity }
                     }}
                   >
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-3 h-3 sm:w-4 sm:h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
                     </svg>
                   </motion.div>
                   <div>
-                    <p className="text-gray-400 text-sm">Phone Numbers</p>
+                    <p className="text-gray-400 text-2xs xs:text-xs sm:text-sm">Phone Numbers</p>
                     <motion.p 
-                      className="text-white font-semibold"
+                      className="text-white font-semibold text-2xs xs:text-xs sm:text-sm"
                       whileHover={{ 
                         color: "#ef4444",
                         textShadow: "0 0 10px rgba(239, 68, 68, 0.5)"
@@ -415,7 +413,7 @@ const Footer = () => {
                       +91-9718921229
                     </motion.p>
                     <motion.p 
-                      className="text-white font-semibold"
+                      className="text-white font-semibold text-2xs xs:text-xs sm:text-sm"
                       whileHover={{ 
                         color: "#3b82f6",
                         textShadow: "0 0 10px rgba(59, 130, 246, 0.5)"
@@ -427,7 +425,7 @@ const Footer = () => {
                 </motion.div>
                 
                 <motion.div 
-                  className="flex items-center space-x-4 p-3 rounded-xl border border-blue-500/20"
+                  className="flex items-center space-x-2 sm:space-x-3 p-1.5 sm:p-2 rounded-xl border border-blue-500/20"
                   variants={listItemVariants}
                   whileHover={{ 
                     backgroundColor: "rgba(59, 130, 246, 0.1)",
@@ -439,7 +437,7 @@ const Footer = () => {
                   }}
                 >
                   <motion.div 
-                    className="w-10 h-10 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center"
+                    className="w-6 h-6 sm:w-8 sm:h-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center"
                     variants={iconVariants}
                     whileHover="hover"
                     animate={{ 
@@ -447,16 +445,16 @@ const Footer = () => {
                       transition: { duration: 2, repeat: Infinity }
                     }}
                   >
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-3 h-3 sm:w-4 sm:h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
                       <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
                     </svg>
                   </motion.div>
                   <div>
-                    <p className="text-gray-400 text-sm">Email</p>
+                    <p className="text-gray-400 text-2xs xs:text-xs sm:text-sm">Email</p>
                     <motion.a 
                       href="mailto:illusionbarrisol@gmail.com" 
-                      className="text-white font-semibold"
+                      className="text-white font-semibold text-2xs xs:text-xs sm:text-sm"
                       whileHover={{ 
                         color: "#60A5FA",
                         textShadow: "0 0 10px rgba(96, 165, 250, 0.5)"
@@ -470,14 +468,14 @@ const Footer = () => {
               
               {/* Follow Us - Below Contact Info on Desktop Only */}
               <motion.div 
-                className="hidden lg:block mt-6 lg:mt-8"
+                className="hidden lg:block mt-4 sm:mt-6 lg:mt-8"
                 variants={itemVariants}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
               >
                 <motion.h3 
-                  className="text-base lg:text-lg font-semibold text-white mb-1"
+                  className="text-sm sm:text-base lg:text-lg font-semibold text-white mb-1"
                   whileHover={{ 
                     color: "#60A5FA",
                     transition: { duration: 0.3 }
@@ -486,13 +484,13 @@ const Footer = () => {
                   Follow Us
                 </motion.h3>
                 <motion.div 
-                  className='w-16 lg:w-20 h-0.5 bg-gradient-to-r from-blue-400 to-blue-600 mb-3.5'
+                  className='w-12 sm:w-16 lg:w-20 h-0.5 bg-gradient-to-r from-blue-400 to-blue-600 mb-2.5 sm:mb-3.5'
                   initial={{ width: 0 }}
-                  whileInView={{ width: "4rem" }}
+                  whileInView={{ width: "3rem" }}
                   transition={{ delay: 1.4, duration: 0.8, ease: "easeOut" }}
                 ></motion.div>
                 <motion.div 
-                  className="flex flex-wrap gap-2"
+                  className="flex flex-wrap gap-1.5 sm:gap-2"
                   variants={containerVariants}
                   initial="hidden"
                   whileInView="visible"
@@ -507,12 +505,12 @@ const Footer = () => {
                     <motion.a 
                       key={index}
                       href={social.href} 
-                      className={`w-6 h-6 lg:w-8 lg:h-8 bg-gradient-to-r ${social.color} rounded-full flex items-center justify-center`}
+                      className={`w-5 h-5 sm:w-6 sm:h-6 lg:w-8 lg:h-8 bg-gradient-to-r ${social.color} rounded-full flex items-center justify-center`}
                       variants={iconVariants}
                       whileHover="hover"
                       whileTap={{ scale: 0.9 }}
                     >
-                      <svg className="w-3 h-3 lg:w-4 lg:h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-2.5 h-2.5 sm:w-3 sm:h-3 lg:w-4 lg:h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
                         <path d={social.icon}/>
                       </svg>
                     </motion.a>
@@ -530,7 +528,7 @@ const Footer = () => {
               viewport={{ once: true }}
             >
               <motion.h3 
-                className="text-base font-semibold text-white mb-1"
+                className="text-xs sm:text-sm font-semibold text-white mb-1"
                 whileHover={{ 
                   color: "#60A5FA",
                   transition: { duration: 0.3 }
@@ -539,13 +537,13 @@ const Footer = () => {
                 Follow Us
               </motion.h3>
               <motion.div 
-                className='w-16 h-0.5 bg-gradient-to-r from-blue-400 to-blue-600 mb-3.5'
+                className='w-10 sm:w-12 h-0.5 bg-gradient-to-r from-blue-400 to-blue-600 mb-2 sm:mb-2.5'
                 initial={{ width: 0 }}
-                whileInView={{ width: "4rem" }}
+                whileInView={{ width: "2.5rem" }}
                 transition={{ delay: 1.6, duration: 0.8, ease: "easeOut" }}
               ></motion.div>
               <motion.div 
-                className="flex flex-wrap gap-2"
+                className="flex flex-wrap gap-1 sm:gap-1.5"
                 variants={containerVariants}
                 initial="hidden"
                 whileInView="visible"
@@ -560,12 +558,12 @@ const Footer = () => {
                   <motion.a 
                     key={index}
                     href={social.href} 
-                    className={`w-6 h-6 bg-gradient-to-r ${social.color} rounded-full flex items-center justify-center`}
+                    className={`w-4 h-4 sm:w-5 sm:h-5 bg-gradient-to-r ${social.color} rounded-full flex items-center justify-center`}
                     variants={iconVariants}
                     whileHover="hover"
                     whileTap={{ scale: 0.9 }}
                   >
-                    <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-2 h-2 sm:w-2.5 sm:h-2.5 text-white" fill="currentColor" viewBox="0 0 24 24">
                       <path d={social.icon}/>
                     </svg>
                   </motion.a>
@@ -584,10 +582,10 @@ const Footer = () => {
         transition={{ delay: 2, duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <div className="max-w-7xl mx-auto px-6 py-4">
-          <div className="flex flex-col md:flex-row justify-between items-center text-xs md:text-sm">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4">
+          <div className="flex flex-col md:flex-row justify-between items-center text-2xs xs:text-xs sm:text-sm">
             <motion.div 
-              className="text-gray-400 mb-2 md:mb-0 text-center md:text-left"
+              className="text-gray-400 mb-1.5 sm:mb-2 md:mb-0 text-center md:text-left"
               whileHover={{ 
                 color: "#60A5FA",
                 transition: { duration: 0.3 }
@@ -596,7 +594,7 @@ const Footer = () => {
               © 2025 Barrisol Interior Solution. All rights reserved. | Your premium ceiling & interior partner
             </motion.div>
             <motion.div 
-              className="flex flex-wrap items-center justify-center md:justify-end text-gray-400 text-xs md:text-sm"
+              className="flex flex-wrap items-center justify-center md:justify-end text-gray-400 text-2xs xs:text-xs sm:text-sm"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 2.2, duration: 0.6 }}
@@ -604,7 +602,7 @@ const Footer = () => {
             >
               <span>Developed with</span>
               <motion.svg 
-                className="w-3 h-3 md:w-4 md:h-4 text-red-500 mx-1" 
+                className="w-2.5 h-2.5 xs:w-3 xs:h-3 sm:w-4 sm:h-4 text-red-500 mx-1" 
                 fill="currentColor" 
                 viewBox="0 0 20 20"
                 animate={{ 

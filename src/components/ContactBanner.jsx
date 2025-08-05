@@ -119,7 +119,7 @@ const ContactBanner = () => {
 
   return (
     <motion.section 
-      className="relative h-screen overflow-hidden flex items-center justify-center"
+      className="relative h-[70vh] xs:h-[75vh] sm:h-[80vh] md:h-[85vh] lg:h-[90vh] xl:h-screen overflow-hidden flex items-center justify-center"
       style={{ y: backgroundY, opacity }}
     >
       {/* Background Image with Parallax */}
@@ -141,28 +141,28 @@ const ContactBanner = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-red-900/90 via-gray-900/85 to-blue-900/90" />
       </motion.div>
 
-      {/* Floating Decorative Elements */}
+      {/* Floating Decorative Elements - Hidden on mobile */}
       <motion.div
-        className="absolute top-20 right-20 w-4 h-4 bg-white/30 rounded-full"
+        className="hidden lg:block absolute top-20 right-20 w-2 h-2 sm:w-3 sm:h-3 bg-white/30 rounded-full"
         variants={floatingAnimation}
         animate="animate"
       />
       <motion.div
-        className="absolute bottom-32 left-16 w-6 h-6 bg-red-500/40 rounded-full"
+        className="hidden lg:block absolute bottom-32 left-16 w-3 h-3 sm:w-4 sm:h-4 bg-red-500/40 rounded-full"
         variants={floatingAnimation}
         animate="animate"
         transition={{ delay: 1 }}
       />
       <motion.div
-        className="absolute top-1/2 right-1/4 w-3 h-3 bg-blue-500/50 rounded-full"
+        className="hidden xl:block absolute top-1/2 right-1/4 w-2 h-2 bg-blue-500/50 rounded-full"
         variants={floatingAnimation}
         animate="animate"
         transition={{ delay: 2 }}
       />
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-6 text-white">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-3 xs:px-4 sm:px-6 lg:px-8 text-white">
+        <div className="grid lg:grid-cols-2 gap-4 xs:gap-6 sm:gap-8 lg:gap-16 items-center">
           
           {/* Left Content */}
           <motion.div
@@ -170,17 +170,17 @@ const ContactBanner = () => {
             variants={slideIn}
             initial="initial"
             animate="animate"
-            className="space-y-6"
+            className="space-y-2 xs:space-y-3 sm:space-y-4 lg:space-y-6 text-center lg:text-left"
           >
             <motion.div
-              className="inline-block px-4 py-2 bg-red-500/20 backdrop-blur-sm rounded-full border border-red-500/30"
+              className="inline-block px-2 xs:px-3 sm:px-4 py-1 xs:py-1.5 sm:py-2 bg-red-500/20 backdrop-blur-sm rounded-full border border-red-500/30"
               variants={fadeInUp}
             >
-              <span className="text-red-400 font-semibold">{slides[currentSlide].highlight}</span>
+              <span className="text-red-400 font-semibold text-2xs xs:text-xs sm:text-sm">{slides[currentSlide].highlight}</span>
             </motion.div>
 
             <motion.h1 
-              className="text-5xl md:text-7xl font-bold leading-tight"
+              className="text-base xs:text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold leading-tight"
               variants={fadeInUp}
               whileHover={{
                 scale: 1.02,
@@ -192,7 +192,7 @@ const ContactBanner = () => {
             </motion.h1>
             
             <motion.h2 
-              className="text-2xl md:text-3xl text-blue-400 font-semibold"
+              className="text-2xs xs:text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-blue-400 font-semibold"
               variants={fadeInUp}
               transition={{ delay: 0.2 }}
             >
@@ -200,7 +200,7 @@ const ContactBanner = () => {
             </motion.h2>
             
             <motion.p 
-              className="text-lg md:text-xl text-gray-300 leading-relaxed max-w-lg"
+              className="text-3xs xs:text-2xs sm:text-xs md:text-sm lg:text-base text-gray-300 leading-relaxed max-w-lg mx-auto lg:mx-0"
               variants={fadeInUp}
               transition={{ delay: 0.4 }}
             >
@@ -208,7 +208,7 @@ const ContactBanner = () => {
             </motion.p>
             
             <motion.div 
-              className="flex flex-wrap gap-4 pt-4"
+              className="flex flex-col xs:flex-row gap-2 xs:gap-3 sm:gap-4 pt-2 sm:pt-4 justify-center lg:justify-start"
               variants={fadeInUp}
               transition={{ delay: 0.6 }}
             >
@@ -222,9 +222,9 @@ const ContactBanner = () => {
                   transition: { duration: 0.3 }
                 }}
                 whileTap={{ scale: 0.95 }}
-                className="flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-green-500 to-green-600 rounded-full font-semibold hover:shadow-xl transition-all duration-300"
+                className="flex items-center justify-center gap-1 xs:gap-2 px-3 xs:px-4 sm:px-6 md:px-8 py-1 xs:py-1.5 sm:py-2 lg:py-3 bg-gradient-to-r from-green-500 to-green-600 rounded-full font-semibold hover:shadow-xl transition-all duration-300 text-3xs xs:text-2xs sm:text-xs md:text-sm"
               >
-                <FaWhatsapp className="text-xl" />
+                <FaWhatsapp className="text-xs xs:text-sm sm:text-base lg:text-xl" />
                 WhatsApp
               </motion.a>
               
@@ -236,17 +236,17 @@ const ContactBanner = () => {
                   transition: { duration: 0.3 }
                 }}
                 whileTap={{ scale: 0.95 }}
-                className="flex items-center gap-2 px-8 py-3 border-2 border-white rounded-full font-semibold hover:bg-white/10 transition-all duration-300"
+                className="flex items-center justify-center gap-1 xs:gap-2 px-3 xs:px-4 sm:px-6 md:px-8 py-1 xs:py-1.5 sm:py-2 lg:py-3 border-2 border-white rounded-full font-semibold hover:bg-white/10 transition-all duration-300 text-3xs xs:text-2xs sm:text-xs md:text-sm"
               >
-                <FiPhone className="text-xl" />
+                <FiPhone className="text-xs xs:text-sm sm:text-base lg:text-xl" />
                 Call Now
               </motion.a>
             </motion.div>
           </motion.div>
 
-          {/* Right Content - Contact Info Cards */}
+          {/* Right Content - Contact Info Cards - Hidden on mobile/tablet */}
           <motion.div 
-            className="space-y-4"
+            className="hidden lg:block space-y-4"
             variants={staggerContainer}
             initial="initial"
             animate="animate"
@@ -304,11 +304,11 @@ const ContactBanner = () => {
       </div>
 
       {/* Slide Navigation Dots */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-3 z-20">
+      <div className="absolute bottom-4 sm:bottom-6 lg:bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2 sm:space-x-3 z-20">
         {slides.map((_, index) => (
           <motion.button
             key={index}
-            className={`w-3 h-3 rounded-full transition-all duration-300 ${
+            className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all duration-300 ${
               index === currentSlide 
                 ? 'bg-red-500 scale-125' 
                 : 'bg-white/50 hover:bg-white/80'
@@ -320,19 +320,19 @@ const ContactBanner = () => {
         ))}
       </div>
 
-      {/* Scroll Indicator */}
+      {/* Scroll Indicator - Hidden on mobile */}
       <motion.div 
-        className="absolute bottom-8 right-8 z-20"
+        className="hidden sm:block absolute bottom-4 sm:bottom-6 lg:bottom-8 right-4 sm:right-6 lg:right-8 z-20"
         animate={{ 
           y: [0, 10, 0],
           transition: { duration: 2, repeat: Infinity }
         }}
       >
-        <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
+        <div className="w-4 h-6 sm:w-5 sm:h-8 lg:w-6 lg:h-10 border-2 border-white/50 rounded-full flex justify-center">
           <motion.div 
-            className="w-1 h-3 bg-white rounded-full mt-2"
+            className="w-0.5 h-2 sm:w-1 sm:h-2.5 lg:w-1 lg:h-3 bg-white rounded-full mt-1 sm:mt-1.5 lg:mt-2"
             animate={{
-              y: [0, 12, 0],
+              y: [0, 8, 0],
               opacity: [1, 0.3, 1],
               transition: { duration: 2, repeat: Infinity }
             }}

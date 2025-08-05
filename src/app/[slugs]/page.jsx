@@ -311,23 +311,50 @@ export default function ServicePage({ params }) {
       <ServiceBanner service={service} />
          
       {/* Content Section */}
-      <section className="py-20 ">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-16 items-start">
+      <section className="py-8 sm:py-12 md:py-16 lg:py-20">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6">
+          <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-16 items-start">
             
+            {/* Mobile/Tablet: Image Gallery First */}
+            <motion.div
+              variants={rightToLeftVariants}
+              className="lg:hidden space-y-4 sm:space-y-6"
+            >
+              {/* Image Gallery */}
+              <div className="bg-white p-3 sm:p-4 md:p-6 rounded-lg sm:rounded-xl md:rounded-2xl shadow-lg">
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 md:mb-6">Gallery</h3>
+                <div className="relative">
+                  <motion.div 
+                    className="aspect-video rounded-lg sm:rounded-xl overflow-hidden"
+                    whileHover={{ scale: 1.02 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    <div className="relative h-full">
+                      <Image
+                        src={service.image}
+                        alt={`${service.title} Gallery`}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  </motion.div>
+                </div>
+              </div>
+            </motion.div>
+
             {/* Left Content */}
             <motion.div
               variants={leftToRightVariants}
-              className="space-y-8"
+              className="space-y-4 sm:space-y-6 lg:space-y-8"
             >
               <motion.div variants={fadeInUpVariants}>
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 md:mb-6">
                   About This Service
                 </h2>
-                <div className="prose prose-lg text-gray-700 leading-relaxed">
+                <div className="prose prose-sm sm:prose md:prose-lg text-gray-700 leading-relaxed">
                   <motion.p 
                     variants={fadeInUpVariants}
-                    className="mb-4"
+                    className="mb-3 sm:mb-4 text-sm sm:text-base"
                   >
                     {service.description}
                   </motion.p>
@@ -337,16 +364,16 @@ export default function ServicePage({ params }) {
               {/* Benefits */}
               <motion.div 
                 variants={staggerContainer}
-                className="bg-white p-8 rounded-2xl shadow-lg"
+                className="bg-white p-4 sm:p-6 lg:p-8 rounded-lg sm:rounded-xl md:rounded-2xl shadow-lg"
               >
                 <motion.h3 
                   variants={fadeInUpVariants}
-                  className="text-2xl font-bold text-gray-900 mb-6 flex items-center"
+                  className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 md:mb-6 flex items-center"
                 >
-                  <FiStar className="mr-3 text-red-500" />
+                  <FiStar className="mr-2 sm:mr-3 text-red-500 text-base sm:text-lg md:text-xl" />
                   Key Benefits
                 </motion.h3>
-                <div className="grid md:grid-cols-2 gap-4">
+                <div className="grid sm:grid-cols-2 gap-2 sm:gap-3 lg:gap-4">
                   {service.benefits.map((benefit, index) => (
                     <motion.div
                       key={index}
@@ -356,20 +383,20 @@ export default function ServicePage({ params }) {
                         backgroundColor: "rgba(239, 68, 68, 0.05)",
                         transition: { duration: 0.2 }
                       }}
-                      className="flex items-center p-3 rounded-lg hover:bg-red-50 transition-all duration-200"
+                      className="flex items-center p-2 sm:p-3 rounded-lg hover:bg-red-50 transition-all duration-200"
                     >
-                      <FiCheck className="text-green-500 mr-3 flex-shrink-0" />
-                      <span className="text-gray-700">{benefit}</span>
+                      <FiCheck className="text-green-500 mr-2 sm:mr-3 flex-shrink-0 text-sm sm:text-base" />
+                      <span className="text-gray-700 text-xs sm:text-sm md:text-base">{benefit}</span>
                     </motion.div>
                   ))}
                 </div>
               </motion.div>
             </motion.div>
 
-            {/* Right Content - Gallery & Specs */}
+            {/* Desktop: Image Gallery on Right */}
             <motion.div
               variants={rightToLeftVariants}
-              className="space-y-8"
+              className="hidden lg:block space-y-8"
             >
               {/* Image Gallery */}
               <div className="bg-white p-8 rounded-2xl shadow-lg">
@@ -399,19 +426,19 @@ export default function ServicePage({ params }) {
       {/* Related Services */}
       <motion.section 
         variants={fadeInUpVariants}
-        className="py-20 bg-white"
+        className="py-8 sm:py-12 md:py-16 lg:py-20 bg-white"
       >
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6">
           <motion.h2 
             variants={leftToRightVariants}
-            className="text-4xl font-bold text-center text-gray-900 mb-16"
+            className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-900 mb-8 sm:mb-12 lg:mb-16"
           >
             Related Services
           </motion.h2>
           
           <motion.div 
             variants={staggerContainer}
-            className="grid md:grid-cols-3 gap-8"
+            className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8"
           >
             {relatedServices.map((relatedService, index) => (
               <motion.div
@@ -421,10 +448,10 @@ export default function ServicePage({ params }) {
                   y: -10,
                   transition: { duration: 0.3 }
                 }}
-                className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300"
+                className="group bg-white rounded-lg sm:rounded-xl md:rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300"
               >
                 <Link href={`/${relatedService.slug}`}>
-                  <div className="relative h-48 overflow-hidden cursor-pointer">
+                  <div className="relative h-32 sm:h-40 md:h-48 overflow-hidden cursor-pointer">
                     <Image
                       src={relatedService.image}
                       alt={relatedService.title}
@@ -435,13 +462,13 @@ export default function ServicePage({ params }) {
                   </div>
                 </Link>
                 
-                <div className="p-6">
+                <div className="p-3 sm:p-4 md:p-6">
                   <Link href={`/${relatedService.slug}`}>
-                    <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-red-500 transition-colors cursor-pointer">
+                    <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-2 sm:mb-3 group-hover:text-red-500 transition-colors cursor-pointer">
                       {relatedService.title}
                     </h3>
                   </Link>
-                  <p className="text-gray-600 text-sm leading-relaxed">
+                  <p className="text-gray-600 text-xs sm:text-sm leading-relaxed">
                     {relatedService.description.substring(0, 100)}...
                   </p>
                   
@@ -449,7 +476,7 @@ export default function ServicePage({ params }) {
                     <motion.button
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="mt-4 px-6 py-2 bg-gradient-to-r from-red-500 to-blue-500 text-white rounded-full font-medium hover:shadow-lg transition-all duration-200"
+                      className="mt-3 sm:mt-4 px-4 sm:px-6 py-1.5 sm:py-2 bg-gradient-to-r from-red-500 to-blue-500 text-white rounded-full font-medium hover:shadow-lg transition-all duration-200 text-xs sm:text-sm"
                     >
                       Learn More
                     </motion.button>

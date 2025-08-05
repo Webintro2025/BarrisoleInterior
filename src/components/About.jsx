@@ -148,7 +148,7 @@ const About = () => {
   return (
     <div className="bg-[#fffefa] text-black overflow-hidden">
       <motion.div 
-        className="max-w-[1200px] mx-auto px-5 py-10 flex flex-wrap gap-10"
+        className="max-w-[1200px] mx-auto px-3 sm:px-4 md:px-5 py-6 sm:py-3 md:py-10 flex flex-col lg:flex-row gap-4 sm:gap-6 md:gap-8 lg:gap-10"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
@@ -156,7 +156,7 @@ const About = () => {
       >
         {/* Main Image Section - Scale In Animation */}
         <motion.div 
-          className="flex-1 min-w-[320px] max-w-[480px] relative overflow-hidden rounded-lg"
+          className="w-full lg:flex-1 lg:min-w-[320px] lg:max-w-[480px] relative overflow-hidden rounded-lg order-2 lg:order-1"
           variants={scaleIn}
           whileHover={{ 
             scale: 1.02,
@@ -167,7 +167,7 @@ const About = () => {
           <motion.img
             src="/star.png"
             alt="Barrisol Interior Solution - Premium Ceiling and Wall Solutions"
-            className="w-full h-[400px] object-cover rounded-lg"
+            className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg"
             initial={{ opacity: 0, scale: 1.1 }}
             whileInView={{ 
               opacity: 1, 
@@ -191,26 +191,26 @@ const About = () => {
             transition={{ delay: 0.3, duration: 0.5 }}
           />
           <motion.div
-            className="absolute bottom-6 left-6 text-white"
+            className="absolute bottom-3 sm:bottom-4 md:bottom-6 left-3 sm:left-4 md:left-6 text-white"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.5, duration: 0.6 }}
           >
-            <h3 className="text-2xl font-bold mb-2 bg-gradient-to-r from-red-400 to-blue-400 bg-clip-text text-transparent">
+            <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-1 sm:mb-2 bg-gradient-to-r from-red-400 to-blue-400 bg-clip-text text-transparent">
               Barrisol Interior Solution
             </h3>
-            <p className="text-sm opacity-90">Premium Architectural Finishes</p>
+            <p className="text-xs sm:text-sm opacity-90">Premium Architectural Finishes</p>
           </motion.div>
         </motion.div>
         
         {/* About Content Section - Slide In Right Animation */}
         <motion.div 
-          className="flex-1 min-w-[320px] max-w-[480px] flex flex-col justify-start"
+          className="w-full lg:flex-1 lg:min-w-[320px] lg:max-w-[480px] flex flex-col justify-start order-1 lg:order-2"
           variants={slideInRight}
         >
           <motion.h2 
-            className="uppercase font-extrabold text-[14px] tracking-widest pb-2 mb-4 max-w-max relative"
+            className="uppercase font-extrabold text-xs sm:text-sm md:text-[14px] tracking-wide sm:tracking-wider md:tracking-widest pb-1 sm:pb-1.5 md:pb-2 mb-3 sm:mb-4 max-w-max relative"
             whileHover={{ x: 10 }}
             transition={{ duration: 0.3 }}
           >
@@ -227,7 +227,7 @@ const About = () => {
           </motion.h2>
           
           <motion.p 
-            className="text-[16px] md:text-[18px] leading-relaxed mb-6 max-w-[400px] font-normal text-gray-700"
+            className="text-sm sm:text-base md:text-[16px] lg:text-[18px] leading-relaxed mb-4 sm:mb-5 md:mb-6 max-w-[280px] sm:max-w-[350px] md:max-w-[400px] font-normal text-gray-700"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -238,7 +238,7 @@ const About = () => {
           </motion.p>
           
           <motion.p 
-            className="text-[16px] md:text-[18px] leading-relaxed mb-12 max-w-[400px] font-normal text-gray-700"
+            className="text-sm sm:text-base md:text-[16px] lg:text-[18px] leading-relaxed mb-8 sm:mb-10 md:mb-12 max-w-[280px] sm:max-w-[350px] md:max-w-[400px] font-normal text-gray-700"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -250,7 +250,7 @@ const About = () => {
           
           <motion.a 
             href="#" 
-            className="text-[16px] md:text-[18px] font-normal inline-flex items-center gap-2 max-w-max group relative overflow-hidden"
+            className="text-sm sm:text-base md:text-[16px] lg:text-[18px] font-normal inline-flex items-center gap-2 max-w-max group relative overflow-hidden"
             aria-label="Company Info link"
             whileHover={{ x: 10, scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -260,7 +260,7 @@ const About = () => {
               Company Info
             </span>
             <motion.svg 
-              className="w-4.5 h-4.5 stroke-red-600 group-hover:stroke-blue-600 transition-all duration-300" 
+              className="w-3 h-3 sm:w-4 sm:h-4 md:w-4.5 md:h-4.5 stroke-red-600 group-hover:stroke-blue-600 transition-all duration-300" 
               fill="none" 
               strokeWidth="2" 
               strokeLinecap="round" 
@@ -286,12 +286,12 @@ const About = () => {
         variants={fadeInUp}
       >
         <motion.div 
-          className="max-w-[1200px] mx-auto px-5 py-10 flex flex-wrap gap-10"
+          className="max-w-[1200px] mx-auto px-3 sm:px-4 md:px-5 py-6 sm:py-8 md:py-10 flex flex-col lg:flex-row gap-4 sm:gap-6 md:gap-8 lg:gap-10"
           variants={staggerContainer}
         >
           {/* Image Gallery Section - Auto-Scroll Carousel */}
           <motion.section 
-            className="relative flex-1 min-w-[280px] max-w-[600px] h-[450px] md:h-[400px] bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl overflow-hidden"
+            className="relative w-full lg:flex-1 lg:min-w-[280px] lg:max-w-[600px] h-[300px] sm:h-[350px] md:h-[400px] lg:h-[450px] bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl overflow-hidden order-2 lg:order-1"
             variants={slideInLeft}
           >
             {/* Main Image Container */}
@@ -322,14 +322,14 @@ const About = () => {
 
               {/* Image Title Overlay */}
               <motion.div
-                className="absolute bottom-6 left-6 right-6 bg-black/70 backdrop-blur-sm rounded-lg p-3"
+                className="absolute bottom-3 sm:bottom-4 md:bottom-6 left-3 sm:left-4 md:left-6 right-3 sm:right-4 md:right-6 bg-black/70 backdrop-blur-sm rounded-lg p-2 sm:p-3"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.5 }}
               >
                 <motion.h3 
                   key={currentImageIndex}
-                  className="text-white font-bold text-base"
+                  className="text-white font-bold text-sm sm:text-base"
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 0.3, duration: 0.5 }}
@@ -347,12 +347,12 @@ const About = () => {
               </motion.div>
 
               {/* Navigation Dots */}
-              <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex space-x-2">
+              <div className="absolute bottom-2 sm:bottom-3 left-1/2 transform -translate-x-1/2 flex space-x-1.5 sm:space-x-2">
                 {galleryImages.map((_, index) => (
                   <motion.button
                     key={index}
                     onClick={() => setCurrentImageIndex(index)}
-                    className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                    className={`w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full transition-all duration-300 ${
                       currentImageIndex === index 
                         ? 'bg-white scale-125' 
                         : 'bg-white/50 hover:bg-white/75'
@@ -368,11 +368,11 @@ const About = () => {
                 onClick={() => setCurrentImageIndex(
                   (currentImageIndex - 1 + galleryImages.length) % galleryImages.length
                 )}
-                className="absolute left-3 top-1/2 transform -translate-y-1/2 bg-white/20 backdrop-blur-sm rounded-full p-2 text-white hover:bg-white/30 transition-all duration-300"
+                className="absolute left-2 sm:left-3 top-1/2 transform -translate-y-1/2 bg-white/20 backdrop-blur-sm rounded-full p-1.5 sm:p-2 text-white hover:bg-white/30 transition-all duration-300"
                 whileHover={{ scale: 1.1, x: -3 }}
                 whileTap={{ scale: 0.9 }}
               >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                 </svg>
               </motion.button>
@@ -381,17 +381,17 @@ const About = () => {
                 onClick={() => setCurrentImageIndex(
                   (currentImageIndex + 1) % galleryImages.length
                 )}
-                className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-white/20 backdrop-blur-sm rounded-full p-2 text-white hover:bg-white/30 transition-all duration-300"
+                className="absolute right-2 sm:right-3 top-1/2 transform -translate-y-1/2 bg-white/20 backdrop-blur-sm rounded-full p-1.5 sm:p-2 text-white hover:bg-white/30 transition-all duration-300"
                 whileHover={{ scale: 1.1, x: 3 }}
                 whileTap={{ scale: 0.9 }}
               >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
               </motion.button>
 
               {/* Progress Bar */}
-              <div className="absolute top-3 left-3 right-3 h-1 bg-white/20 rounded-full overflow-hidden">
+              <div className="absolute top-2 sm:top-3 left-2 sm:left-3 right-2 sm:right-3 h-0.5 sm:h-1 bg-white/20 rounded-full overflow-hidden">
                 <motion.div
                   className="h-full bg-gradient-to-r from-red-500 to-blue-500 rounded-full"
                   initial={{ width: 0 }}
@@ -404,12 +404,12 @@ const About = () => {
 
           {/* Content and Tabs Section - Slide In Right */}
           <motion.section 
-            className="flex-1 min-w-[280px] max-w-[600px] flex flex-col"
+            className="w-full lg:flex-1 lg:min-w-[280px] lg:max-w-[600px] flex flex-col order-1 lg:order-2"
             variants={slideInRight}
           >
             {/* Tab Navigation - Stagger Animation */}
             <motion.nav 
-              className="flex gap-10 mb-6 text-lg font-semibold"
+              className="flex gap-4 sm:gap-6 md:gap-8 lg:gap-10 mb-4 sm:mb-5 md:mb-6 text-sm sm:text-base md:text-lg font-semibold"
               variants={staggerContainer}
               initial="hidden"
               whileInView="visible"
@@ -439,14 +439,14 @@ const About = () => {
 
             {/* Tab Content - Fade In Up Animation */}
             <motion.article 
-              className="text-gray-700 font-light text-base"
+              className="text-gray-700 font-light text-sm sm:text-base"
               key={activeTab}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
               <motion.div 
-                className="mb-6 space-y-4"
+                className="mb-4 sm:mb-5 md:mb-6 space-y-3 sm:space-y-4"
                 variants={staggerContainer}
                 initial="hidden"
                 animate="visible"
@@ -469,7 +469,7 @@ const About = () => {
               {/* Progress Bars - Scale and Width Animation */}
               {tabContent[activeTab].progress.length > 0 && (
                 <motion.div 
-                  className="space-y-6"
+                  className="space-y-4 sm:space-y-5 md:space-y-6"
                   variants={staggerContainer}
                   initial="hidden"
                   animate="visible"
@@ -477,7 +477,7 @@ const About = () => {
                   {tabContent[activeTab].progress.map((item, index) => (
                     <motion.div 
                       key={item.label} 
-                      className="space-y-2"
+                      className="space-y-1.5 sm:space-y-2"
                       variants={staggerItem}
                       whileHover={{ scale: 1.02 }}
                     >
@@ -487,9 +487,9 @@ const About = () => {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: index * 0.2, duration: 0.5 }}
                       >
-                        <span className="font-semibold text-sm text-red-600">{item.label}</span>
+                        <span className="font-semibold text-xs sm:text-sm text-red-600">{item.label}</span>
                         <motion.span 
-                          className="font-semibold text-sm text-blue-600"
+                          className="font-semibold text-xs sm:text-sm text-blue-600"
                           initial={{ scale: 0 }}
                           animate={{ scale: 1 }}
                           transition={{ 
@@ -502,7 +502,7 @@ const About = () => {
                           {item.value}%
                         </motion.span>
                       </motion.div>
-                      <div className="relative h-[3px] bg-gray-200 rounded-full overflow-hidden">
+                      <div className="relative h-[2px] sm:h-[3px] bg-gray-200 rounded-full overflow-hidden">
                         <motion.div
                           className="absolute top-0 left-0 h-full bg-gradient-to-r from-red-600 to-blue-600 rounded-full"
                           initial={{ width: 0 }}
