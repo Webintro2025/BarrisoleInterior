@@ -308,7 +308,7 @@ const Footer = () => {
                 {[
                   { name: "Home", link: "/" },
                   { name: "About Us", link: "/about" },
-                  { name: "Our Services", link: "/services" },
+                
                 
                   { name: "Contact Us", link: "/contact" },
              
@@ -579,13 +579,13 @@ const Footer = () => {
         className="border-t border-gray-700 bg-gradient-to-r from-gray-900 to-blue-900"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ delay: 2, duration: 0.8 }}
+        transition={{ delay: 0.3, duration: 0.5 }}
         viewport={{ once: true }}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4">
-          <div className="flex flex-col md:flex-row justify-between items-center text-2xs xs:text-xs sm:text-sm">
+          <div className="flex flex-col md:flex-row justify-between items-center text-3xs xs:text-2xs sm:text-xs">
             <motion.div 
-              className="text-gray-400 mb-1.5 sm:mb-2 md:mb-0 text-center md:text-left"
+              className="text-gray-400 mb-1.5 sm:mb-2 md:mb-0 text-center md:text-left font-light"
               whileHover={{ 
                 color: "#60A5FA",
                 transition: { duration: 0.3 }
@@ -594,15 +594,15 @@ const Footer = () => {
               © 2025 Barrisol Interior Solution. All rights reserved. | Your premium ceiling & interior partner
             </motion.div>
             <motion.div 
-              className="flex flex-wrap items-center justify-center md:justify-end text-gray-400 text-2xs xs:text-xs sm:text-sm"
+              className="flex flex-wrap items-center justify-center md:justify-end text-gray-400 text-3xs xs:text-2xs sm:text-xs font-light"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 2.2, duration: 0.6 }}
+              transition={{ delay: 0.5, duration: 0.4 }}
               viewport={{ once: true }}
             >
               <span>Developed with</span>
               <motion.svg 
-                className="w-2.5 h-2.5 xs:w-3 xs:h-3 sm:w-4 sm:h-4 text-red-500 mx-1" 
+                className="w-2 h-2 xs:w-2.5 xs:h-2.5 sm:w-3 sm:h-3 text-red-500 mx-0.5 xs:mx-1" 
                 fill="currentColor" 
                 viewBox="0 0 20 20"
                 animate={{ 
@@ -622,7 +622,7 @@ const Footer = () => {
                 href="https://webintro.in/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="text-blue-400 font-medium mx-1"
+                className="text-blue-400 font-normal mx-0.5 xs:mx-1"
                 whileHover={{ 
                   color: "#60A5FA",
                   scale: 1.05,
@@ -636,7 +636,7 @@ const Footer = () => {
                 href="https://webintro.in/delhi/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="text-blue-400 font-medium mx-1"
+                className="text-blue-400 font-normal mx-0.5 xs:mx-1"
                 whileHover={{ 
                   color: "#60A5FA",
                   scale: 1.05,
