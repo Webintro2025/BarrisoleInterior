@@ -5,15 +5,10 @@ import { motion } from 'framer-motion';
 import { FaFilePdf, FaDownload } from 'react-icons/fa';
 
 const PDFDownloader = () => {
-  const handleDownload = () => {
-    // Replace with your actual PDF file path
+  const handlePDFOpen = () => {
+    // Open PDF from public folder in new tab
     const pdfUrl = '/brochure.pdf'; // Put your PDF file in the public folder
-    const link = document.createElement('a');
-    link.href = pdfUrl;
-    link.download = 'Barrisol-Interior-Brochure.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    window.open(pdfUrl, '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -35,20 +30,20 @@ const PDFDownloader = () => {
         initial={{ y: 10, opacity: 0 }}
         whileHover={{ y: 0, opacity: 1 }}
       >
-        Download Brochure
+        View Brochure
         <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900"></div>
       </motion.div>
 
       {/* Main Button */}
       <motion.button
-        onClick={handleDownload}
+        onClick={handlePDFOpen}
         className="relative flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 bg-gradient-to-r from-red-600 to-blue-600 text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-110"
         whileHover={{ 
           scale: 1.1,
           boxShadow: "0 10px 30px rgba(239, 68, 68, 0.4)"
         }}
         whileTap={{ scale: 0.95 }}
-        aria-label="Download PDF Brochure"
+        aria-label="View PDF Brochure"
       >
         {/* Background pulse animation */}
         <motion.div
