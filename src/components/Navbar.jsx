@@ -304,7 +304,7 @@ const Navbar = () => {
           variants={itemVariants}
         >
           <motion.a
-            href="https://wa.me/919718921229"
+            href="https://wa.me/919999999999"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Contact us on WhatsApp"

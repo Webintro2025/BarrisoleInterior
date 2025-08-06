@@ -258,7 +258,7 @@ const ServiceBanner = ({ service }) => {
                 variants={contentVariants}
               >
                 <motion.a
-                  href="https://wa.me/919718921229"
+                  href="https://wa.me/999999999999"
                   target="_blank"
                   rel="noopener noreferrer"
                   variants={hoverVariants}
@@ -272,7 +272,7 @@ const ServiceBanner = ({ service }) => {
                 </motion.a>
                 
                 <motion.a
-                  href="tel:+919718921229"
+                  href="tel:+999999999999"
                   variants={hoverVariants}
                   initial="rest"
                   whileHover="hover"
@@ -331,7 +331,7 @@ const ServiceBanner = ({ service }) => {
                   <h3 className="text-base lg:text-lg font-bold text-white">Get Free Quote</h3>
                 </div>
                 <div className="space-y-1">
-                  <p className="text-gray-200 text-xs">📞 +91 97189 21229</p>
+                  <p className="text-gray-200 text-xs">📞 +91 99999999999</p>
                   <p className="text-gray-200 text-xs">📧 textilebarrisol@gmail.com</p>
                   <p className="text-gray-200 text-xs">⏰ 24/7 Available</p>
                 </div>

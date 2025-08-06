@@ -44,7 +44,7 @@ const ContactBanner = () => {
     {
       icon: FiPhone,
       title: "Call Us",
-      details: ["+91-9718921229", "+91-9548829492"],
+      details: ["+91-9999999999", "+91-9999999998"],
       color: "from-red-500 to-red-600",
       link: "tel:+919718921229"
     },
@@ -213,7 +213,7 @@ const ContactBanner = () => {
               transition={{ delay: 0.6 }}
             >
               <motion.a
-                href="https://wa.me/919718921229"
+                href="https://wa.me/99999999999"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ 
@@ -229,7 +229,7 @@ const ContactBanner = () => {
               </motion.a>
               
               <motion.a
-                href="tel:+919718921229"
+                href="tel:+99999999999"
                 whileHover={{ 
                   scale: 1.05,
                   backgroundColor: "rgba(255, 255, 255, 0.1)",

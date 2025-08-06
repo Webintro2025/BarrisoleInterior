@@ -7,7 +7,7 @@ import { FaFilePdf, FaDownload } from 'react-icons/fa';
 const PDFDownloader = () => {
   const handlePDFOpen = () => {
     // Open PDF from public folder in new tab
-    const pdfUrl = '/brochure.pdf'; // Put your PDF file in the public folder
+    const pdfUrl = '/brochureee.pdf'; // Put your PDF file in the public folder
     window.open(pdfUrl, '_blank', 'noopener,noreferrer');
   };
 

@@ -410,7 +410,7 @@ const Footer = () => {
                         textShadow: "0 0 10px rgba(239, 68, 68, 0.5)"
                       }}
                     >
-                      +91-9718921229
+                      +91-97999999999
                     </motion.p>
                     <motion.p 
                       className="text-white font-semibold text-2xs xs:text-xs sm:text-sm"
@@ -419,7 +419,7 @@ const Footer = () => {
                         textShadow: "0 0 10px rgba(59, 130, 246, 0.5)"
                       }}
                     >
-                      +91-9548829492
+                      +91-99999999999
                     </motion.p>
                   </div>
                 </motion.div>
