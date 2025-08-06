@@ -188,7 +188,7 @@ const Maps = () => {
           viewport={{ once: true }}
         >
           <motion.a 
-            href="tel:+919718921229"
+            href="tel:+99999999999"
             className="flex items-center gap-1.5 sm:gap-2 text-gray-600 hover:text-[#b07f52] text-xs xs:text-sm sm:text-base transition-colors duration-300"
             whileHover={{ scale: 1.05 }}
           >

@@ -295,7 +295,7 @@ const GetInTouch = () => {
               Let's discuss your interior design needs and create something amazing together.
             </p>
             <motion.a
-              href="tel:9718921229"
+              href="tel:99999999999"
               className="inline-flex items-center gap-1.5 sm:gap-2 bg-white text-red-600 font-semibold py-2 sm:py-2.5 md:py-3 px-3 sm:px-4 md:px-6 rounded-md sm:rounded-lg hover:bg-gray-100 transition-all duration-300 text-xs sm:text-sm md:text-base"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
