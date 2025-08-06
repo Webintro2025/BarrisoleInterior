@@ -622,11 +622,18 @@ const Footer = () => {
                 href="https://webintro.in/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="text-blue-400 font-normal mx-0.5 xs:mx-1"
+                className="text-blue-400 font-normal mx-0.5 xs:mx-1 cursor-pointer z-10"
+                style={{ pointerEvents: 'auto' }}
                 whileHover={{ 
                   color: "#60A5FA",
                   scale: 1.05,
                   transition: { duration: 0.3 }
+                }}
+                whileTap={{ scale: 0.95 }}
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  window.open('https://webintro.in/', '_blank', 'noopener,noreferrer');
                 }}
               >
                 Webintro.in
@@ -636,11 +643,18 @@ const Footer = () => {
                 href="https://webintro.in/delhi/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="text-blue-400 font-normal mx-0.5 xs:mx-1"
+                className="text-blue-400 font-normal mx-0.5 xs:mx-1 cursor-pointer z-10"
+                style={{ pointerEvents: 'auto' }}
                 whileHover={{ 
                   color: "#60A5FA",
                   scale: 1.05,
                   transition: { duration: 0.3 }
+                }}
+                whileTap={{ scale: 0.95 }}
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  window.open('https://webintro.in/delhi/', '_blank', 'noopener,noreferrer');
                 }}
               >
                 Google Promotion Services
