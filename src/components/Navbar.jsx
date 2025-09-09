@@ -85,7 +85,7 @@ const Navbar = () => {
     { name: "CHANDELIER  TEXTILE  BARRISOL CEILING", slug: "chandelier-textile-barrisol-ceiling" },
     { name: "TEXTILE BARRISOL FABRIC CEILING", slug: "textile-barrisol-fabric-ceiling" },
     { name: "TEXTILE BARRISOL TRANSLUCENT STRETCH CEILING", slug: "textile-barrisol-translucent-stretch-ceiling" },
-    { name: "TEXTILE BARRISOL MOVING CLOUD STRERCH CEILING", slug: "textile-barrisol-moving-cloud-strerch-ceiling" },
+    { name: "TEXTILE BARRISOL MOVING CLOUD STRERCH CEILING", slug: "textile-barrisol-moving-cloud-stretch-ceiling" },
     { name: "TEXTILE BARRISOL DECORATIVE CEILING", slug: "textile-barrisol-decorative-ceiling" },
     { name: "TEXTILE BARRISOL FRANCH ROOF  STRERCH CEILING", slug: "textile-barrisol-franch-roof-strerch-ceiling" },
     { name: "BARRISOL 2X2 PANEL PRINTED TILE", slug: "barrisol-2x2-panel-printed-tile" },

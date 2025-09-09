@@ -39,7 +39,7 @@ const CEILING_SERVICES = [
     "Specific Needs: Suitable for moisture-resistant areas, hygienic environments, or projects demanding acoustic control."
   ],
   images: [
- "/CHANDELIER TEXTILE BARRISOL CEILING.png"
+ "/CHANDELIER  TEXTILE  BARRISOL CEILING.png"
   ]
 }
 ,
@@ -115,7 +115,7 @@ const CEILING_SERVICES = [
     "Modern Offices: Brings creativity and relaxation into workplace design."
   ],
   images: [
-   "/TEXTILE BARRISOL MOVING CLOUD STRETCH CEILING.png"
+   "/TEXTILE BARRISOL MOVING CLOUD STRERCH CEILING.png"
   ]
 }
 ,
@@ -146,7 +146,7 @@ const CEILING_SERVICES = [
 ,
  {
   title: "TEXTILE BARRISOL FRANCH WINDOW & ROOF CEILING",
-  slug: "textile-barrisol-franch-window-roof-ceiling",
+  slug: "textile-barrisol-franch-roof-strerch-ceiling",
   description: "The Textile Barrisol Franch Window & Roof Ceiling is an advanced AI-powered lighting technology designed to replicate natural sunlight indoors. Unlike traditional skylights or stretch ceilings, this innovative system uses optics, nanotech diffusers, and smart lighting to create a dynamic 'wellness ceiling' effect. It simulates the natural progression of sunlight—from warm morning tones to bright midday light and back to soothing evening hues—helping to improve mood, focus, and productivity. Perfect for spaces without natural light, this ceiling merges technology, design, and wellness benefits into one transformative solution.",
   keyCharacteristics: [
     "Natural Sunlight Simulation: Patented optics and lenses mimic the sky and sunlight indoors.",
@@ -166,13 +166,13 @@ const CEILING_SERVICES = [
     "Educational Spaces: Improves learning environments by simulating natural light cycles."
   ],
   images: [
-   "/TEXTILE BARRISOL FRANCH WINDOW & ROOF CEILING.png"
+   "/TEXTILE BARRISOL FRANCH ROOF  STRERCH CEILING.png"
   ]
 }
 ,
  {
   title: "BARRISOL ASIFTILE 2x2 PANEL BACKLIT TILE",
-  slug: "barrisol-asiftile-2x2-panel-backlit-tile",
+  slug: "barrisol-2x2-panel-printed-tile",
   description: "The Barrisol Asiftile 2x2 Panel Backlit Tile is a modern LED lighting fixture designed for efficient and uniform illumination. Measuring two feet by two feet, this flat, square light panel features LEDs mounted on the back plate, shining directly through a diffuser to create soft, glare-free lighting. Unlike edge-lit panels, the backlit design provides higher efficiency, better light distribution, and a more natural glow. With options for color tuning, dimmability, and different wattages, these panels are widely used in commercial and residential interiors for their durability, versatility, and sleek integration into ceiling grids.",
   keyCharacteristics: [
     "2x2 Dimensions: Standard two-foot by two-foot square panel fits seamlessly into ceiling grids.",
@@ -193,7 +193,7 @@ const CEILING_SERVICES = [
     "Hospitality: Ideal for hotels, lobbies, and conference rooms requiring sleek, efficient lighting."
   ],
   images: [
-   "/BARRISOL ASIFTILE 2x2 PANEL BACKLIT TILE.png"
+   "/BARRISOL 2X2 PANEL PRINTED TILE.png"
   ]
 }
 ,{
@@ -243,7 +243,7 @@ const CEILING_SERVICES = [
     "Event Venues: Perfect for themed setups and flexible lighting environments."
   ],
   images: [
- "RGBWW PIXEL ASIFTEXTILE BARRISOL STRETCH CEILING.png"
+ "/RGBWW PIXEL ASIFTEXTILE BARRISOL  STRETCH CEILING.png"
   ]
 }
 
