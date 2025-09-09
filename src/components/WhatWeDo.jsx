@@ -53,50 +53,51 @@ const WhatWeDo = () => {
   };
 
   const services = [
-    {
-      image: "/3dstrechceling.png",
-      title: "3D Stretch Ceiling Solutions",
-      alt: "3D Stretch Ceiling Solutions"
+ {
+      src: "/TEXTILE BARRISOL SKY STRETCH CEILING.png",
+      alt: "TEXTILE BARRISOL SKY STRETCH CEILING",
+      title: "TEXTILE BARRISOL SKY STRETCH CEILING"
     },
     {
-      image: "/PRINTED PANEL CEILING.png",
-      title: "Printed & Decorative Ceilings",
-      alt: "Printed Panel Ceiling"
+      src: "/CHANDELIER  TEXTILE  BARRISOL CEILING.png",
+      alt: "CHANDELIER TEXTILE BARRISOL CEILING",
+      title: "CHANDELIER TEXTILE BARRISOL CEILING"
     },
     {
-      image: "/RGBWpROGRAMMINGsTRETCHcEILING.png",
-      title: "RGBW Programming Stretch Ceilings",
-      alt: "RGBW Programming Stretch Ceiling"
+      src: "/TEXTILE BARRISOL FABRIC CEILING.png",
+      alt: "TEXTILE BARRISOL FABRIC CEILING",
+      title: "TEXTILE BARRISOL FABRIC CEILING"
     },
     {
-      image: "/DREAMSOL VIRTUAL FRENCH CEILING.png",
-      title: "Dreamsol Virtual French Ceiling",
-      alt: "Dreamsol Virtual French Ceiling"
+      src: "/TEXTILE BARRISOL TRANSLUCENT STRETCH CEILING.png",
+      alt: "TEXTILE BARRISOL TRANSLUCENT STRETCH CEILING",
+      title: "TEXTILE BARRISOL TRANSLUCENT STRETCH CEILING"
+    },
+
+    {
+      src: "/TEXTILE BARRISOL DECORATIVE CEILING.png",
+      alt: "TEXTILE BARRISOL DECORATIVE CEILING",
+      title: "TEXTILE BARRISOL DECORATIVE CEILING"
     },
     {
-      image: "/MURAL CEILING ART.png",
-      title: "3D Mural & Wall Art Solutions",
-      alt: "Mural Ceiling Art"
+      src: "/TEXTILE BARRISOL FRANCH ROOF  STRERCH CEILING.png",
+      alt: "TEXTILE BARRISOL FRANCH ROOF STRERCH CEILING",
+      title: "TEXTILE BARRISOL FRANCH ROOF STRERCH CEILING"
     },
     {
-      image: "/textile.png",
-      title: "Epoxy Flooring & Surface Coating",
-      alt: "Textile and Surface Solutions"
+      src: "/BARRISOL 2X2 PANEL PRINTED TILE.png",
+      alt: "BARRISOL 2X2 PANEL PRINTED TILE",
+      title: "BARRISOL 2X2 PANEL PRINTED TILE"
     },
     {
-      image: "/star.png",
-      title: "Star Fiber Optic Ceilings",
-      alt: "Star Fiber Optic Ceiling"
+      src: "/TEXTILE MURAL ART WALL & CEILING.png",
+      alt: "TEXTILE MURAL ART WALL & CEILING",
+      title: "TEXTILE MURAL ART WALL & CEILING"
     },
     {
-      image: "/TUNNABLEdIMMABLEsTRETCHcEILING.png",
-      title: "Tunable Dimmable Stretch Ceilings",
-      alt: "Tunable Dimmable Stretch Ceiling"
-    },
-    {
-      image: "/TRANSLUCENT STRETCH CEILING.png",
-      title: "Translucent Stretch Ceilings",
-      alt: "Translucent Stretch Ceiling"
+      src: "/RGBWW PIXEL ASIFTEXTILE BARRISOL  STRETCH CEILING.png",
+      alt: "RGBWW PIXEL ASIFTEXTILE BARRISOL STRETCH CEILING",
+      title: "RGBWW PIXEL ASIFTEXTILE BARRISOL STRETCH CEILING"
     }
   ];
 
@@ -227,7 +228,7 @@ const WhatWeDo = () => {
                 <motion.img
                   alt={service.alt}
                   className="w-full h-full object-cover group-hover:opacity-90 transition-all duration-500"
-                  src={service.image}
+                  src={service.src}
                   initial={{ opacity: 0, scale: 1.2 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}

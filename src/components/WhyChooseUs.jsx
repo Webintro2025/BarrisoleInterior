@@ -8,60 +8,64 @@ const WhyChooseUs = () => {
 
   const reasonsData = [
     {
-      id: 1,
-      title: "15+ Years of Specialised Experience",
-      description: "Backed by A2Z Architectural and Engineering Company (AEC), we bring over a decade of domain expertise in 3D stretch ceilings, optical lighting, and epoxy floor design, ensuring flawless results every time.",
-      icon: "🏆",
-      backgroundImage: "/3dstrechceling.png"
+      src: "/TEXTILE BARRISOL SKY STRETCH CEILING.png",
+      alt: "TEXTILE BARRISOL SKY STRETCH CEILING",
+      title: "TEXTILE BARRISOL SKY STRETCH CEILING",
+      description: "A stunning stretch ceiling design that brings the sky indoors. Perfect for creating a serene and open atmosphere."
     },
     {
-      id: 2,
-      title: "India's Leading In-House Manufacturer",
-      description: "We are a top-volume producer of ceiling and wall materials in India, with complete in-house manufacturing, from PVC stretch fabric and epoxy resins to LED modules and installation accessories.",
-      icon: "🏭",
-      backgroundImage: "/PRINTED PANEL CEILING.png"
+      src: "/CHANDELIER  TEXTILE  BARRISOL CEILING.png",
+      alt: "CHANDELIER TEXTILE BARRISOL CEILING",
+      title: "CHANDELIER TEXTILE BARRISOL CEILING",
+      description: "Elegant chandelier ceiling with textile finish for luxurious interiors. Adds a touch of sophistication to any space."
     },
     {
-      id: 3,
-      title: "Diverse Product Portfolio – All Under One Roof",
-      description: "From shooting star optic ceilings to 3D murals, water bubble walls, stretch walls, epoxy tables, and aqua art, our catalog serves all interior segments — residential, retail, hospitality, and corporate.",
-      icon: "🎨",
-      backgroundImage: "/RGBWpROGRAMMINGsTRETCHcEILING.png"
+      src: "/TEXTILE BARRISOL FABRIC CEILING.png",
+      alt: "TEXTILE BARRISOL FABRIC CEILING",
+      title: "TEXTILE BARRISOL FABRIC CEILING",
+      description: "Fabric ceiling solutions for a soft and sophisticated look. Ideal for modern and minimalist designs."
     },
     {
-      id: 4,
-      title: "No MOQ – Perfect for Every Project Size",
-      description: "Whether you're a single-room home renovation client or a commercial builder, we accommodate every scale of order with no minimum quantity requirement.",
-      icon: "📏",
-      backgroundImage: "/DREAMSOL VIRTUAL FRENCH CEILING.png"
+      src: "/TEXTILE BARRISOL TRANSLUCENT STRETCH CEILING.png",
+      alt: "TEXTILE BARRISOL TRANSLUCENT STRETCH CEILING",
+      title: "TEXTILE BARRISOL TRANSLUCENT STRETCH CEILING",
+      description: "Translucent stretch ceilings for ambient lighting effects. Perfect for creating a warm and inviting glow."
     },
     {
-      id: 5,
-      title: "Strong R&D and Design Innovation",
-      description: "Our dedicated R&D team constantly develops new designs, lighting integrations, and structural enhancements — keeping you ahead in aesthetic trends and technology.",
-      icon: "🔬",
-      backgroundImage: "/MURAL CEILING ART.png"
+      src: "/TEXTILE BARRISOL MOVING CLOUD STRERCH CEILING.png",
+      alt: "TEXTILE BARRISOL MOVING CLOUD STRERCH CEILING",
+      title: "TEXTILE BARRISOL MOVING CLOUD STRERCH CEILING",
+      description: "Dynamic cloud-like stretch ceilings for a unique atmosphere. Ideal for creative and artistic spaces."
     },
     {
-      id: 6,
-      title: "Complete A-to-Z Execution",
-      description: "We handle everything: Material Production, Customization & Prototyping, Installation Accessories & Lighting, Site Installation Support, Post-sale Assistance. You get one vendor for the entire job.",
-      icon: "✅",
-      backgroundImage: "/star.png"
+      src: "/TEXTILE BARRISOL DECORATIVE CEILING.png",
+      alt: "TEXTILE BARRISOL DECORATIVE CEILING",
+      title: "TEXTILE BARRISOL DECORATIVE CEILING",
+      description: "Decorative ceilings to enhance the aesthetic appeal of any space. A perfect blend of style and functionality."
     },
     {
-      id: 7,
-      title: "Affordable Excellence",
-      description: "We deliver international-quality decorative and structural solutions at competitive Indian pricing, making artistic luxury accessible for every space.",
-      icon: "💎",
-      backgroundImage: "/TRANSLUCENT STRETCH CEILING.png"
+      src: "/TEXTILE BARRISOL FRANCH ROOF  STRERCH CEILING.png",
+      alt: "TEXTILE BARRISOL FRANCH ROOF STRERCH CEILING",
+      title: "TEXTILE BARRISOL FRANCH ROOF STRERCH CEILING",
+      description: "French-style stretch ceilings for a classic and elegant touch. Adds timeless beauty to interiors."
     },
     {
-      id: 8,
-      title: "Trusted Leadership & Quality Process",
-      description: "Under the guidance of Mr. Asif Ali, our processes follow a strict QC chain — from raw material sourcing to final packaging and delivery, ensuring quality, consistency, and client satisfaction.",
-      icon: "👨‍💼",
-      backgroundImage: "/CLOUDSTRETCHCEILING.png"
+      src: "/BARRISOL 2X2 PANEL PRINTED TILE.png",
+      alt: "BARRISOL 2X2 PANEL PRINTED TILE",
+      title: "BARRISOL 2X2 PANEL PRINTED TILE",
+      description: "Printed tiles for creative and customizable ceiling designs. Perfect for personalized interior themes."
+    },
+    {
+      src: "/TEXTILE MURAL ART WALL & CEILING.png",
+      alt: "TEXTILE MURAL ART WALL & CEILING",
+      title: "TEXTILE MURAL ART WALL & CEILING",
+      description: "Artistic mural designs for walls and ceilings. Ideal for adding a unique and artistic flair."
+    },
+    {
+      src: "/RGBWW PIXEL ASIFTEXTILE BARRISOL  STRETCH CEILING.png",
+      alt: "RGBWW PIXEL ASIFTEXTILE BARRISOL STRETCH CEILING",
+      title: "RGBWW PIXEL ASIFTEXTILE BARRISOL STRETCH CEILING",
+      description: "RGB pixel stretch ceilings for vibrant and dynamic lighting. Perfect for modern and high-tech interiors."
     }
   ];
 
@@ -159,7 +163,7 @@ const WhyChooseUs = () => {
       </div>
 
       <motion.div 
-        className="relative z-10 max-w-[98vw] sm:max-w-[95vw] md:max-w-[90vw] lg:max-w-[85vw] xl:max-w-7xl mx-auto px-2 sm:px-3 md:px-4 lg:px-6 xl:px-8 py-6 sm:py-8 md:py-10 lg:py-12 xl:py-16"
+        className="relative mt-8 z-10 max-w-[98vw] sm:max-w-[95vw] md:max-w-[90vw] lg:max-w-[85vw] xl:max-w-7xl mx-auto px-2 sm:px-3 md:px-4 lg:px-6 xl:px-8 py-6 sm:py-8 md:py-10 lg:py-12 xl:py-16"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
@@ -217,8 +221,8 @@ const WhyChooseUs = () => {
                 whileHover={{ scale: 1.05 }}
               >
                 <img
-                  src={reasonsData[currentSlide].backgroundImage}
-                  alt={reasonsData[currentSlide].title}
+                  src={reasonsData[currentSlide].src}
+                  alt={reasonsData[currentSlide].alt}
                   className="w-full h-full object-cover"
                 />
                 <motion.div 
@@ -264,7 +268,7 @@ const WhyChooseUs = () => {
                   </motion.div>
                   
                   <motion.h3 
-                    className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl font-bold mb-1 sm:mb-2 md:mb-2 lg:mb-3 xl:mb-4 2xl:mb-5 leading-tight"
+                    className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl font-bold mb-1 sm:mb-2 md:mb-2 lg:mb-3 xl:mb-4 2xl:mb-5 leading-tight pl-1 sm:pl-2 md:pl-3 lg:pl-4 xl:pl-5"
                     initial={{ x: -100, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ delay: 0.8, duration: 0.8, ease: "easeOut" }}

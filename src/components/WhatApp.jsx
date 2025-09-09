@@ -10,7 +10,7 @@ const WhatsAppButton = () => {
     e.stopPropagation();
     
     // Replace with your actual WhatsApp number (include country code without +)
-    const phoneNumber = '99999999999'; // Your phone number
+    const phoneNumber = '9718921229'; // Your phone number
     const message = encodeURIComponent('Hello! I am interested in your ceiling solutions. Please provide more information.');
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     

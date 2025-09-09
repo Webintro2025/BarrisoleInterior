@@ -60,7 +60,7 @@ const GetInTouch = () => {
         </svg>
       ),
       label: "Phone Numbers",
-      value: "99999999999 / 99999999999"
+      value: "9718921229 / 9548829492"
     },
     {
       icon: (
@@ -295,7 +295,7 @@ const GetInTouch = () => {
               Let's discuss your interior design needs and create something amazing together.
             </p>
             <motion.a
-              href="tel:99999999999"
+              href="tel:9718921229"
               className="inline-flex items-center gap-1.5 sm:gap-2 bg-white text-red-600 font-semibold py-2 sm:py-2.5 md:py-3 px-3 sm:px-4 md:px-6 rounded-md sm:rounded-lg hover:bg-gray-100 transition-all duration-300 text-xs sm:text-sm md:text-base"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
@@ -303,7 +303,7 @@ const GetInTouch = () => {
               <svg className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              Call Now: 9999999999
+              Call Now: 9718921229
             </motion.a>
           </div>
         </motion.div>

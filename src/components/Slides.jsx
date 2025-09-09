@@ -8,60 +8,55 @@ const Slides = () => {
 
   // All available images from public folder
   const images = [
-    {
-      src: "/3dstrechceling.png",
-      alt: "3D Stretch Ceiling Installation",
-      title: "3D Stretch Ceiling"
+ {
+      src: "/TEXTILE BARRISOL SKY STRETCH CEILING.png",
+      alt: "TEXTILE BARRISOL SKY STRETCH CEILING",
+      title: "TEXTILE BARRISOL SKY STRETCH CEILING"
     },
     {
-      src: "/PRINTED PANEL CEILING.png",
-      alt: "Printed Panel Ceiling Design",
-      title: "Printed Panel Ceiling"
+      src: "/CHANDELIER  TEXTILE  BARRISOL CEILING.png",
+      alt: "CHANDELIER TEXTILE BARRISOL CEILING",
+      title: "CHANDELIER TEXTILE BARRISOL CEILING"
     },
     {
-      src: "/RGBWpROGRAMMINGsTRETCHcEILING.png",
-      alt: "RGBW Programming Stretch Ceiling with LED",
-      title: "RGBW Programming Ceiling"
+      src: "/TEXTILE BARRISOL FABRIC CEILING.png",
+      alt: "TEXTILE BARRISOL FABRIC CEILING",
+      title: "TEXTILE BARRISOL FABRIC CEILING"
     },
     {
-      src: "/DREAMSOL VIRTUAL FRENCH CEILING.png",
-      alt: "Dreamsol Virtual French Ceiling Design",
-      title: "Virtual French Ceiling"
+      src: "/TEXTILE BARRISOL TRANSLUCENT STRETCH CEILING.png",
+      alt: "TEXTILE BARRISOL TRANSLUCENT STRETCH CEILING",
+      title: "TEXTILE BARRISOL TRANSLUCENT STRETCH CEILING"
     },
     {
-      src: "/MURAL CEILING ART.png",
-      alt: "Mural Ceiling Art Installation",
-      title: "Mural Ceiling Art"
+      src: "/TEXTILE BARRISOL MOVING CLOUD STRERCH CEILING.png",
+      alt: "TEXTILE BARRISOL MOVING CLOUD STRERCH CEILING",
+      title: "TEXTILE BARRISOL MOVING CLOUD STRERCH CEILING"
     },
     {
-      src: "/Textle.png",
-      alt: "Textile and Surface Solutions",
-      title: "Textile Solutions"
+      src: "/TEXTILE BARRISOL DECORATIVE CEILING.png",
+      alt: "TEXTILE BARRISOL DECORATIVE CEILING",
+      title: "TEXTILE BARRISOL DECORATIVE CEILING"
     },
     {
-      src: "/star.png",
-      alt: "Star Fiber Optic Ceiling",
-      title: "Star Fiber Optic"
+      src: "/TEXTILE BARRISOL FRANCH ROOF  STRERCH CEILING.png",
+      alt: "TEXTILE BARRISOL FRANCH ROOF STRERCH CEILING",
+      title: "TEXTILE BARRISOL FRANCH ROOF STRERCH CEILING"
     },
     {
-      src: "/TUNNABLEdIMMABLEsTRETCHcEILING.png",
-      alt: "Tunable Dimmable Stretch Ceiling",
-      title: "Tunable Dimmable Ceiling"
+      src: "/BARRISOL 2X2 PANEL PRINTED TILE.png",
+      alt: "BARRISOL 2X2 PANEL PRINTED TILE",
+      title: "BARRISOL 2X2 PANEL PRINTED TILE"
     },
     {
-      src: "/TRANSLUCENT STRETCH CEILING.png",
-      alt: "Translucent Stretch Ceiling",
-      title: "Translucent Ceiling"
+      src: "/TEXTILE MURAL ART WALL & CEILING.png",
+      alt: "TEXTILE MURAL ART WALL & CEILING",
+      title: "TEXTILE MURAL ART WALL & CEILING"
     },
     {
-      src: "/CLOUDSTRETCHCEILING.png",
-      alt: "Cloud Stretch Ceiling Design",
-      title: "Cloud Stretch Ceiling"
-    },
-    {
-      src: "/banner1.jpg",
-      alt: "Interior Design Banner",
-      title: "Interior Design Showcase"
+      src: "/RGBWW PIXEL ASIFTEXTILE BARRISOL  STRETCH CEILING.png",
+      alt: "RGBWW PIXEL ASIFTEXTILE BARRISOL STRETCH CEILING",
+      title: "RGBWW PIXEL ASIFTEXTILE BARRISOL STRETCH CEILING"
     }
   ];
 

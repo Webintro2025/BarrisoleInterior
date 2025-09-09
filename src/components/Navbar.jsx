@@ -80,11 +80,18 @@ const Navbar = () => {
     { name: 'CONTACT US', hasDropdown: false },
   ];
 
-  // Dynamically get services from CEILING_SERVICES data
-  const servicesDropdownItems = CEILING_SERVICES.map(service => ({
-    name: service.title.toUpperCase(),
-    slug: service.slug
-  }));
+  const servicesDropdownItems = [
+    { name: "TEXTILE BARRISOL SKY STRETCH CEILING", slug: "textile-barrisol-sky-stretch-ceiling" },
+    { name: "CHANDELIER  TEXTILE  BARRISOL CEILING", slug: "chandelier-textile-barrisol-ceiling" },
+    { name: "TEXTILE BARRISOL FABRIC CEILING", slug: "textile-barrisol-fabric-ceiling" },
+    { name: "TEXTILE BARRISOL TRANSLUCENT STRETCH CEILING", slug: "textile-barrisol-translucent-stretch-ceiling" },
+    { name: "TEXTILE BARRISOL MOVING CLOUD STRERCH CEILING", slug: "textile-barrisol-moving-cloud-strerch-ceiling" },
+    { name: "TEXTILE BARRISOL DECORATIVE CEILING", slug: "textile-barrisol-decorative-ceiling" },
+    { name: "TEXTILE BARRISOL FRANCH ROOF  STRERCH CEILING", slug: "textile-barrisol-franch-roof-strerch-ceiling" },
+    { name: "BARRISOL 2X2 PANEL PRINTED TILE", slug: "barrisol-2x2-panel-printed-tile" },
+    { name: "TEXTILE MURAL ART WALL & CEILING", slug: "textile-mural-art-wall-ceiling" },
+    { name: "RGBWW PIXEL ASIFTEXTILE BARRISOL  STRETCH CEILING", slug: "rgbww-pixel-asiftextile-barrisol-stretch-ceiling" },
+  ];
 
   // Handle dropdown hover effects
   const handleServicesHover = () => {
@@ -167,7 +174,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link href="/">
           <motion.div
-            className={`text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-bold select-none tracking-wide md:tracking-widest transition-colors duration-300 cursor-pointer ${
+            className={`flex items-center gap-2 text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-bold select-none tracking-wide md:tracking-widest transition-colors duration-300 cursor-pointer ${
               isScrolled 
                 ? 'bg-gradient-to-r from-red-600 to-blue-600 bg-clip-text text-transparent' 
                 : 'text-white'
@@ -179,9 +186,15 @@ const Navbar = () => {
               transition: { duration: 0.2 }
             }}
           >
-            <span className="block sm:hidden">TEXTILE BARRISOL STRETCH CEILING</span>
-            <span className="hidden sm:block md:hidden">TEXTILE BARRISOL STRETCH CEILING</span>
-            <span className="hidden md:block">TEXTILE BARRISOL STRETCH CEILING</span>
+            <img
+              src="/log.png"
+              alt="Logo"
+              className="w-10 h-6 sm:w-12 sm:h-10 object-contain rounded shadow-md bg-white"
+              style={{marginRight: 4}}
+            />
+            <span className="block sm:hidden">TEXTILE BARRISOL</span>
+            <span className="hidden sm:block md:hidden">TEXTILE BARRISOL</span>
+            <span className="hidden md:block">TEXTILE BARRISOL</span>
           </motion.div>
         </Link>
 
@@ -304,7 +317,7 @@ const Navbar = () => {
           variants={itemVariants}
         >
           <motion.a
-            href="https://wa.me/919999999999"
+            href="https://wa.me/919718921229"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Contact us on WhatsApp"

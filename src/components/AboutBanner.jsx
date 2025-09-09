@@ -181,7 +181,7 @@ const AboutBanner = () => {
               </motion.a>
               
               <motion.a
-                href="tel:+99999999999"
+                href="tel:+9718921229 / 9548829492"
                 whileHover={{ 
                   scale: 1.05,
                   backgroundColor: "rgba(255, 255, 255, 0.1)",

@@ -1,494 +1,117 @@
 "use client";
 
-import { useState, useEffect, useRef } from 'react';
-import { motion, AnimatePresence, useInView, useScroll, useTransform } from 'framer-motion';
-import { notFound } from 'next/navigation';
-import Link from 'next/link';
-import Image from 'next/image';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import ServiceBanner from '@/components/ServiceBanner';
-import { getServiceBySlug, getRelatedServices } from '@/data/servicesData';
-import { FiCheck, FiStar, FiTool, FiAward } from 'react-icons/fi';
-
-// Animation variants
-const pageVariants = {
-  initial: { opacity: 0, y: 20 },
-  animate: { 
-    opacity: 1, 
-    y: 0,
-    transition: { duration: 0.6, ease: "easeOut" }
-  },
-  exit: { opacity: 0, y: -20 }
-};
-
-const leftToRightVariants = {
-  initial: { opacity: 0, x: -100 },
-  animate: { 
-    opacity: 1, 
-    x: 0,
-    transition: { duration: 0.8, ease: "easeOut" }
-  }
-};
-
-const rightToLeftVariants = {
-  initial: { opacity: 0, x: 100 },
-  animate: { 
-    opacity: 1, 
-    x: 0,
-    transition: { duration: 0.8, ease: "easeOut" }
-  }
-};
-
-const scaleUpVariants = {
-  initial: { opacity: 0, scale: 0.8 },
-  animate: { 
-    opacity: 1, 
-    scale: 1,
-    transition: { duration: 0.6, ease: "easeOut" }
-  }
-};
-
-const staggerContainer = {
-  animate: {
-    transition: {
-      staggerChildren: 0.1
-    }
-  }
-};
-
-const fadeInUpVariants = {
-  initial: { opacity: 0, y: 30 },
-  animate: { 
-    opacity: 1, 
-    y: 0,
-    transition: { duration: 0.5, ease: "easeOut" }
-  }
-};
-
-const rotateInVariants = {
-  initial: { opacity: 0, rotate: -10, scale: 0.9 },
-  animate: { 
-    opacity: 1, 
-    rotate: 0, 
-    scale: 1,
-    transition: { duration: 0.7, ease: "easeOut" }
-  }
-};
-
-const slideUpVariants = {
-  initial: { opacity: 0, y: 50 },
-  animate: { 
-    opacity: 1, 
-    y: 0,
-    transition: { duration: 0.6, ease: "easeOut" }
-  }
-};
-
-// Enhanced scroll-based animations
-const scrollFadeUp = {
-  initial: { 
-    opacity: 0, 
-    y: 60,
-    scale: 0.95
-  },
-  animate: { 
-    opacity: 1, 
-    y: 0,
-    scale: 1,
-    transition: { 
-      duration: 0.8, 
-      ease: [0.25, 0.46, 0.45, 0.94]
-    }
-  }
-};
-
-const scrollSlideLeft = {
-  initial: { 
-    opacity: 0, 
-    x: -80,
-    rotate: -5
-  },
-  animate: { 
-    opacity: 1, 
-    x: 0,
-    rotate: 0,
-    transition: { 
-      duration: 0.9, 
-      ease: [0.25, 0.46, 0.45, 0.94]
-    }
-  }
-};
-
-const scrollSlideRight = {
-  initial: { 
-    opacity: 0, 
-    x: 80,
-    rotate: 5
-  },
-  animate: { 
-    opacity: 1, 
-    x: 0,
-    rotate: 0,
-    transition: { 
-      duration: 0.9, 
-      ease: [0.25, 0.46, 0.45, 0.94]
-    }
-  }
-};
-
-const scrollStagger = {
-  animate: {
-    transition: {
-      staggerChildren: 0.15,
-      delayChildren: 0.1
-    }
-  }
-};
-
-const floatingAnimation = {
-  animate: {
-    y: [-10, 10, -10],
-    transition: {
-      duration: 4,
-      repeat: Infinity,
-      ease: "easeInOut"
-    }
-  }
-};
-
-// Enhanced hover animations
-const cardHoverVariants = {
-  rest: { scale: 1, y: 0, rotateX: 0, rotateY: 0 },
-  hover: { 
-    scale: 1.05, 
-    y: -10,
-    rotateX: 5,
-    rotateY: 5,
-    transition: { 
-      duration: 0.3,
-      type: "spring",
-      stiffness: 300,
-      damping: 20
-    }
-  }
-};
-
-const imageHoverVariants = {
-  rest: { scale: 1, filter: "brightness(1)" },
-  hover: { 
-    scale: 1.1, 
-    filter: "brightness(1.2)",
-    transition: { duration: 0.4 }
-  }
-};
-
-const buttonHoverVariants = {
-  rest: { 
-    scale: 1, 
-    boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)",
-    background: "linear-gradient(to right, #ef4444, #3b82f6)"
-  },
-  hover: { 
-    scale: 1.1, 
-    boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
-    background: "linear-gradient(to right, #dc2626, #2563eb)",
-    transition: { 
-      duration: 0.2,
-      type: "spring",
-      stiffness: 400
-    }
-  }
-};
-
-const textHoverVariants = {
-  rest: { color: "#374151" },
-  hover: { 
-    color: "#ef4444",
-    transition: { duration: 0.2 }
-  }
-};
-
-const iconBounceVariants = {
-  rest: { scale: 1, rotate: 0 },
-  hover: { 
-    scale: 1.2, 
-    rotate: 360,
-    transition: { 
-      duration: 0.5,
-      type: "spring",
-      stiffness: 300
-    }
-  }
-};
-
-// Magnetic effect for buttons
-const magneticVariants = {
-  rest: { x: 0, y: 0 },
-  hover: { x: 0, y: 0 }
-};
-
-// Scroll progress animation component
-const ScrollProgressBar = () => {
-  const { scrollYProgress } = useScroll();
-  
-  return (
-    <motion.div
-      className="fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-red-500 to-blue-500 origin-left z-50"
-      style={{ scaleX: scrollYProgress }}
-    />
-  );
-};
+import { getServiceBySlug } from "@/data/servicesData";
+import { motion } from "framer-motion";
+import ServiceBanner from "@/components/ServiceBanner";
+import React from "react";
 
 export default function ServicePage({ params }) {
-  const [service, setService] = useState(null);
-  const [relatedServices, setRelatedServices] = useState([]);
-  const [loading, setLoading] = useState(true);
-  
-  // Refs for scroll animations
-  const heroRef = useRef(null);
-  const contentRef = useRef(null);
-  const benefitsRef = useRef(null);
-  const galleryRef = useRef(null);
-  const relatedRef = useRef(null);
-  
-  // In-view hooks for scroll animations
-  const heroInView = useInView(heroRef, { once: true, threshold: 0.3 });
-  const contentInView = useInView(contentRef, { once: true, threshold: 0.2 });
-  const benefitsInView = useInView(benefitsRef, { once: true, threshold: 0.3 });
-  const galleryInView = useInView(galleryRef, { once: true, threshold: 0.4 });
-  const relatedInView = useInView(relatedRef, { once: true, threshold: 0.1 });
-  
-  // Scroll progress for hero parallax
-  const { scrollY } = useScroll();
-  const heroY = useTransform(scrollY, [0, 500], [0, 200]);
-  const heroOpacity = useTransform(scrollY, [0, 400], [1, 0.3]);
+  // Unwrap params if it's a promise (for future Next.js compatibility)
+  const actualParams = typeof params.then === "function" ? React.use(params) : params;
+  const { slugs } = actualParams;
+  const service = getServiceBySlug(slugs);
 
-  useEffect(() => {
-    const fetchService = async () => {
-      // Await params in Next.js 15
-      const resolvedParams = await params;
-      const serviceData = getServiceBySlug(resolvedParams.slugs);
-      
-      if (!serviceData) {
-        notFound();
-        return;
-      }
-
-      setService(serviceData);
-      setRelatedServices(getRelatedServices(resolvedParams.slugs));
-      setLoading(false);
-    };
-
-    fetchService();
-  }, [params]);
-
-  if (loading) {
+  if (!service) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        <motion.div
-          animate={{ rotate: 360 }}
-          transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
-          className="w-16 h-16 border-4 border-red-500 border-t-transparent rounded-full"
-        />
-      </div>
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="p-8 text-center text-red-600 w-full pt-8"
+      >
+        Service not found.
+      </motion.div>
     );
   }
 
-  if (!service) {
-    notFound();
-  }
-
   return (
-    <motion.div
-      initial="initial"
-      animate="animate"
-      exit="exit"
-      variants={pageVariants}
-      className="min-h-screen bg-gray-50"
-    >
-    
-      <ServiceBanner service={service} />
-         
-      {/* Content Section */}
-      <section className="py-8 sm:py-12 md:py-16 lg:py-20">
-        <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6">
-          <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-16 items-start">
-            
-            {/* Mobile/Tablet: Image Gallery First */}
-            <motion.div
-              variants={rightToLeftVariants}
-              className="lg:hidden space-y-4 sm:space-y-6"
-            >
-              {/* Image Gallery */}
-              <div className="bg-white p-3 sm:p-4 md:p-6 rounded-lg sm:rounded-xl md:rounded-2xl shadow-lg">
-                <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 md:mb-6">Gallery</h3>
-                <div className="relative">
-                  <motion.div 
-                    className="aspect-video rounded-lg sm:rounded-xl overflow-hidden"
-                    whileHover={{ scale: 1.02 }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <div className="relative h-full">
-                      <Image
-                        src={service.image}
-                        alt={`${service.title} Gallery`}
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                  </motion.div>
-                </div>
-              </div>
-            </motion.div>
-
-            {/* Left Content */}
-            <motion.div
-              variants={leftToRightVariants}
-              className="space-y-4 sm:space-y-6 lg:space-y-8"
-            >
-              <motion.div variants={fadeInUpVariants}>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 md:mb-6">
-                  About This Service
-                </h2>
-                <div className="prose prose-sm sm:prose md:prose-lg text-gray-700 leading-relaxed">
-                  <motion.p 
-                    variants={fadeInUpVariants}
-                    className="mb-3 sm:mb-4 text-sm sm:text-base"
-                  >
-                    {service.description}
-                  </motion.p>
-                </div>
-              </motion.div>
-
-              {/* Benefits */}
-              <motion.div 
-                variants={staggerContainer}
-                className="bg-white p-4 sm:p-6 lg:p-8 rounded-lg sm:rounded-xl md:rounded-2xl shadow-lg"
-              >
-                <motion.h3 
-                  variants={fadeInUpVariants}
-                  className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 md:mb-6 flex items-center"
-                >
-                  <FiStar className="mr-2 sm:mr-3 text-red-500 text-base sm:text-lg md:text-xl" />
-                  Key Benefits
-                </motion.h3>
-                <div className="grid sm:grid-cols-2 gap-2 sm:gap-3 lg:gap-4">
-                  {service.benefits.map((benefit, index) => (
-                    <motion.div
-                      key={index}
-                      variants={fadeInUpVariants}
-                      whileHover={{ 
-                        scale: 1.02,
-                        backgroundColor: "rgba(239, 68, 68, 0.05)",
-                        transition: { duration: 0.2 }
-                      }}
-                      className="flex items-center p-2 sm:p-3 rounded-lg hover:bg-red-50 transition-all duration-200"
-                    >
-                      <FiCheck className="text-green-500 mr-2 sm:mr-3 flex-shrink-0 text-sm sm:text-base" />
-                      <span className="text-gray-700 text-xs sm:text-sm md:text-base">{benefit}</span>
-                    </motion.div>
-                  ))}
-                </div>
-              </motion.div>
-            </motion.div>
-
-            {/* Desktop: Image Gallery on Right */}
-            <motion.div
-              variants={rightToLeftVariants}
-              className="hidden lg:block space-y-8"
-            >
-              {/* Image Gallery */}
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Gallery</h3>
-                <div className="relative">
-                  <motion.div 
-                    className="aspect-video rounded-xl overflow-hidden"
-                    whileHover={{ scale: 1.02 }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <div className="relative h-full">
-                      <Image
-                        src={service.image}
-                        alt={`${service.title} Gallery`}
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                  </motion.div>
-                </div>
-              </div>
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
-      {/* Related Services */}
-      <motion.section 
-        variants={fadeInUpVariants}
-        className="py-8 sm:py-12 md:py-16 lg:py-20 bg-white"
+    <>
+      <div className="w-full ">
+        <ServiceBanner service={service} />
+      </div>
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="w-full p-6 pt-10"
       >
-        <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6">
-          <motion.h2 
-            variants={leftToRightVariants}
-            className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-900 mb-8 sm:mb-12 lg:mb-16"
+        {/* Banner Section */}
+        <motion.div
+          initial={{ scale: 0.95, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          className="bg-gradient-to-r from-blue-100 via-white to-red-100 rounded-xl shadow-lg mb-8 flex flex-col items-center py-8 px-4 w-full"
+        >
+          <motion.h1
+            className="text-3xl font-bold mb-4 pl-4 text-blue-700 w-full"
+            whileHover={{ scale: 1.04, color: "#ef4444" }}
           >
-            Related Services
-          </motion.h2>
-          
-          <motion.div 
-            variants={staggerContainer}
-            className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8"
-          >
-            {relatedServices.map((relatedService, index) => (
-              <motion.div
-                key={relatedService.slug}
-                variants={fadeInUpVariants}
-                whileHover={{ 
-                  y: -10,
-                  transition: { duration: 0.3 }
-                }}
-                className="group bg-white rounded-lg sm:rounded-xl md:rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300"
-              >
-                <Link href={`/${relatedService.slug}`}>
-                  <div className="relative h-32 sm:h-40 md:h-48 overflow-hidden cursor-pointer">
-                    <Image
-                      src={relatedService.image}
-                      alt={relatedService.title}
-                      fill
-                      className="object-cover group-hover:scale-110 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-                  </div>
-                </Link>
-                
-                <div className="p-3 sm:p-4 md:p-6">
-                  <Link href={`/${relatedService.slug}`}>
-                    <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-2 sm:mb-3 group-hover:text-red-500 transition-colors cursor-pointer">
-                      {relatedService.title}
-                    </h3>
-                  </Link>
-                  <p className="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                    {relatedService.description.substring(0, 100)}...
-                  </p>
-                  
-                  <Link href={`/${relatedService.slug}`}>
-                    <motion.button
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
-                      className="mt-3 sm:mt-4 px-4 sm:px-6 py-1.5 sm:py-2 bg-gradient-to-r from-red-500 to-blue-500 text-white rounded-full font-medium hover:shadow-lg transition-all duration-200 text-xs sm:text-sm"
-                    >
-                      Learn More
-                    </motion.button>
-                  </Link>
-                </div>
-              </motion.div>
-            ))}
-          </motion.div>
-        </div>
-      </motion.section>
+            {service.title}
+          </motion.h1>
+          {service.images && service.images.length > 0 && (
+            <motion.img
+              src={service.images[0]}
+              alt={service.title}
+              className="w-full max-w-md mx-auto mb-4 rounded-lg shadow-lg"
+              whileHover={{ scale: 1.03, boxShadow: "0 8px 32px rgba(239,68,68,0.15)" }}
+              transition={{ duration: 0.3 }}
+            />
+          )}
+        </motion.div>
 
-   
-    </motion.div>
+        {/* Description Section */}
+        <motion.p
+          className="mb-8 pl-6 pr-6 text-lg text-gray-700 bg-white rounded-xl shadow p-4 w-full"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          whileHover={{ backgroundColor: "#f3f4f6", scale: 1.01 }}
+          transition={{ duration: 0.3 }}
+        >
+          {service.description}
+        </motion.p>
+
+        {/* Key Characteristics */}
+        {service.keyCharacteristics && (
+          <motion.div
+            className="mb-6 pl-6 pr-6 w-full"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+          >
+            <h2 className="font-semibold mb-2 text-red-600">Key Characteristics:</h2>
+            <ul className="list-disc pl-6">
+              {service.keyCharacteristics.map((item, idx) => (
+                <motion.li
+                  key={idx}
+                  whileHover={{ color: "#2563eb", scale: 1.05 }}
+                  className="mb-1 text-gray-800"
+                >
+                  {item}
+                </motion.li>
+              ))}
+            </ul>
+          </motion.div>
+        )}
+
+        {/* Applications */}
+        {service.applications && (
+          <motion.div
+            className="mb-6 pl-6 pr-6 w-full"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+          >
+            <h2 className="font-semibold mb-2 text-blue-600">Applications:</h2>
+            <ul className="list-disc pl-6">
+              {service.applications.map((item, idx) => (
+                <motion.li
+                  key={idx}
+                  whileHover={{ color: "#ef4444", scale: 1.05 }}
+                  className="mb-1 text-gray-800"
+                >
+                  {item}
+                </motion.li>
+              ))}
+            </ul>
+          </motion.div>
+        )}
+      </motion.div>
+    </>
   );
 }

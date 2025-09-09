@@ -9,31 +9,57 @@ const About = () => {
 
   // Image gallery data for auto-scroll
   const galleryImages = [
-    {
-      src: "/star.png",
-      alt: "Interior room with a beige armchair",
-      title: "Premium Star Design"
+   {
+      src: "/TEXTILE BARRISOL SKY STRETCH CEILING.png",
+      alt: "TEXTILE BARRISOL SKY STRETCH CEILING",
+      title: "TEXTILE BARRISOL SKY STRETCH CEILING"
     },
     {
-      src: "/textile.png", 
-      alt: "Cozy living room with textile ceiling",
-      title: "Textile Ceiling Solutions"
+      src: "/CHANDELIER  TEXTILE  BARRISOL CEILING.png",
+      alt: "CHANDELIER TEXTILE BARRISOL CEILING",
+      title: "CHANDELIER TEXTILE BARRISOL CEILING"
     },
     {
-      src: "/RGBWpROGRAMMINGsTRETCHcEILING.png",
-      alt: "RGB programmable stretch ceiling",
-      title: "RGB Programming Ceiling"
+      src: "/TEXTILE BARRISOL FABRIC CEILING.png",
+      alt: "TEXTILE BARRISOL FABRIC CEILING",
+      title: "TEXTILE BARRISOL FABRIC CEILING"
     },
     {
-      src: "/3dstrechceling.png",
-      alt: "3D stretch ceiling design",
-      title: "3D Stretch Ceiling"
+      src: "/TEXTILE BARRISOL TRANSLUCENT STRETCH CEILING.png",
+      alt: "TEXTILE BARRISOL TRANSLUCENT STRETCH CEILING",
+      title: "TEXTILE BARRISOL TRANSLUCENT STRETCH CEILING"
     },
     {
-      src: "/CLOUDSTRETCHCEILING.png",
-      alt: "Cloud stretch ceiling",
-      title: "Cloud Stretch Ceiling"
+      src: "/TEXTILE BARRISOL MOVING CLOUD STRERCH CEILING.png",
+      alt: "TEXTILE BARRISOL MOVING CLOUD STRERCH CEILING",
+      title: "TEXTILE BARRISOL MOVING CLOUD STRERCH CEILING"
+    },
+    {
+      src: "/TEXTILE BARRISOL DECORATIVE CEILING.png",
+      alt: "TEXTILE BARRISOL DECORATIVE CEILING",
+      title: "TEXTILE BARRISOL DECORATIVE CEILING"
+    },
+    {
+      src: "/TEXTILE BARRISOL FRANCH ROOF  STRERCH CEILING.png",
+      alt: "TEXTILE BARRISOL FRANCH ROOF STRERCH CEILING",
+      title: "TEXTILE BARRISOL FRANCH ROOF STRERCH CEILING"
+    },
+    {
+      src: "/BARRISOL 2X2 PANEL PRINTED TILE.png",
+      alt: "BARRISOL 2X2 PANEL PRINTED TILE",
+      title: "BARRISOL 2X2 PANEL PRINTED TILE"
+    },
+    {
+      src: "/TEXTILE MURAL ART WALL & CEILING.png",
+      alt: "TEXTILE MURAL ART WALL & CEILING",
+      title: "TEXTILE MURAL ART WALL & CEILING"
+    },
+    {
+      src: "/RGBWW PIXEL ASIFTEXTILE BARRISOL  STRETCH CEILING.png",
+      alt: "RGBWW PIXEL ASIFTEXTILE BARRISOL STRETCH CEILING",
+      title: "RGBWW PIXEL ASIFTEXTILE BARRISOL STRETCH CEILING"
     }
+    
   ];
 
   // Auto-scroll effect
@@ -165,7 +191,7 @@ const About = () => {
           transition={{ duration: 0.3 }}
         >
           <motion.img
-            src="/star.png"
+            src="/About.jpeg"
             alt="Barrisol Interior Solution - Premium Ceiling and Wall Solutions"
             className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg"
             initial={{ opacity: 0, scale: 1.1 }}

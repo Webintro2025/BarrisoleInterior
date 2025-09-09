@@ -1,134 +1,252 @@
 const CEILING_SERVICES = [
-  {
-    title: "3D Stretch Ceiling",
-    slug: "3d-stretch-ceiling",
-    image: "/3dstrechceling.png",
-    description: "3D Stretch Ceilings are an innovative modern ceiling solution that combines aesthetics, durability, and flexibility. Made from high-quality PVC or polyester fabric, these ceilings are stretched onto a perimeter frame to create smooth, seamless surfaces with 3D patterns or effects. They can be customized to fit any shape or size of room, including curves, waves, and multilevel designs. Often paired with lighting systems such as LED strips or fiber optics, they provide both decorative appeal and functional illumination. The material is moisture-resistant, fire-retardant, and easy to clean, making it suitable for residential, commercial, and hospitality spaces. With options to include printed images, embossed textures, or glossy/matte finishes, 3D Stretch Ceilings offer creative freedom and a luxurious feel. Whether you're renovating or designing a new space, this ceiling system enhances acoustics, hides wiring, and transforms interiors with a high-end touch.",
-    benefits: [
-      "Custom 3D shapes and designs",
-      "Highly durable and easy to maintain",
-      "Works with all lighting types",
-      "Moisture and fire resistant",
-      "Adds depth and luxury to interiors"
-    ]
-  },
-  {
-    title: "3D Textile Paper Craft Ceiling",
-    slug: "3d-textile-paper-craft-ceiling",
-    image: "/textile.png",
-    description: "3D Textile Paper Craft Ceilings are a fusion of art and interior design, created using intricately cut textile or paper-based materials arranged into stunning ceiling visuals. These are ideal for artistic spaces, boutiques, event halls, or luxury homes where design uniqueness is paramount. The material can be layered, cut, or folded to create patterns like florals, waves, or geometric art. These ceilings are lightweight, eco-friendly, and easy to install or replace. They can be suspended like stretch ceilings or used as decorative installations. Custom printing and color options allow for themed interiors and creative storytelling. Moreover, the material provides decent acoustic absorption, which helps in reducing echo in large spaces. Designers and architects prefer it for temporary or seasonal designs due to its affordability and high aesthetic appeal.",
-    benefits: [
-      "Eco-friendly and lightweight",
-      "Highly customizable artistic designs",
-      "Adds texture and depth",
-      "Good for acoustics",
-      "Ideal for creative or themed spaces"
-    ]
-  },
-  {
-    title: "3D Live Cloud Stretch Ceiling",
-    slug: "3d-live-cloud-stretch-ceiling",
-    image: "/CLOUDSTRETCHCEILING.png",
-    description: "3D Live Cloud Stretch Ceilings simulate the appearance of a cloudy sky or moving cloud patterns using a stretch fabric ceiling and backlit animated lighting. Ideal for lobbies, lounges, spas, or children’s rooms, this system delivers a surreal indoor sky ambiance. Using a combination of translucent stretch material, RGB lighting, and animated cloud simulations, it creates a natural and relaxing atmosphere. The cloud motion effect can be static, slow-moving, or sound-responsive, depending on the tech used. These ceilings are not only visually stunning but also help reduce stress and enhance mood. Maintenance is minimal, and the system can be easily integrated with smart lighting or automation systems. They're great conversation pieces and boost the overall value and vibe of any space.",
-    benefits: [
-      "Simulates real cloud movement",
-      "Backlit RGB lighting effects",
-      "Smart lighting compatible",
-      "Creates a calming atmosphere",
-      "Visually enhances the room"
-    ]
-  },
-  {
-    title: "RGBW Programming Stretch Ceiling",
-    slug: "rgbw-programming-stretch-ceiling",
-    image: "/RGBWpROGRAMMINGsTRETCHcEILING.png",
-    description: "RGBW Programming Stretch Ceilings bring the magic of programmable lighting to modern interiors. These ceilings integrate RGBW LED modules behind a translucent stretch membrane, allowing full control over color, brightness, and animations. You can change colors for different moods, events, or brand themes via remote or app control. Often used in hotels, clubs, showrooms, or homes, this setup turns ceilings into an interactive lighting feature. The stretch fabric diffuses light evenly, ensuring smooth transitions and vibrant effects. It supports integration with smart homes and commercial lighting systems. Whether you want a sunrise effect in the morning or party lights at night, RGBW ceilings give total control with visual impact. The base materials remain moisture-resistant, dust-free, and easy to maintain.",
-    benefits: [
-      "Fully programmable RGBW lighting",
-      "Remote or app-controlled",
-      "Perfect for events and ambiance",
-      "Smart home integration ready",
-      "Visually immersive experience"
-    ]
-  },
-  {
-    title: "Tunnable & Dimmable Stretch Ceiling",
-    slug: "tunnable-dimmable-ceiling",
-    image: "/TUNNABLEdIMMABLEsTRETCHcEILING.png",
-    description: "Tunnable & Dimmable Stretch Ceilings offer dynamic lighting control by letting users adjust both the color temperature (warm to cool) and brightness of the ceiling lights. Integrated behind translucent stretch membranes, the LED lighting provides uniform illumination while allowing real-time changes in mood and tone. Ideal for offices, conference rooms, spas, or bedrooms, it ensures comfort and productivity by adjusting lighting based on time of day or activity. Dimming helps conserve energy while tunable white options support circadian rhythms. These ceilings are also compatible with voice assistants or mobile apps for hands-free control. Besides lighting, the stretch ceiling offers all standard benefits like moisture resistance, aesthetic finish, and acoustic absorption.",
-    benefits: [
-      "Adjust brightness and temperature",
-      "Improves comfort and mood",
-      "Energy-efficient smart lighting",
-      "Modern, seamless ceiling design",
-      "Health-conscious lighting solutions"
-    ]
-  },
-  {
-    title: "3D Translucent Stretch Ceiling",
-    slug: "3d-translucent-stretch-ceiling",
-    image: "/TRANSLUCENT%20STRETCH%20CEILING.png",
-    description: "3D Translucent Stretch Ceilings are designed to create luminous, modern, and futuristic environments. This type of ceiling uses high-quality translucent PVC or polyester fabric membranes that allow light to pass through. Paired with LED lighting systems or RGB color-changing LEDs, it creates a glowing ceiling that can display vibrant hues, gradients, or soft ambient light. Often used in malls, showrooms, airports, and luxury homes, the ceiling becomes a light source and a design element simultaneously. 3D effects can be achieved with curves, layers, or printed visuals. It’s energy-efficient, moisture-resistant, and provides a clean, elegant finish with seamless visuals.",
-    benefits: [
-      "Acts as a ceiling + light fixture",
-      "Supports RGB color lighting",
-      "Seamless, backlit 3D surface",
-      "Enhances ambiance and visual depth",
-      "Durable and easy to clean"
-    ]
-  },
-  {
-    title: "2x2 Printed Panel Ceiling",
-    slug: "2x2-printed-panel-ceiling",
-    image: "/PRINTED%20PANEL%20CEILING.png",
-    description: "2x2 Printed Panel Ceilings are modular ceiling panels printed with high-resolution designs, patterns, or images. Each panel fits into a standard grid framework, making installation easy and cost-effective. Commonly used in offices, hospitals, schools, shops, and modular interiors, they provide a pop of visual flair while also offering acoustic and insulation benefits. Choose from floral, sky, abstract, or custom branding designs — all UV-printed on durable, fire-retardant material. These panels are easy to replace or update, allowing flexibility in design.",
-    benefits: [
-      "Affordable, modular design",
-      "Quick installation and easy to update",
-      "Wide range of custom print options",
-      "Adds color and personality",
-      "Sound and heat insulation properties"
-    ]
-  },
-  {
-    title: "Mural Ceiling Art",
-    slug: "mural-ceiling-art",
-    image: "/MURAL%20CEILING%20ART.png",
-    description: "Mural Ceiling Art involves creating hand-painted or digitally printed artwork on ceilings — bringing classical or contemporary art into your everyday space. Whether it’s a renaissance painting, floral landscape, or cosmic sky, these murals transform ceilings into storytelling surfaces. Ideal for villas, hotels, banquet halls, or religious spaces, they reflect creativity and luxury. Printed murals on stretch ceilings offer more flexibility and faster installation, while hand-painted options bring unmatched authenticity.",
-    benefits: [
-      "Highly artistic and unique",
-      "Custom themes and storytelling designs",
-      "Adds value and luxury to space",
-      "Works with both modern and classical interiors",
-      "Long-lasting with anti-fade technology"
-    ]
-  },
-  {
-    title: "Star Fiber Optic Ceiling",
-    slug: "star-fiber-optic-ceiling",
-    image: "/star.png",
-    description: "Star Fiber Optic Ceilings create a magical night-sky effect indoors using fiber optic lights embedded in a stretch membrane. These tiny light points twinkle and glow, simulating stars, galaxies, or nebulae. Popular in bedrooms, home theaters, lounges, and spas, this ceiling type offers soothing ambiance and visual delight. It can include shooting star effects, meteor animations, or even constellation mapping. Operated via remote or smart control, it's both romantic and futuristic. The base material is noise-insulating and fire-retardant, making it safe and functional.",
-    benefits: [
-      "Immersive galaxy/star effects",
-      "Great for relaxation and night ambiance",
-      "Programmable animations and lighting",
-      "Ideal for kids, spas, or cinemas",
-      "Low maintenance and silent operation"
-    ]
-  },
-  {
-    title: "Dreamsol Virtual French Ceiling",
-    slug: "dreamsol-virtual-french-ceiling",
-    image: "/DREAMSOL%20VIRTUAL%20FRENCH%20CEILING.png",
-    description: "Dreamsol Virtual French Ceilings bring the charm of French architecture into your home or commercial space. With realistic 3D visuals printed on stretch materials and backlit with dynamic lighting, these ceilings replicate intricate moldings, classical frescoes, or even virtual skylights. The 'virtual' aspect is achieved through layered depth illusion and animated lighting scenes. Whether it’s a romantic Parisian ceiling, sky dome, or baroque painting, Dreamsol’s virtual ceilings bring elegance, depth, and prestige to the interiors. Perfect for banquets, villas, hotels, cafes, or themed rooms, they require minimal upkeep while delivering maximum visual impact.",
-    benefits: [
-      "Brings classic French design indoors",
-      "Virtual illusion of open sky or ornate ceilings",
-      "Custom designs and animated lighting",
-      "Ideal for luxurious and themed interiors",
-      "Durable, elegant, and easy to install"
-    ]
-  }
+ {
+  title: "TEXTILE BARRISOL SKY STRETCH CEILING",
+  slug: "textile-barrisol-sky-stretch-ceiling",
+  description: "The Textile Barrisol Sky Stretch Ceiling is a premium ceiling solution that brings the beauty of the outdoors inside. Designed with high-quality non-flammable vinyl or textile membranes, it creates realistic sky effects such as a daytime blue sky, starry night, or fully customized visuals. This ceiling integrates advanced LED lighting for natural and ambient effects, while offering durability, moisture resistance, and easy maintenance. Perfect for both residential and commercial interiors, it provides a modern, expansive, and serene environment.",
+  keyCharacteristics: [
+    "Material: Non-flammable vinyl or textile membranes, available in translucent and decorative finishes.",
+    "Installation: Heated and stretched fabric forms a seamless, smooth surface across perimeter tracks.",
+    "Fixing System: Locked into aluminum or PVC profile rails for stability and precision.",
+    "Visual Effects: Realistic skies, clouds, stars, or custom graphics printed onto the membrane.",
+    "Lighting: LED backlighting simulates natural sunlight, starry skies, or customized ambient glow."
+  ],
+  applications: [
+    "Residential Spaces: Creates a sense of openness in living rooms, bedrooms, and home theaters.",
+    "Commercial Interiors: Ideal for offices, lobbies, and retail spaces to provide a modern ambiance.",
+    "Healthcare & Wellness: Used in hospitals, clinics, and spas to promote relaxation and comfort.",
+    "Entertainment & Hospitality: Perfect for restaurants, hotels, or lounges requiring a striking ceiling design."
+  ],
+  images: [
+    "/TEXTILE BARRISOL SKY STRETCH CEILING.png"
+  ]
+}
+
+,
+ {
+  title: "CHANDELIER TEXTILE BARRISOL CEILING",
+  slug: "chandelier-textile-barrisol-ceiling",
+  description: "A Chandelier Textile Barrisol ceiling is an advanced stretch ceiling system developed by Mr. Asif Ali and manufactured by Barrisol. It uses a non-flammable textile fabric, such as the GTs® glass textile, stretched and fixed into a patented perimeter rail system. These ceilings offer a blend of aesthetics, safety, and versatility, allowing architects and designers to create unique interiors. They can be customized in various shapes, printed with artistic designs, made luminous with LED integration, or acoustically enhanced for superior sound absorption. The system is highly durable, meets strict fire safety standards, and is environmentally responsible due to its recyclable materials.",
+  keyCharacteristics: [
+    "Material: Non-flammable vinyl sheets and GTs® Glass Textile made of fine glass yarns.",
+    "Installation: Stretched under heat and locked into patented perimeter rails for diverse shapes, curves, and 3D forms.",
+    "Customization: Options include printing, translucency for lighting, and acoustic enhancements.",
+    "Durability & Safety: Strong, long-lasting, and compliant with international fire safety standards.",
+    "Environmental Aspects: Eco-friendly, with recyclable membranes and sustainable design options."
+  ],
+  applications: [
+    "Interior Design: Enhances ambiance and defines spaces with custom finishes.",
+    "Large Spaces: Ideal for high-rise buildings, corridors, lobbies, and expansive areas.",
+    "Specific Needs: Suitable for moisture-resistant areas, hygienic environments, or projects demanding acoustic control."
+  ],
+  images: [
+ "/CHANDELIER TEXTILE BARRISOL CEILING.png"
+  ]
+}
+,
+ {
+  title: "TEXTILE BARRISOL FABRIC CEILING",
+  slug: "textile-barrisol-fabric-ceiling",
+  description: "The Barrisol Fabric-Draped Ceiling, designed by Mr. Asif Ali, is a decorative technique where lightweight, flowing fabrics are suspended from ceilings to transform plain spaces into elegant, atmospheric settings. Commonly used at weddings, parties, and banquets, this system softens lighting, hides imperfections such as ducts or beams, and adds a layer of texture and sophistication. Popular fabric choices include voile, chiffon, tulle, and poly knit, which can be styled in swags, tent formations, or complete ceiling coverage. This approach not only enhances visual appeal but also creates a sense of grandeur and intimacy in any venue.",
+  keyCharacteristics: [
+    "Enhances Ambiance: Creates luxurious, magical moods suitable for events and gatherings.",
+    "Hides Imperfections: Drapes effectively cover unattractive structural elements like ducts or beams.",
+    "Softens Lighting: Sheer fabrics diffuse lighting to produce a warm, inviting glow.",
+    "Adds Texture & Visual Appeal: Introduces elegance and serves as a stunning focal point.",
+    "Fabric Choices: Voile, chiffon, tulle, and poly knit offer versatility and unique finishes.",
+    "Fire Safety: Requires fire-retardant fabrics compliant with NFPA 701 for public venues."
+  ],
+  applications: [
+    "Event Decoration: Perfect for weddings, receptions, banquets, and themed parties.",
+    "Swags: Fabric waves draped from one point to another for simple, stylish coverage.",
+    "Tent-Style Draping: Fabric gathered from a central point, radiating outward to cover the ceiling.",
+    "Full Coverage: Complete ceiling draping to transform spaces with seamless elegance."
+  ],
+  images: [
+    "/TEXTILE BARRISOL FABRIC CEILING.png"
+  ]
+}
+,
+
+
+
+ {
+  title: "TEXTILE BARRISOL TRANSLUCENT STRETCH CEILING",
+  slug: "textile-barrisol-translucent-stretch-ceiling",
+  description: "The Textile Barrisol Translucent Stretch Ceiling is a modern ceiling solution that combines elegance with functionality. Made from a high-quality translucent Barrisol membrane, it allows light to pass through evenly, creating a soft, diffused glow. When paired with LED or fluorescent backlighting, the ceiling transforms into a luminous surface that enhances ambiance, improves lighting quality, and elevates the aesthetic appeal of any space. Its seamless installation, customizable options, and long-lasting durability make it a preferred choice for architects and interior designers worldwide.",
+  keyCharacteristics: [
+    "Translucent Membrane: Specially designed material diffuses light uniformly across the surface.",
+    "Seamless Finish: Installed with precision for a smooth, flawless appearance.",
+    "Versatile Lighting: Works with LED, fluorescent, or RGBW lighting for different effects.",
+    "Customizable Design: Available in a range of shapes, sizes, and configurations.",
+    "Energy Efficient: Enhances light reflection and reduces power consumption.",
+    "Durable & Safe: Non-flammable, recyclable, and compliant with international fire safety standards.",
+    "Acoustic Options: Can be combined with sound-absorbing panels for improved acoustics."
+  ],
+  applications: [
+    "Residential Interiors: Adds a soft, ambient glow to living rooms, bedrooms, and kitchens.",
+    "Corporate Offices: Enhances workspaces with even, natural-feeling illumination.",
+    "Retail & Showrooms: Highlights products with attractive, diffused lighting.",
+    "Hospitality: Creates a warm, inviting atmosphere in hotels, restaurants, and lounges.",
+    "Museums & Galleries: Provides balanced lighting to showcase art and exhibitions.",
+    "Healthcare Facilities: Offers clean, glare-free lighting for clinics and wellness spaces."
+  ],
+  images: [
+    "/TEXTILE BARRISOL TRANSLUCENT STRETCH CEILING.png"
+  ]
+}
+,
+ {
+  title: "TEXTILE BARRISOL MOVING CLOUD STRETCH CEILING",
+  slug: "textile-barrisol-moving-cloud-stretch-ceiling",
+  description: "The Textile Barrisol Moving Cloud Stretch Ceiling is a modern decorative ceiling system that creates the illusion of drifting clouds overhead. Made from high-quality translucent PVC stretch material combined with dynamic LED backlighting, this system simulates natural cloud movement to provide a calming and immersive atmosphere. The lighting can be programmed to shift gently, offering visual relaxation and a sense of connection with nature. Ideal for spas, clinics, lounges, and contemporary interiors, this ceiling design transforms ordinary rooms into unique, tranquil environments.",
+  keyCharacteristics: [
+    "Realistic Cloud Effect: Simulates clouds moving across the sky with advanced LED lighting.",
+    "Dynamic Lighting System: Programmable LEDs create gentle shifts and drifting patterns.",
+    "Relaxing Ambiance: Produces a calming effect, perfect for wellness centers and homes.",
+    "Translucent Stretch Material: High-quality PVC fabric allows smooth diffusion of light.",
+    "Customizable Designs: Lighting speed, colors, and patterns can be tailored to suit mood.",
+    "Energy Efficient: Uses low-power LED technology for sustainable illumination."
+  ],
+  applications: [
+    "Spas & Wellness Centers: Enhances relaxation and promotes tranquility.",
+    "Healthcare Spaces: Creates a soothing environment in clinics or therapy rooms.",
+    "Residential Lounges: Adds a unique, calming focal point for living spaces.",
+    "Hospitality Interiors: Ideal for hotels, restaurants, and luxury waiting areas.",
+    "Modern Offices: Brings creativity and relaxation into workplace design."
+  ],
+  images: [
+   "/TEXTILE BARRISOL MOVING CLOUD STRETCH CEILING.png"
+  ]
+}
+,
+{
+  title: "TEXTILE BARRISOL DECORATIVE CEILING",
+  slug: "textile-barrisol-decorative-ceiling",
+  description: "The Textile Barrisol Decorative Ceiling is a stylish stretch ceiling solution designed to enhance interiors with elegance, creativity, and functionality. Made from high-quality PVC or textile-based stretch fabric, it provides a seamless finish that hides imperfections while offering endless design possibilities. With customizable shapes, colors, textures, and integrated lighting options, this ceiling transforms any plain space into a sophisticated and visually captivating environment. Ideal for modern homes, commercial interiors, and event venues, it balances aesthetics with practicality.",
+  keyCharacteristics: [
+    "Seamless Finish: Covers imperfections like cracks, ducts, or wiring with a smooth surface.",
+    "Customizable Designs: Available in various colors, textures, and printed graphics.",
+    "Durable Material: High-quality stretch fabric ensures longevity and low maintenance.",
+    "Acoustic Benefits: Can be paired with sound-absorbing layers for improved acoustics.",
+    "Lighting Integration: Compatible with LED, backlit, or fiber optic lighting systems.",
+    "Quick Installation: Lightweight system allows faster setup compared to traditional ceilings."
+  ],
+  applications: [
+    "Residential Interiors: Adds elegance to living rooms, bedrooms, and home theaters.",
+    "Commercial Spaces: Ideal for offices, showrooms, and retail environments.",
+    "Hospitality: Enhances hotels, restaurants, and lounges with stylish ambiance.",
+    "Event Venues: Creates eye-catching decorative ceilings for weddings and exhibitions.",
+    "Cultural Spaces: Perfect for galleries, auditoriums, and museums."
+  ],
+  images: [
+   "/TEXTILE BARRISOL DECORATIVE CEILING.png"
+ 
+  ]
+}
+,
+ {
+  title: "TEXTILE BARRISOL FRANCH WINDOW & ROOF CEILING",
+  slug: "textile-barrisol-franch-window-roof-ceiling",
+  description: "The Textile Barrisol Franch Window & Roof Ceiling is an advanced AI-powered lighting technology designed to replicate natural sunlight indoors. Unlike traditional skylights or stretch ceilings, this innovative system uses optics, nanotech diffusers, and smart lighting to create a dynamic 'wellness ceiling' effect. It simulates the natural progression of sunlight—from warm morning tones to bright midday light and back to soothing evening hues—helping to improve mood, focus, and productivity. Perfect for spaces without natural light, this ceiling merges technology, design, and wellness benefits into one transformative solution.",
+  keyCharacteristics: [
+    "Natural Sunlight Simulation: Patented optics and lenses mimic the sky and sunlight indoors.",
+    "Dynamic Color & Brightness: Shifts throughout the day to match the natural solar cycle.",
+    "Wellness-Oriented: Enhances mood, energy, focus, and overall sense of well-being.",
+    "Smart Integration: Compatible with smart home systems, mobile apps, and wall controls.",
+    "Energy Efficient: Consumes less power than traditional lighting systems for the same brightness.",
+    "Customizable Options: Available in multiple sizes, configurations, and finishes.",
+    "Not Just Decorative: A high-tech lighting solution focused on experience and health benefits."
+  ],
+  applications: [
+    "Basements & Windowless Rooms: Provides a natural sunlight effect where no daylight is available.",
+    "Residential Interiors: Ideal for kitchens, living rooms, and bedrooms lacking natural light.",
+    "Commercial Spaces: Enhances office environments for improved focus and productivity.",
+    "Healthcare Facilities: Creates a healing, uplifting atmosphere in clinics and hospitals.",
+    "Hospitality: Perfect for hotels, spas, and wellness centers to promote relaxation.",
+    "Educational Spaces: Improves learning environments by simulating natural light cycles."
+  ],
+  images: [
+   "/TEXTILE BARRISOL FRANCH WINDOW & ROOF CEILING.png"
+  ]
+}
+,
+ {
+  title: "BARRISOL ASIFTILE 2x2 PANEL BACKLIT TILE",
+  slug: "barrisol-asiftile-2x2-panel-backlit-tile",
+  description: "The Barrisol Asiftile 2x2 Panel Backlit Tile is a modern LED lighting fixture designed for efficient and uniform illumination. Measuring two feet by two feet, this flat, square light panel features LEDs mounted on the back plate, shining directly through a diffuser to create soft, glare-free lighting. Unlike edge-lit panels, the backlit design provides higher efficiency, better light distribution, and a more natural glow. With options for color tuning, dimmability, and different wattages, these panels are widely used in commercial and residential interiors for their durability, versatility, and sleek integration into ceiling grids.",
+  keyCharacteristics: [
+    "2x2 Dimensions: Standard two-foot by two-foot square panel fits seamlessly into ceiling grids.",
+    "Backlit Design: LEDs mounted on the back plate ensure direct, even light output.",
+    "Uniform Illumination: Delivers soft, glare-free lighting without dark spots.",
+    "Energy Efficient: LED technology reduces power consumption compared to traditional lighting.",
+    "Versatile Options: Available in multiple wattages and color temperatures (3500K, 4000K, 5000K).",
+    "Dimmable Functionality: Supports 0–10V dimming for adjustable brightness levels.",
+    "Durable Build: Aluminum housing with polycarbonate diffuser ensures long-lasting performance.",
+    "Easy Installation: Compatible with drop-in ceiling grids or surface-mount applications."
+  ],
+  applications: [
+    "Commercial Offices: Provides bright, uniform lighting for productive work environments.",
+    "Retail Spaces: Enhances product displays with high CRI and even illumination.",
+    "Healthcare Facilities: Offers comfortable, glare-free lighting in hospitals and clinics.",
+    "Educational Institutions: Creates well-lit classrooms and libraries for better learning.",
+    "Residential Spaces: Suitable for modern kitchens, living rooms, and home offices.",
+    "Hospitality: Ideal for hotels, lobbies, and conference rooms requiring sleek, efficient lighting."
+  ],
+  images: [
+   "/BARRISOL ASIFTILE 2x2 PANEL BACKLIT TILE.png"
+  ]
+}
+,{
+  title: "TEXTILE MURAL ART WALL & CEILING",
+  slug: "textile-mural-art-wall-ceiling",
+  description: "The Textile Mural Art Wall & Ceiling system by Barrisol transforms plain walls and ceilings into striking works of art through high-resolution digital printing on stretch material. This 'Print your Mind' service allows complete customization—whether it’s personal photographs, logos, or world-class artwork sourced from museum partnerships. The material can be installed seamlessly on flat, concave, or convex surfaces, and even combined with backlighting on translucent finishes to create luminous, atmospheric effects. Offering a modern alternative to traditional wallpaper, this system provides limitless design possibilities with professional, seamless installation.",
+  keyCharacteristics: [
+    "Full Customization: Print personal images, logos, or choose from curated artwork collections.",
+    "High-Definition Printing: Advanced HD printing delivers millions of colors with sharp detail.",
+    "Seamless Finish: Barrisol’s track system ensures a smooth, continuous surface without joins.",
+    "Versatile Application: Can be applied on flat walls, ceilings, concave, or convex shapes.",
+    "Backlit Options: Translucent stretch material can be illuminated for luminous mural effects.",
+    "Durability: Printed stretch fabric is resistant to wear, offering long-lasting performance.",
+    "Professional Installation: Expert installers guarantee precision and flawless results."
+  ],
+  applications: [
+    "Residential Interiors: Personalize living rooms, bedrooms, and lounges with bespoke murals.",
+    "Commercial Spaces: Enhance offices, showrooms, and retail environments with branded designs.",
+    "Hospitality: Create themed walls and ceilings in hotels, restaurants, and lounges.",
+    "Museums & Galleries: Showcase reproductions of artwork with HD printing quality.",
+    "Healthcare & Wellness Centers: Use calming or inspiring imagery to improve atmosphere.",
+    "Event & Exhibition Halls: Transform spaces with temporary or permanent artistic displays."
+  ],
+  images: [
+  "/TEXTILE MURAL ART WALL & CEILING.png"
+  ]
+}
+,{
+  title: "RGBWW PIXEL ASIFTEXTILE BARRISOL STRETCH CEILING",
+  slug: "rgbww-pixel-asiftextile-barrisol-stretch-ceiling",
+  description: "The RGBWW Pixel Asiftextile Barrisol Stretch Ceiling is an advanced decorative lighting system that combines a translucent Barrisol stretch membrane with a dynamic RGBW LED lighting system. This setup allows for a broad spectrum of colors—Red, Green, Blue, and White—with adjustable brightness and programmable effects. The result is a soft, homogeneous illumination that can range from natural daylight simulation to vibrant, colored atmospheres. Designed for both aesthetic and functional purposes, this system transforms interiors into immersive, modern spaces with versatile lighting control and sustainable design.",
+  keyCharacteristics: [
+    "Translucent Barrisol Membrane: A non-flammable vinyl sheet stretched over a perimeter frame for seamless diffusion.",
+    "RGBW LED System: Offers a wide range of colors and natural white light with adjustable intensity.",
+    "Even Light Diffusion: Provides smooth, glare-free illumination across the ceiling surface.",
+    "Dynamic Mood Creation: Supports color changes, animations, and natural daylight simulation.",
+    "Customizable Designs: Can be installed in flat, curved, or 3D shapes to match architectural needs.",
+    "Aesthetic Appeal: Enhances modern interiors with impactful visual and atmospheric effects.",
+    "Eco-Friendly & Safe: 100% recyclable material with A+ VOC classification and fire safety ratings (B-s2, d0)."
+  ],
+  applications: [
+    "Retail & Shopping Centers: Creates engaging and vibrant atmospheres for customers.",
+    "Corporate Offices: Provides dynamic lighting to boost creativity and productivity.",
+    "Museums & Art Galleries: Enhances exhibitions with tailored, mood-driven lighting.",
+    "Residential Interiors: Adds stylish, programmable lighting to living rooms, bedrooms, and lounges.",
+    "Hospitality Spaces: Ideal for hotels, restaurants, and bars requiring immersive ambiance.",
+    "Event Venues: Perfect for themed setups and flexible lighting environments."
+  ],
+  images: [
+ "RGBWW PIXEL ASIFTEXTILE BARRISOL STRETCH CEILING.png"
+  ]
+}
+
 ];
 
 // Export the CEILING_SERVICES array
