@@ -45,8 +45,8 @@ const WhyChooseUs = () => {
     },
     {
       src: "/TEXTILE BARRISOL FRANCH ROOF  STRERCH CEILING.png",
-      alt: "TEXTILE BARRISOL FRANCH ROOF STRERCH CEILING",
-      title: "TEXTILE BARRISOL FRANCH ROOF STRERCH CEILING",
+      alt: "TEXTILE BARRISOL FRENCH ROOF STRERCH CEILING",
+      title: "TEXTILE BARRISOL FRENCH ROOF STRERCH CEILING",
       description: "French-style stretch ceilings for a classic and elegant touch. Adds timeless beauty to interiors."
     },
     {

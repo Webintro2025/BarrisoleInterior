@@ -236,7 +236,7 @@ const Footer = () => {
                     { name: "TEXTILE BARRISOL TRANSLUCENT STRETCH CEILING", slug: "textile-barrisol-translucent-stretch-ceiling" },
                     { name: "TEXTILE BARRISOL MOVING CLOUD STRERCH CEILING", slug: "textile-barrisol-moving-cloud-strerch-ceiling" },
                     { name: "TEXTILE BARRISOL DECORATIVE CEILING", slug: "textile-barrisol-decorative-ceiling" },
-                    { name: "TEXTILE BARRISOL FRANCH ROOF  STRERCH CEILING", slug: "textile-barrisol-franch-roof-strerch-ceiling" },
+                    { name: "TEXTILE BARRISOL FRENCH ROOF  STRERCH CEILING", slug: "textile-barrisol-FRENCH-roof-strerch-ceiling" },
                     { name: "BARRISOL 2X2 PANEL PRINTED TILE", slug: "barrisol-2x2-panel-printed-tile" },
                     { name: "TEXTILE MURAL ART WALL & CEILING", slug: "textile-mural-art-wall-ceiling" },
                     { name: "RGBWW PIXEL ASIFTEXTILE BARRISOL  STRETCH CEILING", slug: "rgbww-pixel-asiftextile-barrisol-stretch-ceiling" },

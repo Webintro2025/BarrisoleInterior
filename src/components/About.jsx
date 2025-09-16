@@ -41,8 +41,8 @@ const About = () => {
     },
     {
       src: "/TEXTILE BARRISOL FRANCH ROOF  STRERCH CEILING.png",
-      alt: "TEXTILE BARRISOL FRANCH ROOF STRERCH CEILING",
-      title: "TEXTILE BARRISOL FRANCH ROOF STRERCH CEILING"
+      alt: "TEXTILE BARRISOL FRENCH ROOF STRERCH CEILING",
+      title: "TEXTILE BARRISOL FRENCH ROOF STRERCH CEILING"
     },
     {
       src: "/BARRISOL 2X2 PANEL PRINTED TILE.png",
@@ -174,7 +174,7 @@ const About = () => {
   return (
     <div className="bg-[#fffefa] text-black overflow-hidden">
       <motion.div 
-        className="max-w-[1200px] mx-auto px-3 sm:px-4 md:px-5 py-6 sm:py-3 md:py-10 flex flex-col lg:flex-row gap-4 sm:gap-6 md:gap-8 lg:gap-10"
+        className="max-w-[1200px] mx-auto px-3 sm:px-4 md:px-5 py-6 sm:py-3  md:py-10 flex flex-col lg:flex-row gap-4 sm:gap-6 md:gap-8 lg:gap-10"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
@@ -190,8 +190,28 @@ const About = () => {
           }}
           transition={{ duration: 0.3 }}
         >
+          <div>
           <motion.img
             src="/About.jpeg"
+            alt="Barrisol Interior Solution - Premium Ceiling and Wall Solutions"
+            className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover pb-6 rounded-lg"
+            initial={{ opacity: 0, scale: 1.1 }}
+            whileInView={{ 
+              opacity: 1, 
+              scale: 1,
+              transition: { 
+                duration: 0.8,
+                ease: "easeOut"
+              }
+            }}
+            viewport={{ once: true }}
+            whileHover={{ 
+              scale: 1.05,
+              filter: "brightness(1.1)"
+            }}
+          />
+           <motion.img
+            src="/CHANDELIER  TEXTILE  BARRISOL CEILING.png"
             alt="Barrisol Interior Solution - Premium Ceiling and Wall Solutions"
             className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg"
             initial={{ opacity: 0, scale: 1.1 }}
@@ -209,6 +229,7 @@ const About = () => {
               filter: "brightness(1.1)"
             }}
           />
+          </div>
           <motion.div
             className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent rounded-lg"
             initial={{ opacity: 0 }}
@@ -260,7 +281,9 @@ const About = () => {
             transition={{ delay: 0.3, duration: 0.6 }}
             whileHover={{ color: "#2563eb" }}
           >
-            Barrisol Interior Solution is a pioneering force in India's interior design and architectural finishing industry, offering cutting-edge ceiling, wall, flooring, and aqua art solutions.
+            Mr. Asif Ali, the visionary behind Textile Barrisol, has dedicated his expertise and passion to transforming modern interiors with innovative ceiling and wall solutions. With a strong foundation in design and technology, he introduced world-class stretch ceiling systems to the Indian market, offering clients a perfect blend of elegance, durability, and functionality.
+
+Under his leadership, Textile Barrisol has grown into a trusted name, delivering premium-quality ceilings, acoustic solutions, and customized designs that redefine spaces in homes, offices, hotels, and commercial projects.
           </motion.p>
           
           <motion.p 
@@ -271,7 +294,9 @@ const About = () => {
             transition={{ delay: 0.5, duration: 0.6 }}
             whileHover={{ color: "#2563eb" }}
           >
-            As a trusted division of A2Z Architectural and Engineering Company (AEC), we bring over 15 years of manufacturing and service excellence to projects of every scale — residential, commercial, and institutional.
+            Mr. Asif Ali’s mission is simple – to provide creative, sustainable, and aesthetic solutions that bring imagination to life. His focus on innovation, quality craftsmanship, and customer satisfaction has positioned Textile Barrisol as a leader in the stretch ceiling industry.
+
+At Textile Barrisol, every project reflects a commitment to luxury, precision, and timeless design – turning ordinary ceilings into extraordinary masterpieces.
           </motion.p>
           
           <motion.a 

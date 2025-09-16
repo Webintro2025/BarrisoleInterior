@@ -145,9 +145,9 @@ const CEILING_SERVICES = [
 }
 ,
  {
-  title: "TEXTILE BARRISOL FRANCH WINDOW & ROOF CEILING",
-  slug: "textile-barrisol-franch-roof-strerch-ceiling",
-  description: "The Textile Barrisol Franch Window & Roof Ceiling is an advanced AI-powered lighting technology designed to replicate natural sunlight indoors. Unlike traditional skylights or stretch ceilings, this innovative system uses optics, nanotech diffusers, and smart lighting to create a dynamic 'wellness ceiling' effect. It simulates the natural progression of sunlight—from warm morning tones to bright midday light and back to soothing evening hues—helping to improve mood, focus, and productivity. Perfect for spaces without natural light, this ceiling merges technology, design, and wellness benefits into one transformative solution.",
+  title: "TEXTILE BARRISOL FRENCH WINDOW & ROOF CEILING",
+  slug: "textile-barrisol-FRENCH-roof-strerch-ceiling",
+  description: "The Textile Barrisol FRENCH Window & Roof Ceiling is an advanced AI-powered lighting technology designed to replicate natural sunlight indoors. Unlike traditional skylights or stretch ceilings, this innovative system uses optics, nanotech diffusers, and smart lighting to create a dynamic 'wellness ceiling' effect. It simulates the natural progression of sunlight—from warm morning tones to bright midday light and back to soothing evening hues—helping to improve mood, focus, and productivity. Perfect for spaces without natural light, this ceiling merges technology, design, and wellness benefits into one transformative solution.",
   keyCharacteristics: [
     "Natural Sunlight Simulation: Patented optics and lenses mimic the sky and sunlight indoors.",
     "Dynamic Color & Brightness: Shifts throughout the day to match the natural solar cycle.",

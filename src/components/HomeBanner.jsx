@@ -17,7 +17,7 @@ const HomeBanner = () => {
     },
     {
       id: 2,
-      image: "/banner2.jpg", 
+      image: "/banner2.png", 
       title: "From Ceilings to Floors",
       subtitle: "We Create Living Art",
       description: "Elegant and artistic designs perfect for premium home interiors and showrooms. Experience the beauty of architectural innovation.",
@@ -25,7 +25,7 @@ const HomeBanner = () => {
     },
     {
       id: 3,
-      image: "/banner3.jpg",
+      image: "/banner3.jpeg",
       title: "India's Most Trusted",
       subtitle: "Name in Stretch Ceilings & Epoxy Floors",
       description: "Building trust through quality craftsmanship and innovative solutions. Your premier destination for interior transformation.",
