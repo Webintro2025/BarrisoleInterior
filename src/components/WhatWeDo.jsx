@@ -126,7 +126,7 @@ const WhatWeDo = () => {
             transition={{ duration: 0.3 }}
           >
             <span className="bg-gradient-to-r from-red-600 to-blue-600 bg-clip-text text-transparent">
-              What We Do – Barrisol Interior Solution
+              What We Do
             </span>
           </motion.h1>          {/* Aside Content */}
           <motion.aside 

@@ -99,7 +99,7 @@ const Footer = () => {
               <Link href="/">
                 <motion.div className="flex items-center space-x-4 mb-4 cursor-pointer">
                   <motion.img 
-                    alt="Barrisol Interior Solution logo" 
+                    alt="TEXTILE BARRISOL STRETCH CEILING INDUSTRIES logo" 
                     className="object-contain rounded-lg bg-white shadow-lg w-14 h-11 sm:w-16 sm:h-12 lg:w-20 lg:h-15" 
                     src="/log.png"
                     whileHover={{ 
@@ -603,7 +603,7 @@ const Footer = () => {
                 transition: { duration: 0.3 }
               }}
             >
-              © 2025 Barrisol Interior Solution. All rights reserved. | Your premium ceiling & interior partner
+              © 2025 TEXTILE BARRISOL STRETCH CEILING INDUSTRIES. All rights reserved. | Your premium ceiling & interior partner
             </motion.div>
             <motion.div 
               className="flex flex-wrap items-center justify-center md:justify-end text-gray-400 text-3xs xs:text-2xs sm:text-xs font-light"

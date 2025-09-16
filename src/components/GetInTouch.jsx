@@ -88,7 +88,7 @@ const GetInTouch = () => {
         </svg>
       ),
       label: "Company",
-      value: "Barrisol Interior Solution"
+      value: "TEXTILE BARRISOL STRETCH CEILING INDUSTRIES"
     },
     {
       icon: (

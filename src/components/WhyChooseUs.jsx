@@ -197,7 +197,7 @@ const WhyChooseUs = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.7, duration: 0.6 }}
           >
-            Barrisol Interior Solution - Creating immersive environments through cutting-edge ceiling, wall, flooring, and aqua art systems
+            TEXTILE BARRISOL STRETCH CEILING INDUSTRIES - Creating immersive environments through cutting-edge ceiling, wall, flooring, and aqua art systems
           </motion.p>
         </motion.div>
 

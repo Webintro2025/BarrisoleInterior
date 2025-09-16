@@ -73,7 +73,7 @@ const About = () => {
     return () => clearInterval(interval);
   }, [galleryImages.length]);
 
-  const text = "Barrisol Interior Solution";
+  const text = "TEXTILE BARRISOL STRETCH CEILING INDUSTRIES";
   const tabs = ['History', 'Mission', 'Vision'];
   
   // Animation variants for different sections
@@ -193,7 +193,7 @@ const About = () => {
           <div>
           <motion.img
             src="/About.jpeg"
-            alt="Barrisol Interior Solution - Premium Ceiling and Wall Solutions"
+            alt="TEXTILE BARRISOL STRETCH CEILING INDUSTRIES - Premium Ceiling and Wall Solutions"
             className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover pb-6 rounded-lg"
             initial={{ opacity: 0, scale: 1.1 }}
             whileInView={{ 
@@ -212,7 +212,7 @@ const About = () => {
           />
            <motion.img
             src="/CHANDELIER  TEXTILE  BARRISOL CEILING.png"
-            alt="Barrisol Interior Solution - Premium Ceiling and Wall Solutions"
+            alt="TEXTILE BARRISOL STRETCH CEILING INDUSTRIES - Premium Ceiling and Wall Solutions"
             className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg"
             initial={{ opacity: 0, scale: 1.1 }}
             whileInView={{ 
@@ -245,7 +245,7 @@ const About = () => {
             transition={{ delay: 0.5, duration: 0.6 }}
           >
             <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-1 sm:mb-2 bg-gradient-to-r from-red-400 to-blue-400 bg-clip-text text-transparent">
-              Barrisol Interior Solution
+              TEXTILE BARRISOL STRETCH CEILING INDUSTRIES
             </h3>
             <p className="text-xs sm:text-sm opacity-90">Premium Architectural Finishes</p>
           </motion.div>
@@ -262,7 +262,7 @@ const About = () => {
             transition={{ duration: 0.3 }}
           >
             <span className="bg-gradient-to-r from-red-600 to-blue-600 bg-clip-text text-transparent">
-              About Us – Barrisol Interior Solution
+              About Us – TEXTILE BARRISOL STRETCH CEILING INDUSTRIES
             </span>
             <motion.div 
               className="absolute bottom-0 left-0 h-[2px] bg-gradient-to-r from-red-600 to-blue-600 w-full"

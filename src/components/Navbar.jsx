@@ -179,7 +179,7 @@ const Navbar = () => {
                 ? 'bg-gradient-to-r from-red-600 to-blue-600 bg-clip-text text-transparent' 
                 : 'text-white'
             }`}
-            aria-label="Barrisol Interior Solution logo"
+            aria-label="TEXTILE BARRISOL STRETCH CEILING INDUSTRIES logo"
             variants={logoVariants}
             whileHover={{ 
               scale: 1.05,
@@ -192,9 +192,9 @@ const Navbar = () => {
               className="w-10 h-6 sm:w-12 sm:h-10 object-contain rounded shadow-md bg-white"
               style={{marginRight: 4}}
             />
-            <span className="block sm:hidden">TEXTILE BARRISOL</span>
-            <span className="hidden sm:block md:hidden">TEXTILE BARRISOL</span>
-            <span className="hidden md:block">TEXTILE BARRISOL</span>
+            <span className="block sm:hidden">TEXTILE BARRISOL STRETCH CEILING INDUSTRIES</span>
+            <span className="hidden sm:block md:hidden">TEXTILE BARRISOL STRETCH CEILING INDUSTRIES</span>
+            <span className="hidden md:block">TEXTILE BARRISOL STRETCH CEILING INDUSTRIES</span>
           </motion.div>
         </Link>
 

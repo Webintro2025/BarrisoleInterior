@@ -180,7 +180,7 @@ const Slides = () => {
               animate={{ opacity: 0.8, y: 0 }}
               transition={{ delay: 0.8, duration: 0.5 }}
             >
-              Innovative ceiling and interior solutions by Barrisol Interior Solution
+              Innovative ceiling and interior solutions by TEXTILE BARRISOL STRETCH CEILING INDUSTRIES
             </motion.p>
           </motion.div>
         </motion.div>
