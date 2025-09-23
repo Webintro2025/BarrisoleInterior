@@ -9,19 +9,19 @@ const HomeBanner = () => {
   const banners = [
     {
       id: 1,
+      image: "/banner11.jpeg", 
+      title: "From Ceilings to Floors",
+      subtitle: "We Create Living Art",
+      description: "Elegant and artistic designs perfect for premium home interiors and showrooms. Experience the beauty of architectural innovation.",
+      category: "Artistic Excellence"
+    },
+    {
+      id: 2,
       image: "/banner1.jpg",
       title: "Redefining Spaces",
       subtitle: "with 3D Ceilings, Walls & Floors",
       description: "Professional & modern solutions for luxury projects. Transform your space with our cutting-edge ceiling and interior technologies.",
       category: "Professional Solutions"
-    },
-    {
-      id: 2,
-      image: "/banner2.png", 
-      title: "From Ceilings to Floors",
-      subtitle: "We Create Living Art",
-      description: "Elegant and artistic designs perfect for premium home interiors and showrooms. Experience the beauty of architectural innovation.",
-      category: "Artistic Excellence"
     },
     {
       id: 3,
