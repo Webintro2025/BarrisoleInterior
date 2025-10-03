@@ -19,6 +19,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "TEXTILE BARRISOL STRETCH CEILING INDUSTRIES - Premium Ceiling Solutions",
   description: "Transform your space with premium stretch ceiling solutions. 3D, translucent, printed, and custom ceiling designs.",
+   verification: {
+    google: "Axf7utycwlLR7EZUA1V-r5UbyoYa_4zCquX5dmjtjq8", // ← Yeh line important hai
+  },
 };
 
 export default function RootLayout({ children }) {

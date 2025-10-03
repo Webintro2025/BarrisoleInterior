@@ -114,7 +114,7 @@ const Footer = () => {
                       transition: { duration: 3, repeat: Infinity, ease: "easeInOut" }
                     }}
                   />
-                  <motion.h1 
+                  <motion.h3
                     className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold" 
                     style={{fontFamily: 'Montserrat, sans-serif'}}
                     whileHover={{ 
@@ -130,7 +130,7 @@ const Footer = () => {
                     <span className="text-sm sm:text-base lg:text-lg bg-gradient-to-r from-blue-400 to-red-400 bg-clip-text text-transparent">
                       Solution
                     </span>
-                  </motion.h1>
+                  </motion.h3>
                 </motion.div>
               </Link>
               <motion.p 
