@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import ContactForm from './ContactForm';
 
 const GetInTouch = () => {
   const [formData, setFormData] = useState({
@@ -198,86 +199,7 @@ const GetInTouch = () => {
               </span>
             </h3>
 
-            <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-5 md:space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1 sm:mb-2">
-                  Full Name *
-                </label>
-                <motion.input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleInputChange}
-                  required
-                  className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-md sm:rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 text-sm sm:text-base"
-                  placeholder="Enter your full name"
-                  whileFocus={{ scale: 1.01 }}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="email" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1 sm:mb-2">
-                  Email Address *
-                </label>
-                <motion.input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleInputChange}
-                  required
-                  className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-md sm:rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 text-sm sm:text-base"
-                  placeholder="Enter your email address"
-                  whileFocus={{ scale: 1.01 }}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="phone" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1 sm:mb-2">
-                  Phone Number
-                </label>
-                <motion.input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleInputChange}
-                  className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-md sm:rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 text-sm sm:text-base"
-                  placeholder="Enter your phone number"
-                  whileFocus={{ scale: 1.01 }}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1 sm:mb-2">
-                  Message *
-                </label>
-                <motion.textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleInputChange}
-                  required
-                  rows={4}
-                  className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-md sm:rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 resize-none text-sm sm:text-base"
-                  placeholder="Tell us about your project requirements..."
-                  whileFocus={{ scale: 1.01 }}
-                />
-              </div>
-
-              <motion.button
-                type="submit"
-                className="w-full bg-gradient-to-r from-red-600 to-blue-600 text-white font-semibold py-3 sm:py-4 px-4 sm:px-6 rounded-md sm:rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 text-sm sm:text-base"
-                whileHover={{ 
-                  scale: 1.02,
-                  boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)"
-                }}
-                whileTap={{ scale: 0.98 }}
-              >
-                Send Message
-              </motion.button>
-            </form>
+            <ContactForm />
           </motion.div>
         </div>
 
@@ -296,7 +218,7 @@ const GetInTouch = () => {
             </p>
             <motion.a
               href="tel:9718921229"
-              className="inline-flex items-center gap-1.5 sm:gap-2 bg-white text-red-600 font-semibold py-2 sm:py-2.5 md:py-3 px-3 sm:px-4 md:px-6 rounded-md sm:rounded-lg hover:bg-gray-100 transition-all duration-300 text-xs sm:text-sm md:text-base"
+              className="inline-flex items-center gap-1.5 sm:gap-2 bg-white text-red-600 font-semibold py-2 sm:py-2.5 md:py-3 px-3 sm:px-4 md:px-6 rounded-md sm:rounded-lg hover:bg-gray-100 transition-all duration-300"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
             >

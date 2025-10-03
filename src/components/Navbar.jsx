@@ -10,8 +10,10 @@ import { CEILING_SERVICES } from '@/data/servicesData';
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
+  const [moreServicesDropdownOpen, setMoreServicesDropdownOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [hoverTimeout, setHoverTimeout] = useState(null);
+  const [moreServicesTimeout, setMoreServicesTimeout] = useState(null);
   const { scrollY } = useScroll();
   
   // Transform scroll position to background opacity
@@ -77,6 +79,7 @@ const Navbar = () => {
     { name: 'HOME', hasDropdown: false },
     { name: 'ABOUT US', hasDropdown: false },
     { name: 'SERVICES', hasDropdown: true },
+    { name: 'MORE SERVICES', hasDropdown: true },
     { name: 'CONTACT US', hasDropdown: false },
   ];
 
@@ -93,7 +96,13 @@ const Navbar = () => {
     { name: "RGBWW PIXEL ASIFTEXTILE BARRISOL  STRETCH CEILING", slug: "rgbww-pixel-asiftextile-barrisol-stretch-ceiling" },
   ];
 
-  // Handle dropdown hover effects
+  const moreServicesDropdownItems = [
+    { name: "TEXTILE STRETCH CEILING", slug: "textile-stretch-ceiling" },
+    { name: "TEXTILE BARRISOL FLOOR SOLUTION", slug: "textile-barrisol-floor-solution" },
+    { name: "TEXTILE BARRISOL WALL SOLUTION", slug: "textile-barrisol-wall-solution" },
+  ];
+
+  // Handle services dropdown hover effects
   const handleServicesHover = () => {
     if (hoverTimeout) {
       clearTimeout(hoverTimeout);
@@ -105,8 +114,24 @@ const Navbar = () => {
   const handleServicesLeave = () => {
     const timeout = setTimeout(() => {
       setServicesDropdownOpen(false);
-    }, 150); // Reduced delay for better UX
+    }, 150);
     setHoverTimeout(timeout);
+  };
+
+  // Handle more services dropdown hover effects
+  const handleMoreServicesHover = () => {
+    if (moreServicesTimeout) {
+      clearTimeout(moreServicesTimeout);
+      setMoreServicesTimeout(null);
+    }
+    setMoreServicesDropdownOpen(true);
+  };
+
+  const handleMoreServicesLeave = () => {
+    const timeout = setTimeout(() => {
+      setMoreServicesDropdownOpen(false);
+    }, 150);
+    setMoreServicesTimeout(timeout);
   };
 
   const handleDropdownEnter = () => {
@@ -118,6 +143,17 @@ const Navbar = () => {
 
   const handleDropdownLeave = () => {
     setServicesDropdownOpen(false);
+  };
+
+  const handleMoreServicesDropdownEnter = () => {
+    if (moreServicesTimeout) {
+      clearTimeout(moreServicesTimeout);
+      setMoreServicesTimeout(null);
+    }
+  };
+
+  const handleMoreServicesDropdownLeave = () => {
+    setMoreServicesDropdownOpen(false);
   };
 
   // Dropdown animation variants
@@ -170,7 +206,7 @@ const Navbar = () => {
       animate="visible"
       variants={navbarVariants}
     >
-      <div className="max-w-[1200px] mx-auto px-3 sm:px-4 md:px-5 h-14 sm:h-16 flex items-center justify-between">
+      <div className="mx-auto px-3 sm:px-4 md:px-5 h-14 sm:h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href="/">
           <motion.div
@@ -289,8 +325,8 @@ const Navbar = () => {
                     transition: { duration: 0.2 }
                   }}
                   whileTap={{ scale: 0.95 }}
-                  onMouseEnter={item.name === 'SERVICES' ? handleServicesHover : undefined}
-                  onMouseLeave={item.name === 'SERVICES' ? handleServicesLeave : undefined}
+                  onMouseEnter={item.name === 'SERVICES' ? handleServicesHover : item.name === 'MORE SERVICES' ? handleMoreServicesHover : undefined}
+                  onMouseLeave={item.name === 'SERVICES' ? handleServicesLeave : item.name === 'MORE SERVICES' ? handleMoreServicesLeave : undefined}
                 >
                   {item.name}
                   {item.hasDropdown && (
@@ -299,7 +335,7 @@ const Navbar = () => {
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
-                      animate={{ rotate: servicesDropdownOpen ? 180 : 0 }}
+                      animate={{ rotate: (item.name === 'SERVICES' && servicesDropdownOpen) || (item.name === 'MORE SERVICES' && moreServicesDropdownOpen) ? 180 : 0 }}
                       transition={{ duration: 0.2 }}
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -451,7 +487,70 @@ const Navbar = () => {
                           {servicesDropdownItems.map((service, serviceIndex) => (
                             <Link
                               key={serviceIndex}
-                              href={`/${service.slug}`}
+                              href={`/moreservice/${service.slug}`}
+                              onClick={() => setMobileMenuOpen(false)}
+                            >
+                              <motion.div
+                                className={`block px-2 py-1.5 rounded-md text-3xs font-medium transition-all duration-200 ${
+                                  isScrolled
+                                    ? 'text-gray-600 hover:bg-red-50 hover:text-red-600'
+                                    : 'text-gray-300 hover:bg-white/10 hover:text-red-300'
+                                }`}
+                                whileHover={{ x: 5 }}
+                                whileTap={{ scale: 0.98 }}
+                              >
+                                <span className="flex items-center">
+                                  <div className={`w-0.5 h-0.5 rounded-full mr-1.5 ${
+                                    isScrolled ? 'bg-red-500' : 'bg-white'
+                                  }`} />
+                                  {service.name}
+                                </span>
+                              </motion.div>
+                            </Link>
+                          ))}
+                        </div>
+                      </motion.div>
+                    </div>
+                  ) : item.name === 'MORE SERVICES' ? (
+                    <div>
+                      <motion.button
+                        onClick={() => setMoreServicesDropdownOpen(!moreServicesDropdownOpen)}
+                        className={`w-full flex items-center justify-between px-3 py-2 rounded-lg text-2xs font-medium transition-all duration-200 ${
+                          isScrolled
+                            ? 'text-gray-700 hover:bg-red-50 hover:text-red-600'
+                            : 'text-white hover:bg-white/10 hover:text-red-300'
+                        }`}
+                        whileHover={{ x: 5 }}
+                        whileTap={{ scale: 0.98 }}
+                      >
+                        <span>{item.name}</span>
+                        <motion.svg
+                          className="w-3 h-3"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          animate={{ rotate: moreServicesDropdownOpen ? 180 : 0 }}
+                          transition={{ duration: 0.2 }}
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </motion.svg>
+                      </motion.button>
+                      
+                      {/* Mobile More Services Dropdown */}
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ 
+                          height: moreServicesDropdownOpen ? 'auto' : 0,
+                          opacity: moreServicesDropdownOpen ? 1 : 0
+                        }}
+                        transition={{ duration: 0.3 }}
+                        className="overflow-hidden"
+                      >
+                        <div className="pl-3 pt-1 space-y-1">
+                          {moreServicesDropdownItems.map((service, serviceIndex) => (
+                            <Link
+                              key={serviceIndex}
+                              href={`/moreservice/${service.slug}`}
                               onClick={() => setMobileMenuOpen(false)}
                             >
                               <motion.div
@@ -512,7 +611,7 @@ const Navbar = () => {
             style={{
               left: '50%',
               transform: 'translateX(-50%)',
-              marginLeft: '120px' // Shifted more to the left
+              marginLeft: '50px'
             }}
             onMouseEnter={handleDropdownEnter}
             onMouseLeave={handleDropdownLeave}
@@ -534,7 +633,75 @@ const Navbar = () => {
                 {servicesDropdownItems.map((service, serviceIndex) => (
                   <Link
                     key={serviceIndex}
-                    href={`/${service.slug}`}
+                    href={`/moreservice/${service.slug}`}
+                    className="block"
+                  >
+                    <motion.div
+                      className={`block px-3 py-2 rounded-md text-[11px] xl:text-[13px] font-medium transition-all duration-200 cursor-pointer ${
+                        isScrolled
+                          ? 'text-gray-700 hover:bg-red-50 hover:text-red-600'
+                          : 'text-white hover:bg-white/10 hover:text-red-300'
+                      }`}
+                      variants={dropdownItemVariants}
+                      whileHover={{
+                        scale: 1.02,
+                        x: 3,
+                        backgroundColor: isScrolled ? 'rgba(239, 68, 68, 0.1)' : 'rgba(255, 255, 255, 0.1)',
+                        transition: { duration: 0.2 }
+                      }}
+                      whileTap={{ scale: 0.98 }}
+                    >
+                      <span className="flex items-center">
+                        <motion.div
+                          className={`w-1.5 h-1.5 rounded-full mr-2 ${
+                            isScrolled ? 'bg-red-500' : 'bg-white'
+                          }`}
+                          whileHover={{ scale: 1.3 }}
+                          transition={{ duration: 0.2 }}
+                        />
+                        {service.name}
+                      </span>
+                    </motion.div>
+                  </Link>
+                ))}
+              </motion.div>
+            </div>
+          </motion.div>
+        )
+      ))}
+
+      {/* More Services Dropdown for Desktop */}
+      {navItems.map((item, index) => (
+        item.name === 'MORE SERVICES' && (
+          <motion.div
+            key="more-services-dropdown"
+            className="hidden lg:block absolute top-full mt-1 z-50"
+            style={{
+              left: '50%',
+              transform: 'translateX(-50%)',
+              marginLeft: '200px'
+            }}
+            onMouseEnter={handleMoreServicesDropdownEnter}
+            onMouseLeave={handleMoreServicesDropdownLeave}
+            initial="hidden"
+            animate={moreServicesDropdownOpen ? "visible" : "hidden"}
+            variants={dropdownVariants}
+          >
+            <div className={`w-80 rounded-lg shadow-2xl border backdrop-blur-md p-4 ${
+              isScrolled 
+                ? 'bg-white/95 border-gray-200' 
+                : 'bg-black/80 border-white/20'
+            }`}>
+              <motion.div
+                className="grid grid-cols-1 gap-2"
+                variants={dropdownVariants}
+                initial="hidden"
+                animate={moreServicesDropdownOpen ? "visible" : "hidden"}
+              >
+                {moreServicesDropdownItems.map((service, serviceIndex) => (
+                  <Link
+                    key={serviceIndex}
+                    href={`/moreservice/${service.slug}`}
                     className="block"
                   >
                     <motion.div
