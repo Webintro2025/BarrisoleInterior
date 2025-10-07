@@ -13,7 +13,7 @@ const MoreServices =
       },
       {
         "name": "TRANSLUCENT TEXTILE STRETCH CEILING",
-        "image": "TRANSLUCENT TEXTILE STRETCH CEILING.png"
+        "image": "TEXTILE BARRISOL TRANSLUCENT STRETCH CEILING.png"
       },
       {
         "name": "CHANDELIER TEXTILE CEILING BY ASIF ALI",
@@ -21,7 +21,7 @@ const MoreServices =
       },
       {
         "name": "TEXTILE HOSPITAL STRETCH CEILING",
-        "image": "TEXTILE HOSPITAL STRETCH CEILING.png"
+        "image": "TEXTILE DENTAL CLINIC STRETCH CEILING.png"
       },
       {
         "name": "TEXTILE HOTEL STRETCH CEILING",
@@ -29,19 +29,19 @@ const MoreServices =
       },
       {
         "name": "TEXTILE SWIMMING POOL STRETCH CEILING",
-        "image": "TEXTILE SWIMMING POOL STRETCH CEILING.png"
+        "image": "TEXTILE SWIMMING POOL STRETCH CEILING BY ASIF ALI.png"
       },
       {
         "name": "TEXTILE CAFE STRETCH CEILING",
-        "image": "TEXTILE CAFE STRETCH CEILING.png"
+        "image": "TEXTILE CAFE  STRETCH CEILING.png"
       },
       {
         "name": "TEXTILE GYM STRETCH CEILING",
-        "image": "TEXTILE GYM STRETCH CEILING.png"
+        "image": "TEXTILE GYM  STRETCH CEILING.png"
       },
       {
         "name": "TEXTILE MALL STRETCH CEILING",
-        "image": "TEXTILE MALL STRETCH CEILING.png"
+        "image": "TEXTILE MALL  STRETCH CEILING.png"
       },
       {
         "name": "TEXTILE AUDITORIUM STRETCH CEILING",
@@ -57,15 +57,15 @@ const MoreServices =
       },
       {
         "name": "TEXTILE RESIDENCE STRETCH CEILING",
-        "image": "TEXTILE RESIDENCE STRETCH CEILING.png"
+        "image": "TEXTILE RESIDENCE   STRETCH CEILING.png"
       },
       {
         "name": "TEXTILE COMMERCIAL STRETCH CEILING",
-        "image": "TEXTILE COMMERCIAL STRETCH CEILING.png"
+        "image": "TEXTILE COMMERCIAL    STRETCH CEILING.png"
       },
       {
         "name": "TEXTILE FLAT STRETCH CEILING",
-        "image": "TEXTILE FLAT STRETCH CEILING.png"
+        "image": "TEXTILE FLAT    STRETCH CEILING.png"
       },
       {
         "name": "TEXTILE STUDIO STRETCH CEILING",
@@ -73,11 +73,11 @@ const MoreServices =
       },
       {
         "name": "TEXTILE SALON SPA STRETCH CEILING",
-        "image": "TEXTILE SALON SPA STRETCH CEILING.png"
+        "image": "TEXTILE SALON PARLOURS STRETCH CEILING.png"
       },
       {
         "name": "TEXTILE SHOWROOM STRETCH CEILING",
-        "image": "TEXTILE SHOWROOM STRETCH CEILING.png"
+        "image": "TEXTILE SHOWROOM  STRETCH CEILING.png"
       },
       {
         "name": "TEXTILE CLUB STRETCH CEILING",
@@ -87,10 +87,10 @@ const MoreServices =
         "name": "TEXTILE BAR STRETCH CEILING",
         "image": "TEXTILE BAR STRETCH CEILING.png"
       },
-      {
-        "name": "TEXTILE KIDS ROOM STRETCH CEILING",
-        "image": "TEXTILE KIDS ROOM STRETCH CEILING.png"
-      },
+      // {
+      //   "name": "TEXTILE KIDS ROOM STRETCH CEILING",
+      //   "image": "TEXTILE KIDS ROOM STRETCH CEILING.png"
+      // },
       {
         "name": "TEXTILE AIRPORT STRETCH CEILING",
         "image": "TEXTILE AIRPORT STRETCH CEILING.png"
@@ -99,10 +99,10 @@ const MoreServices =
         "name": "TEXTILE DENTAL CLINIC STRETCH CEILING",
         "image": "TEXTILE DENTAL CLINIC STRETCH CEILING.png"
       },
-      {
-        "name": "TEXTILE EXHIBITION STRETCH CEILING",
-        "image": "TEXTILE EXHIBITION STRETCH CEILING.png"
-      },
+      // {
+      //   "name": "TEXTILE EXHIBITION STRETCH CEILING",
+      //   "image": "TEXTILE EXHIBITION STRETCH CEILING.png"
+      // },
       {
         "name": "TEXTILE VILLA STRETCH CEILING",
         "image": "TEXTILE VILLA STRETCH CEILING.png"
@@ -129,47 +129,47 @@ const MoreServices =
       },
       {
         "name": "3D TEXTILE STRETCH CEILING IMPOR...",
-        "image": "TEXTILE 3D STRETCH CEILING IMPOR.png"
+        "image": "3D TEXTILE STRETCH CEILING IMPORTER & EXPORTER.png"
       },
       {
         "name": "3D TEXTILE STRETCH CEILING INSTAL...",
-        "image": "TEXTILE 3D STRETCH CEILING INSTAL.png"
+        "image": "3D TEXTILE STRETCH CEILING INSTALLATION  TRANING COURSE.png"
       },
       {
         "name": "A Textile Barrisol Uv Xy 5 Lair printing stretch ...",
-        "image": "TEXTILE BARRISOL UV XY 5 LAIR PRINTING STRETCH CEILING.png"
+        "image": "A Textile Barrisol Uv Xv 5 Lair printing stretch ceiling.png"
       },
       {
         "name": "3D TEXTILE STRETCH CEILING PROFIL...",
-        "image": "TEXTILE 3D STRETCH CEILING PROFIL.png"
+        "image": "3D TEXTILE STRETCH CEILING PROFILE HARPOON.png"
       },
       {
         "name": "3D TEXTILE STRETCH CEILING",
-        "image": "TEXTILE 3D STRETCH CEILING.png"
+        "image": "3D TRANSLUCENT  STRETCH CEILING BY ASIF ALI.png"
       },
       {
         "name": "3D TEXTILE GALAXY STAR STRETCH CEIL...",
-        "image": "TEXTILE 3D GALAXY STAR STRETCH CEILING.png"
+        "image": "TEXTILE GALAXY STAR  STRETCH CEILING.png"
       },
       {
         "name": "3D TEXTILE KITCHEN STRETCH CEILIN...",
-        "image": "TEXTILE 3D KITCHEN STRETCH CEILING.png"
+        "image": "A Textile Barrisol kitchen stretch ceiling.png"
       },
       {
         "name": "A Textile Barrisol virtual window and ceiling",
-        "image": "TEXTILE BARRISOL VIRTUAL WINDOW AND CEILING.png"
+        "image": "A Textile Barrisol virtual window and ceiling.png"
       },
       {
         "name": "3D TEXTILE BARRISOL BACKLIT 2X2 PA...",
-        "image": "TEXTILE 3D BARRISOL BACKLIT 2X2 PANEL.png"
+        "image": "TEXTILE BARRISOL BACKLIT TILES BY ASIF ALI.png"
       },
       {
         "name": "3D TEXTILE FABRIC WAVE FABRIC CEILING",
-        "image": "TEXTILE 3D FABRIC WAVE FABRIC CEILING.png"
+        "image": "3D TEXTILE WAVE FABRIC CEILING.png"
       },
       {
         "name": "3D TEXTILE MARBLE STRETCH CEILING",
-        "image": "TEXTILE 3D MARBLE STRETCH CEILING.png"
+        "image": "3D TEXTILE BARRISOL MARBLE STRETCH  CEILING.png"
       },
       {
         "name": "TEXTILE BARRISOL CLOUD STRETCH...",
@@ -185,15 +185,15 @@ const MoreServices =
       },
       {
         "name": "TEXTILE BARRISOL OFFICE CONFERENCE",
-        "image": "TEXTILE BARRISOL OFFICE CONFERENCE.png"
+        "image": "TEXTILE OFFICE STRETCH CEILING.png"
       },
       {
         "name": "TEXTILE BARRISOL SHOPPING COM...",
-        "image": "TEXTILE BARRISOL SHOPPING COMMERCE.png"
+        "image": "TEXTILE BARRISOL SHOPING COMPLEX STRETCH CEILING.png"
       },
       {
         "name": "TEXTILE BARRISOL BANQUET HALL",
-        "image": "TEXTILE BARRISOL BANQUET HALL.png"
+        "image": "TEXTILE BARRISOL BANQUET HALL STRETCH CEILING.png"
       },
       {
         "name": "TEXTILE BARRISOL SUPER MARKET STRETCH CEILING",
@@ -201,19 +201,19 @@ const MoreServices =
       },
       {
         "name": "TEXTILE BARRISOL NEAR ME STRETCH CEILING",
-        "image": "TEXTILE BARRISOL NEAR ME STRETCH CEILING.png"
+        "image": "TEXTILE BARRISOL  NEAR ME STRETCH CEILING.png"
       },
       {
         "name": "TEXTILE BARRISOL INDIAMART STRETCH CEILING",
-        "image": "TEXTILE BARRISOL INDIAMART STRETCH CEILING.png"
+        "image": "TEXTILE BARRISOL  INDIAMART STRETCH CEILING.png"
       },
       {
         "name": "TEXTILE BARRISOL FLEX CANVAS STRETCH CEILING",
-        "image": "TEXTILE BARRISOL FLEX CANVAS STRETCH CEILING.png"
+        "image": "TEXTILE BARRISOL  FLEX CANVAS  STRETCH CEILING.png"
       },
       {
         "name": "TEXTILE BARRISOL ROYAL STRETCH CEILING",
-        "image": "TEXTILE BARRISOL ROYAL STRETCH CEILING.png"
+        "image": "TEXTILE BARRISOL  ROYAL STRETCH CEILING.png"
       },
       {
         "name": "TEXTILE BARRISOL ROMAN STRETCH CEILING",
@@ -221,7 +221,7 @@ const MoreServices =
       },
       {
         "name": "TEXTILE BARRISOL TEXTURE PARTITION",
-        "image": "TEXTILE BARRISOL TEXTURE PARTITION.png"
+        "image": "TEXTILE BARRISOL TEXTURE PARTTEN STRETCH CEILING.png"
       },
       {
         "name": "TEXTILE BARRISOL YOGA STRETCH CEILING",
@@ -229,23 +229,20 @@ const MoreServices =
       },
       {
         "name": "TEXTILE BARRISOL Mandir Masjid...",
-        "image": "TEXTILE BARRISOL Mandir Masjid.png"
+        "image": "TEXTILE BARRISOL Mandir  Masjid Church  Gurudwara stretch ceiling.png"
       },
       {
         "name": "TEXTILE BARRISOL AQUA STRETCH CEILING",
-        "image": "TEXTILE BARRISOL AQUA STRETCH CEILING.png"
+        "image": "TEXTILE BARRISOL AQUA  STRETCH CEILING.png"
       },
       {
         "name": "TEXTILE BARRISOL FLORAL STRETCH CEILING",
-        "image": "TEXTILE BARRISOL FLORAL STRETCH CEILING.png"
+        "image": "TEXTILE BARRISOL FLORAL  STRETCH CEILING.png"
       },
-      {
-        "name": "TEXTILE BARRISOL TRANDING VIR...",
-        "image": "TEXTILE BARRISOL TRANDING VIRTUAL WINDOW AND CEILING.png"
-      },
+   
       {
         "name": "TEXTILE BARRISOL LED STRETCH CEILI...",
-        "image": "TEXTILE BARRISOL LED STRETCH CEILING.png"
+        "image": "TEXTILE BARRISOL LED stretch ceilings by Asif Ali.png"
       },
       {
         "name": "TEXTILE BARRISOL DALI TUNABLE STRETCH CEILING",
@@ -253,27 +250,27 @@ const MoreServices =
       },
       {
         "name": "TEXTILE BARRISOL MADRIX DMX S...",
-        "image": "TEXTILE BARRISOL MADRIX DMX S.png"
+        "image": "BARRISOL MADRIX DMX STRETCH CEILING.png"
       },
-      {
-        "name": "TEXTILE BARRISOL FIBER OPTIC CEILING",
-        "image": "TEXTILE BARRISOL FIBER OPTIC CEILING.png"
-      },
+      // {
+      //   "name": "TEXTILE BARRISOL FIBER OPTIC CEILING",
+      //   "image": "TEXTILE BARRISOL FABRIC CEILING.png"
+      // },
       {
         "name": "TEXTILE BARRISOL FIBER OPTIC MESH CEILING",
-        "image": "TEXTILE BARRISOL FIBER OPTIC MESH CEILING.png"
+        "image": "TEXTILE BARRIOSL FIBER OPTIC MESH CEILING.png"
       },
       {
         "name": "TEXTILE BARRISOL MURAL PAINTING",
-        "image": "TEXTILE BARRISOL MURAL PAINTING.png"
+        "image": "TEXTILE MURAL ART WALL & CEILING.png"
       },
       {
         "name": "TEXTILE BARRISOL LED FRILL CEILING",
-        "image": "TEXTILE BARRISOL LED FRILL CEILING.png"
+        "image": "TEXTILE BARRIOSL LED  FRILL CEILING.png"
       },
       {
         "name": "TEXTILE BARRISOL LIVE CLOUD CEILING",
-        "image": "TEXTILE BARRISOL LIVE CLOUD CEILING.png"
+        "image": "TEXTILE BARRISOL  LIVE CLOUD CEILING1.png"
       }
     ]
   }
@@ -284,7 +281,7 @@ const MoreServices =
     "Products": [
         {
             "name": "TEXTILE BARRISOL METALLIC EPOXY FLOORING",
-            "image": "TEXTILE BARRISOL METALLIC EPOXY FLOORING.png"
+            "image": "TEXTILE BARRISOL METALLIC   EPOXY FLOORING.png"
             },
         {
             "name": "TEXTILE BARRISOL 3D EPOXY FLOORING",
@@ -300,14 +297,14 @@ const MoreServices =
             "name": "TEXTILE BARRISOL 3D PRINTED PANORMA ART",
             "image": "TEXTILE BARRISOL 3D PRINTED PANORMA ART.png"
         },
-        {
-            "name": "TEXTILE BARRISOL 3D PRINTED BACKLIT PILLAR",
-            "image": "TEXTILE BARRISOL 3D PRINTED BACKLIT PILLAR.png"
-        },
-        {
-            "name": "Textile Barrisol 3D printing on acrylic",
-            "image": "TEXTILE BARRISOL 3D PRINTING ON ACRYLIC.png"
-        },
+        // {
+        //     "name": "TEXTILE BARRISOL 3D PRINTED BACKLIT PILLAR",
+        //     "image": "TEXTILE BARRISOL 3D PRINTED BACKLIT PILLAR.png"
+        // },
+        // {
+        //     "name": "Textile Barrisol 3D printing on acrylic",
+        //     "image": "TEXTILE BARRISOL 3D PRINTING ON ACRYLIC.png"
+        // },
         {
             "name": "TEXTILE BARRISOL 3D WALL MURAL",
             "image": "TEXTILE BARRISOL 3D WALL MURAL.png"
