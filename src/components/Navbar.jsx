@@ -114,7 +114,7 @@ const Navbar = () => {
   const handleServicesLeave = () => {
     const timeout = setTimeout(() => {
       setServicesDropdownOpen(false);
-    }, 150);
+    }, 300); // Delay of 300ms before closing
     setHoverTimeout(timeout);
   };
 
@@ -130,7 +130,7 @@ const Navbar = () => {
   const handleMoreServicesLeave = () => {
     const timeout = setTimeout(() => {
       setMoreServicesDropdownOpen(false);
-    }, 150);
+    }, 300); // Delay of 300ms before closing
     setMoreServicesTimeout(timeout);
   };
 
@@ -633,7 +633,7 @@ const Navbar = () => {
                 {servicesDropdownItems.map((service, serviceIndex) => (
                   <Link
                     key={serviceIndex}
-                    href={`/moreservice/${service.slug}`}
+                    href={`/${service.slug}`}
                     className="block"
                   >
                     <motion.div
