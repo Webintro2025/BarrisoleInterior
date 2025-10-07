@@ -114,7 +114,7 @@ const Navbar = () => {
   const handleServicesLeave = () => {
     const timeout = setTimeout(() => {
       setServicesDropdownOpen(false);
-    }, 300); // Delay of 300ms before closing
+    }, 400); // Delay of 400ms before closing
     setHoverTimeout(timeout);
   };
 
@@ -130,7 +130,7 @@ const Navbar = () => {
   const handleMoreServicesLeave = () => {
     const timeout = setTimeout(() => {
       setMoreServicesDropdownOpen(false);
-    }, 300); // Delay of 300ms before closing
+    }, 400); // Delay of 400ms before closing
     setMoreServicesTimeout(timeout);
   };
 
