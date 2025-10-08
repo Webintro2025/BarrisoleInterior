@@ -4431,6 +4431,7 @@ const ServicesDetails = [
       "query": "Live cloud ceiling spa or wellness center ambiance",
       "description": "A soothing interior with a dynamic sky ceiling used for relaxation."
     }
+    
   ]
 },
 {

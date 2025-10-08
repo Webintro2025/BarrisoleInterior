@@ -17,7 +17,7 @@ const HomeBanner = () => {
     },
     {
       id: 2,
-      image: "/banner1.jpg",
+      image: "  /banner4.png",
       title: "Redefining Spaces",
       subtitle: "with 3D Ceilings, Walls & Floors",
       description: "Professional & modern solutions for luxury projects. Transform your space with our cutting-edge ceiling and interior technologies.",
@@ -25,11 +25,63 @@ const HomeBanner = () => {
     },
     {
       id: 3,
-      image: "/banner3.jpeg",
+      image: "/banner5.png",
       title: "India's Most Trusted",
       subtitle: "Name in Stretch Ceilings & Epoxy Floors",
       description: "Building trust through quality craftsmanship and innovative solutions. Your premier destination for interior transformation.",
       category: "Trusted Partner"
+    }
+    
+    ,
+    
+    {
+      id: 4,
+      image: "/banner7.png",
+      title: "Elevate Your Interiors",
+      subtitle: "with Barrisol & More",
+      description: "Discover premium interior solutions with Barrisol stretch ceilings, 3D walls, and epoxy floors. Elevate your space with elegance and innovation.",
+      category: "Elevated Interiors"
+
+    },
+    {
+
+      id: 5,
+      image: "/banner8.png",
+      title: "Transforming Spaces",
+      subtitle: "with Barrisol & More",
+      description: "Discover the art of interior transformation with Barrisol stretch ceilings, 3D walls, and epoxy floors. Elevate your space today.",
+      category: "Interior Excellence"
+
+    }
+,
+    {
+      id: 9,
+      image: "/banner1.jpg ",
+      title: "Innovate Your Interiors",
+      subtitle: "with Barrisol & More",
+      description: "Explore cutting-edge interior solutions with Barrisol stretch ceilings, 3D walls, and epoxy floors. Transform your space today.",
+      category: "Innovative Solutions"
+    
+    },
+
+
+    {
+
+      id: 10,
+      image: "/banner3.jpeg",
+      title: "Transforming Spaces",
+      subtitle: "with Barrisol & More",
+      description: "Discover the art of interior transformation with Barrisol stretch ceilings, 3D walls, and epoxy floors. Elevate your space today.",
+      category: "Interior Excellence"
+    }
+    ,
+    {
+      id: 6,
+      image: "/banner6.png",
+      title: "Elevate Your Environment",
+      subtitle: "with Premium Interior Solutions",
+      description: "Transform your living and working spaces with our expert interior solutions. From ceilings to floors, we bring your vision to life.",
+      category: "Premium Interiors"
     }
   ];
 
