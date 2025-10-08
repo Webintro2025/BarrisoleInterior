@@ -4548,7 +4548,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Barrisol 3D Printing Panorama Art (by Asif Ali)",
-  "slug":"TEXTILE BARRISOL 3D PRINTED PANORAMA ART",
+  "slug":"textile-barrisol-3d-printed-panorma-art",
   "description": "An innovative interior solution that uses 3D printing technology to create wide-angle, immersive artworks or wall pieces with depth and texture, ideal for large-scale, lifelike wall and interior features.",
   "product_details": {
     "developer": "Asif Ali",
