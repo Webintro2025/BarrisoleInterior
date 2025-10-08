@@ -1,6 +1,7 @@
 const ServicesDetails = [
     {
   "title": "Asiftextile Barrisol Ceiling System and Industry",
+  "slug":"ASIFTEXTILE BARRISOL STRETCH CEILING",
   "description": "A modern ceiling system made from high-quality fabric stretched over a frame, replacing traditional false ceilings.",
   "product_details": {
     "type": "Modern Ceiling System",
@@ -88,6 +89,7 @@ const ServicesDetails = [
 ,
 {
   "title": "ASIF Stretch Ceiling Systems and Advanced Lighting Solutions",
+  "slug":"TRANSLUCENT TEXTILE STRETCH CEILING",
   "description": "ASIF Stretch Ceiling is a modern decorative ceiling system made from a special PVC or textile membrane, replacing traditional false ceilings with a sleek, durable, and customizable design.",
   "product_details": {
     "material": "Special PVC or textile membrane",
@@ -269,6 +271,7 @@ const ServicesDetails = [
 },
 {
   "title": "ASIF Advanced Stretch Ceiling Systems: 3D Translucent, Dimming/Tunable, and RGBW",
+  "slug":"3D PRINTED STRETCH CEILING BY ASIF ALI",
   "description": "Modern interior design solutions by Asif Ali that combine stretch ceiling technology with advanced, smart lighting for aesthetic appeal, functional illumination, and customizable ambiance.",
   "ceiling_systems": [
     {
@@ -373,6 +376,7 @@ const ServicesDetails = [
 ,
 {
   "title": "CHANDELIER TEXTILE CEILING (ASIF ACRYLIC CEILING) by Asif Ali",
+  "slug":"CHANDELIER TEXTILE CEILING BY ASIF ALI",
   "description": "A type of stretch ceiling system made from polyurethane-coated acrylic fabric, serving as a modern, stylish, and practical alternative to traditional false ceilings and PVC stretch ceilings.",
   "product_details": {
     "common_name": "Asif Acrylic Ceiling",
@@ -448,6 +452,7 @@ const ServicesDetails = [
 },
 {
   "title": "ASIF Stretch Ceiling Systems for Healthcare and Smart Lighting",
+  "slug":"TEXTILE HOSPITAL STRETCH CEILING",
   "description": "A breakdown of Asif Ali's specialized Textile Hospital Stretch Ceiling and advanced lighting solutions (Dimming/Tunable and RGBW) for hygienic, aesthetic, and functional interiors.",
   "ceiling_systems": [
     {
@@ -552,6 +557,7 @@ const ServicesDetails = [
 },
 {
   "title": "ASIF Stretch Ceiling Systems for Hospitality and Smart Lighting",
+  "slug":"TEXTILE HOTEL STRETCH CEILING",
   "description": "A detailed breakdown of Asif Ali's Textile Hotel Stretch Ceiling system and associated smart lighting solutions (Dimming/Tunable and RGBW) designed for luxurious, functional, and customizable hospitality interiors.",
   "ceiling_systems": [
     {
@@ -655,6 +661,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Swimming Pool Stretch Ceiling by Asif Ali",
+  "slug":"TEXTILE SWIMMING POOL STRETCH CEILING",
   "description": "A modern ceiling solution specifically designed for indoor swimming pools, spas, and wellness areas, combining aesthetic appeal, durability, and essential moisture/chemical resistance.",
   "product_details": {
     "developer": "Asif Ali",
@@ -715,6 +722,7 @@ const ServicesDetails = [
 },
 {
   "title": "ASIF Stretch Ceiling Systems for Cafés and Smart Lighting Control",
+  "slug":"TEXTILE CAFE STRETCH CEILING",
   "description": "A detailed overview of the Textile Café Stretch Ceiling for enhancing hospitality ambiance, alongside the capabilities of Asif Ali's Dimming/Tunable and RGBW smart lighting stretch ceilings.",
   "ceiling_systems": [
     {
@@ -801,6 +809,7 @@ const ServicesDetails = [
 },
 {
   "title": "ASIF Stretch Ceiling Systems for Fitness and Smart Lighting Solutions",
+  "slug":"TEXTILE GYM STRETCH CEILING",
   "description": "A comprehensive overview of the Textile Gym Stretch Ceiling, designed for durability and hygiene in fitness centers, along with Asif Ali's advanced smart lighting solutions (Dimming/Tunable and RGBW).",
   "ceiling_systems": [
     {
@@ -888,6 +897,7 @@ const ServicesDetails = [
 
 {
   "title": "ASIF Stretch Ceiling Systems for Malls and Commercial Smart Lighting",
+  "slug":"TEXTILE MALL STRETCH CEILING",
   "description": "A review of the Textile Mall Stretch Ceiling for large-scale commercial design, alongside Asif Ali's Dimming/Tunable and RGBW smart lighting solutions for retail and public spaces.",
   "ceiling_systems": [
     {
@@ -976,6 +986,7 @@ const ServicesDetails = [
 
 {
   "title": "ASIF Stretch Ceiling Systems for Auditoriums and Smart Lighting Control",
+  "slug":"TEXTILE AUDITORIUM STRETCH CEILING",
   "description": "A comprehensive summary of the Textile Auditorium Stretch Ceiling, focusing on acoustic and design enhancement for large public venues, alongside Asif Ali's Dimming/Tunable and RGBW smart lighting solutions.",
   "ceiling_systems": [
     {
@@ -1059,6 +1070,7 @@ const ServicesDetails = [
 },
 {
   "title": "ASIF Stretch Ceiling Systems for Museums and Cultural Spaces",
+  "slug":"TEXTILE MUSEUM STRETCH CEILING",
   "description": "An analysis of the Textile Museum Stretch Ceiling, designed for cultural preservation and visitor engagement, along with Asif Ali's Dimming/Tunable and RGBW smart lighting solutions, critical for exhibit illumination.",
   "ceiling_systems": [
     {
@@ -1137,6 +1149,7 @@ const ServicesDetails = [
 },
 {
   "title": "ASIF Stretch Ceiling Systems for Offices and Smart Lighting Solutions",
+  "slug":"TEXTILE OFFICE STRETCH CEILING",
   "description": "A detailed look at the Textile Office Stretch Ceiling, designed to boost workplace aesthetics and productivity, complemented by Asif Ali's Dimming/Tunable and RGBW smart lighting technology.",
   "ceiling_systems": [
     {
@@ -1215,6 +1228,7 @@ const ServicesDetails = [
 
 {
   "title": "ASIF Stretch Ceiling Systems for Residences and Smart Home Lighting",
+  "slug":"TEXTILE RESIDENCE STRETCH CEILING",
   "description": "A review of the Textile Residence Stretch Ceiling, emphasizing style, durability, and functionality for modern homes, along with Asif Ali's Dimming/Tunable and RGBW smart lighting solutions.",
   "ceiling_systems": [
     {
@@ -1302,6 +1316,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Commercial Stretch Ceiling",
+  "slug":"TEXTILE COMMERCIAL STRETCH CEILING",
   "description": "A modern and versatile ceiling solution designed for business and commercial spaces, offering both aesthetic appeal and functional benefits using a PVC or polyester fabric membrane stretched on a lightweight aluminum profile.",
   "product_details": {
     "material": "PVC or polyester fabric membrane",
@@ -1393,6 +1408,7 @@ const ServicesDetails = [
 
 {
   "title": "Textile Flat Stretch Ceiling System",
+  "slug": "TEXTILE FLAT STRETCH CEILING",
   "description": "A modern, minimalistic ceiling solution made from a PVC or polyester fabric membrane stretched tightly across a perimeter profile, creating a perfectly smooth and even surface.",
   "product_details": {
     "material": "PVC or polyester fabric membrane",
@@ -1453,6 +1469,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Studio Stretch Ceiling System",
+  "slug":"TEXTILE STUDIO STRETCH CEILING",
   "description": "A modern ceiling solution designed to enhance the aesthetics, functionality, and acoustics of creative spaces such as photography, film, music, recording, and design studios.",
   "product_details": {
     "material": "PVC or polyester membrane",
@@ -1531,6 +1548,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Salon, Parlour & Spa Stretch Ceiling System",
+  "slug":"TEXTILE SALON SPA STRETCH CEILING",
   "description": "A modern ceiling solution designed to enhance the luxury, comfort, and ambiance of beauty and wellness spaces using a durable, customizable fabric or PVC membrane.",
   "product_details": {
     "target_spaces": [
@@ -1611,6 +1629,7 @@ const ServicesDetails = [
 
 {
   "title": "Textile Showroom Stretch Ceiling System",
+  "slug":"TEXTILE SHOWROOM STRETCH CEILING",
   "description": "A modern ceiling solution designed to enhance the look and feel of retail and display areas, creating a luxurious, professional, and attractive atmosphere that highlights products and improves customer experience.",
   "product_details": {
     "material": "PVC or polyester fabric membrane",
@@ -1677,6 +1696,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Club Stretch Ceiling System",
+  "slug":"TEXTILE CLUB STRETCH CEILING",
   "description": "A modern ceiling solution specifically designed for nightclubs, lounges, and entertainment spaces to enhance ambiance, lighting, and design using PVC or textile fabric sheets stretched across a lightweight frame.",
   "product_details": {
     "material": "PVC or textile fabric sheets",
@@ -1742,6 +1762,7 @@ const ServicesDetails = [
 
 {
   "title": "Textile Bar Stretch Ceiling System",
+  "slug":"TEXTILE BAR STRETCH CEILING",
   "description": "A modern ceiling solution specially designed for bars, lounges, and nightlife spaces to create a stylish, vibrant, and functional environment through versatile design and custom lighting integration.",
   "product_details": {
     "material": "PVC or textile fabric membrane",
@@ -1801,6 +1822,7 @@ const ServicesDetails = [
 
 {
   "title": "Textile Kids Room Stretch Ceiling System",
+  "slug":"TEXTILE KIDS ROOM STRETCH CEILING",
   "description": "A creative and safe ceiling solution designed to make children’s spaces (bedrooms, playrooms, study areas) more vibrant, fun, and functional using high-quality PVC or textile membranes.",
   "product_details": {
     "material": "High-quality PVC or textile membranes",
@@ -1872,6 +1894,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Airport Stretch Ceiling System",
+  "slug":"TEXTILE AIRPORT STRETCH CEILING",
   "description": "A modern architectural solution designed to enhance the aesthetics, lighting, and functionality of airport interiors using a flexible PVC or textile membrane stretched across a lightweight frame.",
   "product_details": {
     "material": "Flexible PVC or textile membrane",
@@ -1938,6 +1961,7 @@ const ServicesDetails = [
 
 {
   "title": "Textile Dental Clinic Stretch Ceiling System",
+  "slug":"TEXTILE DENTAL CLINIC STRETCH CEILING",
   "description": "A modern, hygienic, and stylish ceiling solution designed to create a calm and professional environment in dental clinics, combining aesthetic appeal with essential practicality for patient comfort.",
   "product_details": {
     "material": "PVC or textile fabric membrane",
@@ -1996,6 +2020,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Exhibition Stretch Ceiling System",
+  "slug":"TEXTILE EXHIBITION STRETCH CEILING",
   "description": "A modern ceiling solution widely used in trade shows, expos, art galleries, and display areas to create an impressive visual impact by combining functionality with aesthetics.",
   "product_details": {
     "material": "PVC or textile fabric membrane",
@@ -2055,6 +2080,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Villa Stretch Ceiling System",
+  "slug":"TEXTILE VILLA STRETCH CEILING",
   "description": "A modern ceiling solution designed to enhance the luxury, elegance, and comfort of villa interiors using a high-quality PVC or textile membrane stretched across a lightweight frame.",
   "product_details": {
     "material": "High-quality PVC or textile membrane",
@@ -2130,6 +2156,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Car Showroom Stretch Ceiling System",
+  "slug":"TEXTILE AUTOMOBILE STRETCH CEILING",
   "description": "A modern and stylish ceiling solution designed to enhance the visual appeal, lighting, and atmosphere of automobile showrooms by combining high functionality with premium aesthetics.",
   "product_details": {
     "material": "PVC or textile fabric membrane",
@@ -2189,6 +2216,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Bathroom Stretch Ceiling System",
+  "slug":"TEXTILE BATHROOM STRETCH CEILING",
   "description": "A modern ceiling solution made from a PVC or polyester fabric membrane stretched across a lightweight frame, highly popular in bathrooms due to its moisture resistance, durability, and design flexibility.",
   "product_details": {
     "material": "PVC or polyester fabric membrane",
@@ -2265,6 +2293,7 @@ const ServicesDetails = [
 ,
 {
   "title": "Textile Retail Showroom Stretch Ceiling System",
+  "slug":"TEXTILE RETAIL SHOWROOM STRETCH CEILING",
   "description": "A modern ceiling solution used to enhance the shopping experience by combining aesthetic appeal, lighting flexibility, and durability for various retail environments.",
   "product_details": {
     "material": "PVC or textile fabric membrane",
@@ -2336,6 +2365,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Dome Stretch Ceiling System",
+  "slug":"TEXTILE DOME STRETCH CEILING",
   "description": "A specialized ceiling design where a stretch ceiling membrane (PVC or polyester fabric) is shaped into a curved, dome-like form, creating a dramatic architectural feature that adds height, depth, and luxury to a space.",
   "product_details": {
     "material": "PVC or polyester fabric membrane",
@@ -2398,6 +2428,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Round Shape Stretch Ceiling System",
+  "slug":"TEXTILE ROUND SHAPE STRETCH CEILING",
   "description": "A modern ceiling design where the stretch fabric (usually PVC or polyester) is installed in a circular or oval form, creating a smooth, seamless, and elegant appearance in interiors.",
   "product_details": {
     "material": "PVC or polyester fabric membrane",
@@ -2458,6 +2489,7 @@ const ServicesDetails = [
 },
 {
   "title": "TEXTILE Import and Export of Stretch Ceilings by Asif Ali: Global Trade Overview",
+  "slug":"TEXTILE IMPORT EXPORT STRETCH CEILING",
   "description": "A structured overview of the international trade process for stretch ceiling systems, highlighting key products, global suppliers, regulatory requirements, and export strategies.",
   "import_details": {
     "section_title": "Import of Stretch Ceilings",
@@ -2599,6 +2631,7 @@ const ServicesDetails = [
 
 {
   "title": "Textile Barrisol Kitchen Stretch Ceiling System",
+  "slug":"TEXTILE KITCHEN STRETCH CEILING",
   "description": "A modern ceiling solution made from a PVC or textile membrane stretched over a lightweight aluminum profile, highly popular in kitchens for its combination of design flexibility and practical benefits.",
   "product_details": {
     "material": "PVC or textile membrane",
@@ -2676,6 +2709,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Barrisol Virtual Window and Ceiling System (Designed by Asif Ali)",
+  "slug":"A Textile Barrisol virtual window and ceiling",
   "description": "An innovative interior design concept that uses LED technology, stretch ceilings, or digital projection to simulate natural views and dynamic lighting effects indoors, ideal for spaces with limited natural light.",
   "product_details": {
     "designer": "Asif Ali",
@@ -2739,6 +2773,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Barrisol Backlit 2x2 LED Panel System",
+  "slug":"TEXTILE BACKLIT 2X2 LED PANEL",
   "description": "A 2 feet x 2 feet (600mm x 600mm) LED lighting panel that is illuminated from the back for superior brightness and uniform light distribution. It is widely integrated into various modern ceiling systems, including stretch ceilings.",
   "specifications": {
     "size": "2x2 ft (600mm x 600mm) / 600mm x 600mm",
@@ -2781,6 +2816,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Barrisol Wave Ceiling System",
+  "slug":"3D TEXTILE FABRIC WAVE FABRIC CEILING",
   "description": "A modern ceiling design concept that uses fabric-based stretch material installed in flowing, wave-like shapes, creating a dynamic, soft, and elegant look ideal for high-ambiance interiors.",
   "product_details": {
     "material": "Textile or PVC stretch fabric (lightweight and flexible)",
@@ -2842,6 +2878,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Barrisol Marble Stretch Ceiling System (Designed by Asif Ali)",
+  "slug":"3D TEXTILE MARBLE STRETCH CEILING",
   "description": "A decorative ceiling solution that uses printed or textured PVC/textile stretch film to safely and realistically replicate the luxurious appearance of natural marble (such as Carrara, Onyx, or Black marble) without the weight or cost.",
   "product_details": {
     "designer": "Asif Ali",
@@ -2910,6 +2947,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Barrisol Cloud Stretch Ceiling System",
+  "slug":"3D TEXTILE CLOUD STRETCH CEILING",
   "description": "A modern ceiling design concept that uses stretch fabric or PVC film, shaped and suspended in irregular 'cloud-like' forms or panels, to create the illusion of floating clouds within a space.",
   "product_details": {
     "material": "PVC or textile stretch fabric",
@@ -2967,6 +3005,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Barrisol Sky Stretch Ceiling System",
+  "slug":"3D TEXTILE SKY STRETCH CEILING",
   "description": "A type of stretch ceiling design where the surface is printed or illuminated to realistically resemble the sky, widely used in modern interiors to create a feeling of openness, freshness, and natural daylight indoors.",
   "key_features_of_sky_stretch_ceiling": [
     {
@@ -3029,6 +3068,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Barrisol Forest and Leaf Stretch Ceiling Systems (Designed by Asif Ali)",
+  "slug":"3D TEXTILE FOREST AND LEAF STRETCH CEILING",
   "description": "Modern interior concepts that leverage stretch ceiling technology and high-definition printing to bring the refreshing and calming aesthetic of nature—forest canopies and leaf patterns—into enclosed spaces (Biophilic Design).",
   "ceiling_systems": [
     {
@@ -3086,6 +3126,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Barrisol Shopping Complex Stretch Ceiling System",
+  "slug":"TEXTILE SHOPPING COMPLEX STRETCH CEILING",
   "description": "A modern ceiling solution designed to give malls, retail arcades, and commercial shopping spaces a premium, stylish, and functional look using PVC or textile stretch material.",
   "product_details": {
     "material": "PVC or textile stretch material",
@@ -3142,6 +3183,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Banquet Hall Stretch Ceiling System",
+  "slug":"TEXTILE BANQUET HALL STRETCH CEILING",
   "description": "A modern and stylish ceiling solution widely used in large event spaces, hotels, and party halls to enhance both aesthetics and functionality, making the hall more elegant and comfortable for gatherings.",
   "product_details": {
     "material": "PVC or textile fabric membrane",
@@ -3213,6 +3255,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Barrisol Supermarket Stretch Ceiling System",
+  "slug":"TEXTILE BARRISOL SUPER MARKET STRETCH CEILING",
   "description": "A modern ceiling solution widely used in large commercial spaces like grocery stores, hypermarkets, and retail chains, offering both aesthetic appeal and functional benefits tailored to high-traffic environments.",
   "product_details": {
     "material": "PVC or textile fabric membrane",
@@ -3285,6 +3328,7 @@ const ServicesDetails = [
 
 {
   "title": "3D Textile Barrisol Stretch Ceiling System",
+  "slug": "3D TEXTILE BARRISOL STRETCH CEILING SYSTEM",
   "description": "A modern ceiling solution made from a PVC or textile membrane stretched over a special profile (aluminum or plastic) to create three-dimensional shapes, textures, and dynamic lighting effects.",
   "product_details": {
     "material": "PVC or textile membrane",
@@ -3337,6 +3381,7 @@ const ServicesDetails = [
 },
 {
   "title": "3D Stretch Decorative Ceiling System (by Asif Ali)",
+  "slug":"TEXTILE BARRISOL INDIAMART STRETCH CEILING",
   "description": "A modern ceiling solution combining PVC or textile stretch material with three-dimensional shapes, prints, or lighting effects to create an eye-catching, luxurious, and dynamic architectural design.",
   "product_details": {
     "material": "PVC or textile stretch membrane",
@@ -3398,6 +3443,7 @@ const ServicesDetails = [
 
 {
   "title": "3D Stretch Decorative Canvas Ceiling System",
+  "slug": "TEXTILE BARRISOL FLEX CANVAS STRETCH CEILING",
   "description": "A modern ceiling solution that combines PVC or textile stretch material with three-dimensional shapes, prints, or lighting effects to create an eye-catching, luxurious, and dynamic architectural design.",
   "product_details": {
     "material": "PVC or textile stretch membrane (Canvas)",
@@ -3459,6 +3505,7 @@ const ServicesDetails = [
 
 {
   "title": "Textile Barrisol Royal Stretch Ceiling System",
+  "slug":"TEXTILE BARRISOL ROYAL STRETCH CEILING",
   "description": "A luxurious type of stretch ceiling design that creates an elegant and premium interior effect, often used in palaces, villas, hotels, and high-end residences.",
   "product_details": {
     "material": "PVC or textile fabric membrane",
@@ -3510,6 +3557,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Roman Stretch Ceiling System (Designed by Asif Ali)",
+  "slug":"TEXTILE BARRISOL ROMAN STRETCH CEILING",
   "description": "A premium and classical ceiling style inspired by Roman architecture, blending symmetry, arches, domes, and ornate details with modern stretch ceiling technology for a luxurious and historical aesthetic.",
   "product_details": {
     "designer": "Asif Ali",
@@ -3568,6 +3616,7 @@ const ServicesDetails = [
 
 {
   "title": "Textile Barrisol Texture Stretch Ceiling System (Designed by Asif Ali)",
+  "slug":"TEXTILE BARRISOL TEXTURE PARTITION",
   "description": "A type of stretch ceiling where the membrane surface is designed with various textures and finishes to create a decorative, multi-dimensional effect, providing depth and style beyond plain glossy or matte looks.",
   "product_details": {
     "designer": "Asif Ali",
@@ -3637,6 +3686,7 @@ const ServicesDetails = [
 
 {
   "title": "Textile Barrisol Yoga Center Stretch Ceiling System",
+  "slug":"TEXTILE BARRISOL YOGA STRETCH CEILING",
   "description": "A modern ceiling solution designed to create a peaceful, elegant, and calming atmosphere that enhances the yoga and meditation experience by customizing aesthetics, lighting, and acoustics.",
   "product_details": {
     "material": "PVC or textile fabric membrane",
@@ -3696,6 +3746,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Barrisol Aqua Stretch Ceiling System",
+  "slug":"TEXTILE BARRISOL AQUA STRETCH CEILING",
   "description": "A type of stretch ceiling designed with water-inspired themes, textures, or lighting effects, customized to replicate the look of water, waves, or oceanic reflections using PVC or textile membranes.",
   "product_details": {
     "material": "PVC or textile fabric membrane",
@@ -3743,6 +3794,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Barrisol Floral Stretch Ceiling System",
+  "slug":"TEXTILE BARRISOL FLORAL STRETCH CEILING",
   "description": "A detailed concept for a modern stretch ceiling designed with nature-inspired, elegant floral themes, suitable for creating soft, luxurious, and ambiance-focused interiors.",
   "design_concept": {
     "theme": "Nature-inspired, elegant, and soft; ranging from delicate blossoms to bold tropical flowers.",
@@ -3819,6 +3871,7 @@ const ServicesDetails = [
 
 ,{
   "title": "Top Textile Barrisol Stretch Ceiling Trends for 2025 (by Asif Ali)",
+  "slug":"TEXTILE BARRISOL LED STRETCH CEILI...",
   "description": "An overview of the dominant interior design trends for stretch ceilings in 2025, focusing on sustainability, aesthetic choices (matte and glossy), innovative lighting, and customized designs.",
   "trends": [
     {
@@ -3910,6 +3963,7 @@ const ServicesDetails = [
 ,
 {
   "title": "TEXTILE BARRISOL LED Stretch Ceilings (by Asif Ali): Integrated Lighting Systems",
+  "slug":"TEXTILE BARRISOL LED STRETCH CEILING",
   "description": "A modern interior design solution combining the aesthetic appeal of stretch ceilings with integrated LED lighting to create a sleek, contemporary, and functionally illuminated look in various spaces.",
   "what_is_an_led_stretch_ceiling": {
     "definition": "A suspended ceiling made of a PVC or textile membrane stretched over an aluminum frame, which is then integrated with LED lighting to achieve various effects.",
@@ -3975,6 +4029,7 @@ const ServicesDetails = [
 },
 {
   "title": "TEXTILE BARRISOL DALI Tuneable Stretch Ceilings (By Asif Ali)",
+  "slug":"TEXTILE BARRISOL DALI TUNEABLE STRETCH CEILING",
   "description": "A sophisticated lighting solution combining the aesthetic flexibility of stretch ceiling systems with advanced DALI (Digital Addressable Lighting Interface) control for precise and adaptive illumination.",
   "key_features_of_dali_tuneable_stretch_ceilings": [
     {
@@ -4035,6 +4090,7 @@ const ServicesDetails = [
 },
 {
   "title": "TEXTILE BARRISOL Stretch Ceiling with MADRIX Lighting Control System",
+  "slug":"TEXTILE BARRISOL MADRIX DMX STRETCH CEILING",
   "description": "A sophisticated lighting solution combining translucent stretch fabric with addressable RGB/RGBW LED strips controlled by MADRIX software. This system creates dynamic, immersive, and audio-reactive lighting installations for high-end architectural and entertainment projects.",
   "what_is_a_madrix_dmx_stretch_ceiling": {
     "definition": "A combination of translucent stretch fabric (like Textile Barrisol Noida) with RGB or RGBW LED strips controlled via MADRIX software (using protocols like DMX512, Art-Net, sACN).",
@@ -4092,6 +4148,7 @@ const ServicesDetails = [
 },
 {
   "title": "TEXTILE BARRISOL Stretch Ceiling with Fiber Optic System",
+  "slug":"TEXTILE BARRISOL Mandir Masjid..." ,
   "description": "A stunning and modern lighting solution that combines a stretch ceiling membrane with fiber optic technology to create a starry sky or custom, dynamic light patterns on the ceiling.",
   "what_is_a_fiber_optic_ceiling": {
     "definition": "A system that uses thin fiber optic cables to transmit light from a central source (illuminator) to multiple points across the ceiling surface, creating glowing points of light.",
@@ -4161,6 +4218,7 @@ const ServicesDetails = [
 },
 {
   "title": "TEXTILE BARRISOL Stretch Ceiling with Fiber Optic System",
+  "slug":"TEXTILE BARRISOL FIBER OPTIC MESH CEILING" ,
   "description": "A stunning and modern lighting solution that combines a stretch ceiling membrane with fiber optic technology to create a starry sky or custom, dynamic light patterns on the ceiling.",
   "what_is_a_fiber_optic_ceiling": {
     "definition": "A system that uses thin fiber optic cables to transmit light from a central source (illuminator) to multiple points across the ceiling. The ends of the fibers glow, creating points of light—often resembling stars, constellations, or other patterns."
@@ -4228,6 +4286,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Barrisol Printed Mural Ceiling System (Designed by Asif Ali)",
+  "slug":"TEXTILE BARRISOL MURAL PAINTING",
   "description": "A decorative stretch ceiling solution where high-resolution images or designs are printed directly onto the ceiling material (PVC or fabric), transforming the ceiling into a visual centerpiece.",
   "material": [
     {
@@ -4282,6 +4341,7 @@ const ServicesDetails = [
 },
 {
   "title": "TEXTILE BARRISOL LED Frill Decorative Ceiling (Designed by Asif Ali)",
+  "slug":"TEXTILE BARRISOL LED FRILL CEILING",
   "description": "A stylish ceiling design where hidden LED lights are integrated along the borders, layers, or cut-outs of the ceiling to create a frill-like, soft glowing effect, combining decorative sculpting with modern illumination.",
   "designer": "Asif Ali",
   "key_features": [
@@ -4335,6 +4395,7 @@ const ServicesDetails = [
 },
 {
   "title": "TEXTILE BARRISOL Live Cloud Ceiling System (Designed by Asif Ali)",
+  "slug":"TEXTILE BARRISOL LIVE CLOUD CEILING",
   "description": "A modern decorative ceiling design that uses dynamic LED and stretch ceiling technology to simulate a realistic, moving sky with clouds, creating the illusion of looking up at a real sky indoors.",
   "designer": "Asif Ali",
   "key_features": [
@@ -4374,6 +4435,7 @@ const ServicesDetails = [
 },
 {
   "title": "Metallic Epoxy Flooring System",
+  "slug":"TEXTILE BARRISOL METALLIC EPOXY FLOORING",
   "description": "A luxury flooring solution created by mixing metallic pigments into a clear epoxy resin, resulting in a stunning, seamless floor with a unique 3D, marble-like, or pearlescent effect.",
   "product_details": {
     "material": "Epoxy resin mixed with metallic pigments",
@@ -4432,6 +4494,7 @@ const ServicesDetails = [
 },
 {
   "title": "TEXTILE BARRISOL 3D Epoxy Flooring System",
+  "slug":"TEXTILE BARRISOL 3D EPOXY FLOORING",
   "description": "A modern decorative flooring technique that creates realistic three-dimensional effects on the floor, giving the illusion of depth, texture, or imagery, widely used in luxury and commercial spaces.",
   "product_details": {
     "material": "Epoxy Resin and High-Resolution Printed Image",
@@ -4484,6 +4547,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Barrisol 3D Printing Panorama Art (by Asif Ali)",
+  "slug":"TEXTILE BARRISOL 3D PRINTED PANORAMA ART",
   "description": "An innovative interior solution that uses 3D printing technology to create wide-angle, immersive artworks or wall pieces with depth and texture, ideal for large-scale, lifelike wall and interior features.",
   "product_details": {
     "developer": "Asif Ali",
@@ -4645,6 +4709,7 @@ const ServicesDetails = [
 },
 {
   "title": "BARRISOL TEXTILE Wall Mural System",
+  "slug":"TEXTILE BARRISOL 3D WALL MURAL",
   "description": "A large artwork, design, or graphic applied directly onto a wall surface to enhance interior or exterior spaces, serving as a focal point that tells a story or sets a mood.",
   "what_is_a_wall_mural": {
     "definition": "A large artwork, design, or graphic applied directly onto a wall surface.",
@@ -4690,6 +4755,7 @@ const ServicesDetails = [
 },
 {
   "title": "Textile Barrisol 3D Backlit Stretch Wall System",
+  "slug":"TEXTILE BARRISOL 3D STRETCH WALL",
   "description": "A modern interior design feature that combines a stretch ceiling membrane with 3D textures or patterns and integrated LED backlighting to create a striking, decorative, and dynamically illuminated wall surface.",
   "product_details": {
     "material": "PVC or fabric stretch membrane",

@@ -128,7 +128,7 @@ const MoreServices =
         "image": "TEXTILE ROUND SHAPE STRETCH CEILING.png"
       },
       {
-        "name": "3D TEXTILE STRETCH CEILING IMPOR...",
+        "name": "TEXTILE IMPORT EXPORT STRETCH CEILING",
         "image": "3D TEXTILE STRETCH CEILING IMPORTER & EXPORTER.png"
       },
       {
@@ -152,7 +152,7 @@ const MoreServices =
         "image": "TEXTILE GALAXY STAR  STRETCH CEILING.png"
       },
       {
-        "name": "3D TEXTILE KITCHEN STRETCH CEILIN...",
+        "name": "TEXTILE KITCHEN STRETCH CEILING",
         "image": "A Textile Barrisol kitchen stretch ceiling.png"
       },
       {
@@ -160,7 +160,7 @@ const MoreServices =
         "image": "A Textile Barrisol virtual window and ceiling.png"
       },
       {
-        "name": "3D TEXTILE BARRISOL BACKLIT 2X2 PA...",
+        "name": "TEXTILE BACKLIT 2X2 LED PANEL",
         "image": "TEXTILE BARRISOL BACKLIT TILES BY ASIF ALI.png"
       },
       {
@@ -172,15 +172,15 @@ const MoreServices =
         "image": "3D TEXTILE BARRISOL MARBLE STRETCH  CEILING.png"
       },
       {
-        "name": "TEXTILE BARRISOL CLOUD STRETCH...",
+        "name": "3D TEXTILE CLOUD STRETCH CEILING",
         "image": "TEXTILE BARRISOL CLOUD STRETCH CEILING.png"
       },
       {
-        "name": "TEXTILE BARRISOL SKY STRETCH CEILI...",
+        "name": "3D TEXTILE SKY STRETCH CEILING",
         "image": "TEXTILE BARRISOL SKY STRETCH CEILING.png"
       },
       {
-        "name": "TEXTILE BARRISOL FOREST STRETCH CEILING",
+        "name": "3D TEXTILE FOREST AND LEAF STRETCH CEILING",
         "image": "TEXTILE BARRISOL FOREST STRETCH CEILING.png"
       },
       {
@@ -188,11 +188,11 @@ const MoreServices =
         "image": "TEXTILE OFFICE STRETCH CEILING.png"
       },
       {
-        "name": "TEXTILE BARRISOL SHOPPING COM...",
+        "name": "TEXTILE SHOPPING COMPLEX STRETCH CEILING",
         "image": "TEXTILE BARRISOL SHOPING COMPLEX STRETCH CEILING.png"
       },
       {
-        "name": "TEXTILE BARRISOL BANQUET HALL",
+        "name": "TEXTILE BANQUET HALL STRETCH CEILING",
         "image": "TEXTILE BARRISOL BANQUET HALL STRETCH CEILING.png"
       },
       {
@@ -200,7 +200,7 @@ const MoreServices =
         "image": "TEXTILE BARRISOL SUPER MARKET STRETCH CEILING.png"
       },
       {
-        "name": "TEXTILE BARRISOL NEAR ME STRETCH CEILING",
+        "name": "3D TEXTILE BARRISOL STRETCH CEILING SYSTEM",
         "image": "TEXTILE BARRISOL  NEAR ME STRETCH CEILING.png"
       },
       {
@@ -241,7 +241,7 @@ const MoreServices =
       },
    
       {
-        "name": "TEXTILE BARRISOL LED STRETCH CEILI...",
+        "name": "TEXTILE BARRISOL LED STRETCH CEILING",
         "image": "TEXTILE BARRISOL LED stretch ceilings by Asif Ali.png"
       },
       {
@@ -249,7 +249,7 @@ const MoreServices =
         "image": "TEXTILE BARRISOL DALI TUNABLE STRETCH CEILING.png"
       },
       {
-        "name": "TEXTILE BARRISOL MADRIX DMX S...",
+        "name": "TEXTILE BARRISOL MADRIX DMX STRETCH CEILING",
         "image": "BARRISOL MADRIX DMX STRETCH CEILING.png"
       },
       // {

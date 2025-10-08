@@ -9,7 +9,7 @@ const HomeBanner = () => {
   const banners = [
     {
       id: 1,
-      image: "/banner11.jpeg", 
+      image: "/banner1.png", 
       title: "From Ceilings to Floors",
       subtitle: "We Create Living Art",
       description: "Elegant and artistic designs perfect for premium home interiors and showrooms. Experience the beauty of architectural innovation.",
@@ -140,7 +140,7 @@ const HomeBanner = () => {
   };
 
   return (
-    <div className="relative w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-[90vh] xl:h-[95vh] bg-black text-white font-sans overflow-hidden">
+    <div className="relative w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] xl:h-[85vh] bg-black text-white font-sans overflow-hidden">
       {/* Background Images with Slide Animation */}
       <AnimatePresence mode="wait">
         <motion.img
