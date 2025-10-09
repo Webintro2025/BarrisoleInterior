@@ -3947,17 +3947,11 @@ const ServicesDetails = [
   "in_short": "Metallic epoxy flooring is chosen for its mix of strength and artistic beauty, making floors look like high-end works of art.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL METALLIC   EPOXY FLOORING.png",
       "query": "Metallic epoxy flooring 3D marble effect blue silver",
       "description": "A close-up of metallic epoxy flooring showing a deep, reflective, marble-like pattern."
     },
-    {
-      "query": "Metallic epoxy floor design in car showroom or retail space",
-      "description": "A large commercial floor installation with a glossy metallic epoxy finish."
-    },
-    {
-      "query": "Metallic epoxy floor color swirls and patterns",
-      "description": "An image demonstrating the unique flowing and settling patterns created by the metallic pigments."
-    }
+
   ]
 },
 {
@@ -4000,17 +3994,11 @@ const ServicesDetails = [
   "popular_designs": "Underwater ocean themes, dolphins, flowers, marble/onyx stone effects, galaxy space designs, and abstract art patterns.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL 3D EPOXY FLOORING.png",
       "query": "3D epoxy flooring ocean wave effect",
       "description": "A floor installation showing a realistic 3D image of an ocean wave or underwater scene."
     },
-    {
-      "query": "3D epoxy flooring bathroom flowers design",
-      "description": "A bathroom floor featuring a high-resolution 3D flower print sealed under clear epoxy."
-    },
-    {
-      "query": "3D epoxy flooring transparent layer application gloss",
-      "description": "A close-up of the glossy, transparent epoxy layer giving depth to the 3D image."
-    }
+ 
   ]
 },
 {
@@ -4055,17 +4043,11 @@ const ServicesDetails = [
   "in_short": "3D Panorama Art is a state-of-the-art wall covering that turns flat surfaces into highly textured, illuminated, and continuous immersive artworks, perfect for creating architectural focal points.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL 3D PRINTED PANORMA ART.png",
       "query": "3D printed panorama wall art cityscape",
       "description": "A large wall featuring a textured, 3D printed panoramic scene of a city."
     },
-    {
-      "query": "3D printed wall art with backlight texture contrast",
-      "description": "A close-up of 3D printed art with integrated light highlighting the depth and texture."
-    },
-    {
-      "query": "Seamless 3D printed nature mural interior wall",
-      "description": "A continuous, high-resolution 3D printed mural of a nature scene in a luxury interior."
-    }
+
   ]
 },
 {
@@ -4207,18 +4189,11 @@ const ServicesDetails = [
   ],
   "in_short": "A mural transforms a plain wall into a focal point, telling a story or setting a mood.",
   "images": [
-    {
+    {"image":"/TEXTILE BARRISOL 3D WALL MURAL.png",
       "query": "Stretch fabric backlit wall mural nature scene",
       "description": "A wall mural printed on stretch fabric and illuminated from behind with LEDs."
     },
-    {
-      "query": "3D wall mural geometric design texture",
-      "description": "A wall mural with pronounced 3D texture or sculptural elements."
-    },
-    {
-      "query": "High resolution printed wall mural living room",
-      "description": "A large, high-quality digital print mural covering a wall in a residential setting."
-    }
+
   ]
 },
 {
@@ -4262,16 +4237,9 @@ const ServicesDetails = [
   "in_short": "The 3D Backlit Stretch Wall is a high-impact architectural feature that uses lighting to accentuate texture and create a dynamic, glowing focal point, perfect for luxury and commercial settings.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL 3D STRETCH WALL.png",
       "query": "3D backlit stretch wall with geometric pattern",
       "description": "A wall installation featuring a stretch membrane with a 3D geometric pattern illuminated from behind."
-    },
-    {
-      "query": "Stretch wall with integrated RGB backlighting in lobby",
-      "description": "A feature wall using a stretch membrane with color-changing RGB lights."
-    },
-    {
-      "query": "Stretch wall with printed landscape and backlighting",
-      "description": "A wall displaying a backlit printed mural or landscape on a stretch fabric."
     }
   ]
 }
