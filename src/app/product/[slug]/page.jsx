@@ -42,9 +42,36 @@ export default function ProductPage() {
         transition={{ duration: 0.5 }}
         style={{ padding: "0 24px" }}
       >
+        {product.images && product.images.length > 0 && (
+          <>
+           
+            <div style={{ display: "flex", justifyContent: "center", marginBottom: "32px" }}>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "16px", maxWidth: "800px" }}>
+                {product.images.map((image, idx) => (
+                  <div key={idx} style={{ textAlign: "center" }}>
+                    {image.image && (
+                      <img
+                        src={image.image}
+                        alt={image.description}
+                        style={{ width: "100%", borderRadius: "8px", boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.1)" }}
+                        onError={(e) => {
+                          e.target.style.display = "none";
+                          const fallback = e.target.nextSibling;
+                          if (fallback) fallback.style.display = "block";
+                        }}
+                      />
+                    )}
+                    <p style={{ marginTop: "8px", color: "#555" }}>{image.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </>
+        )}
+
         {product.product_details && (
           <>
-            <h2 style={{ fontSize: "2rem", color: "#444", borderBottom: "2px solid #ddd", paddingBottom: "8px", marginBottom: "16px" }}>Product Details</h2>
+            <h2 style={{ fontSize: "2rem", color: "#444", borderBottom: "2px solid #ddd", paddingBottom: "8px", marginTop: "32px", marginBottom: "16px" }}>Product Details</h2>
             <ul style={{ listStyle: "none", padding: 0 }}>
               {Object.entries(product.product_details).map(([key, value], idx) => (
                 <motion.li
@@ -70,33 +97,6 @@ export default function ProductPage() {
                 </motion.li>
               ))}
             </ul>
-          </>
-        )}
-
-        {product.images && product.images.length > 0 && (
-          <>
-            <h2 style={{ fontSize: "2rem", color: "#444", borderBottom: "2px solid #ddd", paddingBottom: "8px", marginTop: "32px", marginBottom: "16px" }}>Images</h2>
-            <div style={{ display: "flex", justifyContent: "center", marginBottom: "32px" }}>
-              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "16px", maxWidth: "800px" }}>
-                {product.images.map((image, idx) => (
-                  <div key={idx} style={{ textAlign: "center" }}>
-                    <img
-                      src={image.query}
-                      alt={image.description}
-                      style={{ width: "100%", borderRadius: "8px", boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.1)" }}
-                      onError={(e) => {
-                        e.target.style.display = "none";
-                        const fallback = e.target.nextSibling;
-                        if (fallback) fallback.style.display = "block";
-                      }}
-                    />
-                    <p style={{ marginTop: "8px", color: "#555", display: "none" }}>
-                      {image.description}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
           </>
         )}
 

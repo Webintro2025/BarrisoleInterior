@@ -69,20 +69,9 @@ const ServicesDetails = [
   },
   "images": [
     {
+      "image":"/ASIFTEXTILE BARRISOL CEILING.png",
       "query": "Barrisol stretch ceiling seamless surface",
       "description": "A seamless installation of a Barrisol ceiling."
-    },
-    {
-      "query": "Barrisol ceiling with backlit LED lighting",
-      "description": "A stretch ceiling with integrated backlit lighting."
-    },
-    {
-      "query": "Barrisol ceiling aluminum profile installation",
-      "description": "The aluminum profile frame used for installation."
-    },
-    {
-      "query": "Barrisol ceiling with 3D design",
-      "description": "A stretch ceiling with a three-dimensional effect."
     }
   ]
 }
@@ -252,20 +241,9 @@ const ServicesDetails = [
   ],
   "images": [
     {
+      "image":"/3D TRANSLUCENT  STRETCH CEILING BY ASIF ALI.png",
       "query": "ASIF Translucent Stretch Ceiling with Backlighting",
       "description": "A stretch ceiling glowing with diffused light."
-    },
-    {
-      "query": "ASIF Printed Stretch Ceiling design",
-      "description": "An example of a ceiling with a custom printed design."
-    },
-    {
-      "query": "ASIF Glossy Mirror Stretch Ceiling in a room",
-      "description": "A high-gloss reflective stretch ceiling."
-    },
-    {
-      "query": "ASIF RGBW Smart Stretch Ceiling effects",
-      "description": "A stretch ceiling displaying dynamic color lighting."
     }
   ]
 },
@@ -356,20 +334,9 @@ const ServicesDetails = [
   ],
   "images": [
     {
+      "image":"/TEXTILE BARRISOL TRANSLUCENT STRETCH CEILING.png",
       "query": "3D Translucent Stretch Ceiling with LED lighting",
       "description": "An example of a ceiling with a glowing 3D depth effect."
-    },
-    {
-      "query": "Dimming and Tunable Stretch Ceiling color shift",
-      "description": "Image showing warm and cool white light options on a stretch ceiling."
-    },
-    {
-      "query": "RGBW Stretch Ceiling with dynamic colors",
-      "description": "A stretch ceiling displaying vibrant color-changing effects."
-    },
-    {
-      "query": "Translucent Stretch Ceiling light diffusion",
-      "description": "Close-up of a ceiling membrane evenly diffusing light."
     }
   ]
 }
@@ -433,20 +400,9 @@ const ServicesDetails = [
   "in_short": "A acrylic fabric-based stretch ceiling that gives a modern, smooth, and customizable finish, often chosen as a stylish and practical alternative to traditional false ceilings.",
   "images": [
     {
+      "image":"/CHANDELIER TEXTILE CEILING BY ASIF ALI.png",
       "query": "Polyester stretch ceiling matte finish",
       "description": "A large, seamless matte finish stretch ceiling."
-    },
-    {
-      "query": "Textile stretch ceiling acoustic treatment",
-      "description": "A stretch ceiling used in an auditorium or conference room for sound absorption."
-    },
-    {
-      "query": "Textile stretch ceiling installation with perimeter frame",
-      "description": "A view of the track system used to install a fabric ceiling."
-    },
-    {
-      "query": "Asif acrylic ceiling backlit with LEDs",
-      "description": "A polyester fabric ceiling with integrated LED lighting."
     }
   ]
 },
@@ -538,21 +494,11 @@ const ServicesDetails = [
   ],
   "images": [
     {
+      "image":"/TEXTILE DENTAL CLINIC STRETCH CEILING.png",
       "query": "Hygienic stretch ceiling for hospital operation theater",
       "description": "A smooth, sterile ceiling in a medical environment."
-    },
-    {
-      "query": "Textile stretch ceiling with calming print for hospital",
-      "description": "A stretch ceiling with a soothing design in a patient area."
-    },
-    {
-      "query": "Dimming and Tunable Stretch Ceiling warm white light",
-      "description": "A ceiling showing a warm color temperature effect."
-    },
-    {
-      "query": "RGBW Stretch Ceiling dynamic color lighting",
-      "description": "A ceiling demonstrating multiple, vibrant colors."
     }
+    
   ]
 },
 {
@@ -642,20 +588,9 @@ const ServicesDetails = [
   ],
   "images": [
     {
+      "image":"/TEXTILE HOTEL STRETCH CEILING.png",
       "query": "Hotel lobby stretch ceiling with integrated chandelier",
       "description": "A luxurious stretch ceiling in a hotel lobby with a chandelier."
-    },
-    {
-      "query": "Hotel banquet hall stretch ceiling backlit design",
-      "description": "A stretch ceiling with a custom backlit design for an event space."
-    },
-    {
-      "query": "Stretch ceiling with tunable warm and cool white light",
-      "description": "A ceiling demonstrating the shift between warm and cool color temperatures."
-    },
-    {
-      "query": "RGBW stretch ceiling in a lounge or club",
-      "description": "A stretch ceiling displaying dynamic, colorful lighting in a commercial space."
     }
   ]
 },
@@ -703,20 +638,9 @@ const ServicesDetails = [
   "in_short": "A functional + decorative solution that enhances the beauty and comfort of indoor pool spaces while resisting humidity and chemicals.",
   "images": [
     {
+      "image":"/TEXTILE SWIMMING POOL STRETCH CEILING.png",
       "query": "Indoor swimming pool stretch ceiling sky effect",
       "description": "A stretch ceiling over a pool printed with a sky or cloud design."
-    },
-    {
-      "query": "Glossy stretch ceiling over swimming pool",
-      "description": "A reflective, high-gloss stretch ceiling above a pool surface."
-    },
-    {
-      "query": "Swimming pool translucent stretch ceiling backlit",
-      "description": "A glowing, backlit stretch ceiling in a pool or spa area."
-    },
-    {
-      "query": "Stretch ceiling showing anti-condensation properties in humid environment",
-      "description": "A view of the smooth, dry ceiling in a humid pool environment."
     }
   ]
 },
@@ -790,20 +714,9 @@ const ServicesDetails = [
   ],
   "images": [
     {
+      "image":"/TEXTILE CAFE  STRETCH CEILING.png",
       "query": "Café stretch ceiling with printed design and lighting",
       "description": "A stretch ceiling in a coffee shop with a custom theme print."
-    },
-    {
-      "query": "Acoustic stretch ceiling in a noisy restaurant",
-      "description": "A view of a textile ceiling designed to absorb sound in a dining area."
-    },
-    {
-      "query": "Café stretch ceiling with tunable warm lighting",
-      "description": "A stretch ceiling illuminated with warm light to create a cozy cafe atmosphere."
-    },
-    {
-      "query": "RGBW stretch ceiling with branding in a lounge",
-      "description": "A colorful ceiling displaying dynamic lighting effects and brand logo integration."
     }
   ]
 },
@@ -877,20 +790,9 @@ const ServicesDetails = [
   ],
   "images": [
     {
+      "image":"/TEXTILE GYM  STRETCH CEILING.png",
       "query": "Gym stretch ceiling with motivational graphic print",
       "description": "A stretch ceiling in a fitness center featuring a custom printed design."
-    },
-    {
-      "query": "Gym stretch ceiling with integrated linear LED lighting",
-      "description": "A modern gym ceiling with strip LED lights integrated into the stretch membrane."
-    },
-    {
-      "query": "Acoustic stretch ceiling in sports hall",
-      "description": "A perforated or acoustic stretch ceiling used to control noise in a large gym."
-    },
-    {
-      "query": "Stretch ceiling showing bright, cool white light for motivation in gym",
-      "description": "A ceiling illuminated with bright, cool light (high Kelvin) suitable for focus and energy."
     }
   ]
 },
@@ -966,20 +868,9 @@ const ServicesDetails = [
   ],
   "images": [
     {
+      "image":"/TEXTILE MALL  STRETCH CEILING.png",
       "query": "Shopping mall atrium stretch ceiling design",
       "description": "A large, seamless stretch ceiling covering a mall's central atrium."
-    },
-    {
-      "query": "Mall food court stretch ceiling with printed graphics",
-      "description": "A stretch ceiling in a food court featuring custom printed art or branding."
-    },
-    {
-      "query": "Translucent stretch ceiling with backlighting in a luxury brand zone",
-      "description": "A glowing, uniform stretch ceiling in a high-end retail area."
-    },
-    {
-      "query": "3D effect stretch ceiling in a commercial mall lobby",
-      "description": "A stretch ceiling installation creating a sculptural or layered 3D effect."
     }
   ]
 },
@@ -1051,20 +942,9 @@ const ServicesDetails = [
   ],
   "images": [
     {
+      "image":"/TEXTILE AUDITORIUM STRETCH CEILING.png",
       "query": "Auditorium acoustic stretch ceiling perforated design",
       "description": "A close-up of a stretch ceiling designed with micro-perforations for sound absorption in a large hall."
-    },
-    {
-      "query": "Auditorium stretch ceiling with integrated stage lighting",
-      "description": "A stretch ceiling in an auditorium that seamlessly incorporates stage and performance lighting."
-    },
-    {
-      "query": "Large seamless stretch ceiling in conference hall",
-      "description": "An image demonstrating the ability of stretch ceilings to cover vast, joint-free areas."
-    },
-    {
-      "query": "Auditorium stretch ceiling with dynamic RGB lighting effects",
-      "description": "A ceiling displaying vibrant, colored light (RGB) to set a mood for an event or performance."
     }
   ]
 },
@@ -1130,20 +1010,9 @@ const ServicesDetails = [
   ],
   "images": [
     {
+      "image":"/TEXTILE MUSEUM STRETCH CEILING.png",
       "query": "Museum stretch ceiling with printed historical map",
       "description": "A stretch ceiling in an exhibition space displaying a large historical map or artwork."
-    },
-    {
-      "query": "Translucent museum stretch ceiling with even, glare-free lighting",
-      "description": "A gallery space with a stretch ceiling providing uniform illumination over exhibits."
-    },
-    {
-      "query": "Museum stretch ceiling curved installation 3D design",
-      "description": "A stretch ceiling shaped into a dome or curved structure in a museum lobby."
-    },
-    {
-      "query": "Museum exhibit lighting with tunable white stretch ceiling",
-      "description": "A scene showing an exhibit illuminated by adjustable color temperature white light from the ceiling."
     }
   ]
 },
@@ -1208,20 +1077,9 @@ const ServicesDetails = [
   ],
   "images": [
     {
+      "image":"/TEXTILE OFFICE STRETCH CEILING.png",
       "query": "Modern office stretch ceiling with linear LED lights",
       "description": "A sleek office ceiling featuring integrated linear LED lighting for a contemporary look."
-    },
-    {
-      "query": "Office ceiling with tunable white light for productivity",
-      "description": "An office space illuminated with bright, cool-toned light from a stretch ceiling to aid focus."
-    },
-    {
-      "query": "Acoustic stretch ceiling in corporate boardroom",
-      "description": "A stretch ceiling designed to absorb sound in a meeting or conference room."
-    },
-    {
-      "query": "Office stretch ceiling with custom corporate branding print",
-      "description": "A ceiling featuring a company logo or unique graphic print to enhance branding."
     }
   ]
 },
@@ -1297,20 +1155,9 @@ const ServicesDetails = [
   ],
   "images": [
     {
+      "image":"/TEXTILE RESIDENCE   STRETCH CEILING.png",
       "query": "Residential stretch ceiling glossy finish living room",
       "description": "A seamless, high-gloss stretch ceiling in a modern home living room."
-    },
-    {
-      "query": "Printed stretch ceiling with sky effect in a residential bedroom",
-      "description": "A bedroom ceiling featuring a custom printed sky or cloud design."
-    },
-    {
-      "query": "Residential kitchen stretch ceiling with recessed lighting",
-      "description": "A clean, seamless stretch ceiling in a kitchen with integrated recessed LED lights."
-    },
-    {
-      "query": "Home theater RGBW stretch ceiling with galaxy effect",
-      "description": "A ceiling displaying dynamic color and starry fiber optic lighting for a home theater."
     }
   ]
 },
@@ -1388,20 +1235,9 @@ const ServicesDetails = [
   "in_short": "A Textile commercial stretch ceiling enhances aesthetics, branding, functionality, and comfort, making it an ideal solution for modern business interiors.",
   "images": [
     {
+      "image":"/TEXTILE COMMERCIAL    STRETCH CEILING.png",
       "query": "Commercial stretch ceiling seamless large area",
       "description": "A stretch ceiling covering a large commercial space like a mall or airport lounge seamlessly."
-    },
-    {
-      "query": "Commercial office stretch ceiling with integrated linear lighting",
-      "description": "A modern, professional office ceiling with linear LED lights embedded in the stretch fabric."
-    },
-    {
-      "query": "Printed stretch ceiling with corporate branding in commercial space",
-      "description": "A commercial ceiling featuring a custom printed logo or brand pattern."
-    },
-    {
-      "query": "Commercial translucent stretch ceiling backlit installation",
-      "description": "A glowing, uniformly illuminated stretch ceiling in a showroom or public area."
     }
   ]
 },
@@ -1450,20 +1286,9 @@ const ServicesDetails = [
   "in_short": "The simplest and most elegant type of stretch ceiling, offering a modern and minimalistic look with a perfectly level surface.",
   "images": [
     {
+      "image":"/TEXTILE FLAT    STRETCH CEILING.png",
       "query": "Flat stretch ceiling seamless matte white",
       "description": "A view of a perfectly smooth, seamless matte white stretch ceiling."
-    },
-    {
-      "query": "Flat stretch ceiling with integrated recessed lighting",
-      "description": "A flat stretch ceiling showcasing seamlessly integrated recessed lights."
-    },
-    {
-      "query": "Glossy flat stretch ceiling commercial space",
-      "description": "A reflective, high-gloss flat stretch ceiling in a commercial setting."
-    },
-    {
-      "query": "Flat stretch ceiling track profile installation example",
-      "description": "A close-up of the perimeter track system used for a flat stretch ceiling."
     }
   ]
 },
@@ -1529,20 +1354,9 @@ const ServicesDetails = [
   "in_short": "A studio stretch ceiling is a customized, high-performance solution that optimizes both the functional (acoustic/lighting) and aesthetic needs of any creative workspace.",
   "images": [
     {
+      "image":"/TEXTILE STUDIO STRETCH CEILING.png",
       "query": "Acoustic stretch ceiling music studio",
       "description": "A stretch ceiling used in a recording studio to control sound."
-    },
-    {
-      "query": "Translucent stretch ceiling photography studio lighting",
-      "description": "A translucent ceiling providing diffused, even lighting in a photo studio."
-    },
-    {
-      "query": "Studio stretch ceiling with integrated linear LED design",
-      "description": "A modern creative workspace with a sleek stretch ceiling and linear lighting."
-    },
-    {
-      "query": "High gloss stretch ceiling film studio",
-      "description": "A reflective, high-gloss ceiling in a video or film studio."
     }
   ]
 },
@@ -1609,20 +1423,9 @@ const ServicesDetails = [
   "in_short": "A Stretch Ceiling in salons, parlors, and spas not only enhances luxury and comfort but also supports functionality by being durable, hygienic, and visually stunning.",
   "images": [
     {
+      "image":"/TEXTILE SALON PARLOURS STRETCH CEILING.png",
       "query": "Spa room translucent stretch ceiling with soothing light",
       "description": "A backlit translucent ceiling creating a relaxing ambiance in a spa treatment room."
-    },
-    {
-      "query": "Salon styling station glossy mirror stretch ceiling",
-      "description": "A highly reflective, glossy stretch ceiling used in a hair salon to enhance lighting and space."
-    },
-    {
-      "query": "Stretch ceiling with integrated LED light strips in a beauty parlor",
-      "description": "A ceiling with seamless integrated lighting for optimal beauty lighting."
-    },
-    {
-      "query": "Stretch ceiling with nature print in a wellness center",
-      "description": "A printed ceiling featuring a calming nature theme in a wellness space."
     }
   ]
 },
@@ -1677,20 +1480,8 @@ const ServicesDetails = [
   "in_short": "Perfect for creating a visual centerpiece that enhances the product display, lighting quality, and overall luxury of a retail environment.",
   "images": [
     {
-      "query": "Car showroom high gloss stretch ceiling",
+      "image":"/TEXTILE SHOWROOM  STRETCH CEILING.png",      "query": "Car showroom high gloss stretch ceiling",
       "description": "A highly reflective, glossy stretch ceiling reflecting a car display."
-    },
-    {
-      "query": "Retail showroom stretch ceiling with integrated spotlights",
-      "description": "A stretch ceiling with strategically placed spotlights to highlight merchandise."
-    },
-    {
-      "query": "Showroom translucent stretch ceiling with branding",
-      "description": "A backlit stretch ceiling featuring custom printed branding or logos."
-    },
-    {
-      "query": "Luxury jewelry showroom stretch ceiling design",
-      "description": "A ceiling creating a premium, elegant atmosphere in a jewelry store."
     }
   ]
 },
@@ -1742,20 +1533,9 @@ const ServicesDetails = [
   "in_short": "A highly functional and aesthetic ceiling system that is crucial for setting the dynamic mood, controlling acoustics, and integrating advanced lighting in entertainment venues.",
   "images": [
     {
+      "image":"/TEXTILE CLUB STRETCH CEILING.png",
       "query": "Nightclub stretch ceiling with dynamic RGB lighting",
       "description": "A club ceiling displaying dynamic color-changing RGB light effects."
-    },
-    {
-      "query": "Glossy mirror stretch ceiling in a lounge bar",
-      "description": "A reflective, high-gloss ceiling used to make a lounge space appear larger."
-    },
-    {
-      "query": "Acoustic stretch ceiling in nightclub for sound control",
-      "description": "A stretch ceiling with sound-absorbing properties in an entertainment venue."
-    },
-    {
-      "query": "3D shaped stretch ceiling design in a club",
-      "description": "A stretch ceiling installation creating complex, three-dimensional shapes."
     }
   ]
 },
@@ -1802,20 +1582,9 @@ const ServicesDetails = [
   "in_short": "A Bar Stretch Ceiling is a premium, durable, and highly customizable design tool that sets the mood, manages acoustics, and dramatically enhances the lighting effects in nightlife venues.",
   "images": [
     {
+      "image":"/TEXTILE BAR STRETCH CEILING.png",
       "query": "Bar stretch ceiling with custom RGB lighting effects",
       "description": "A stretch ceiling in a bar displaying vibrant, color-changing RGB light."
-    },
-    {
-      "query": "Bar stretch ceiling glossy reflective finish",
-      "description": "A high-gloss, mirror-like stretch ceiling in a lounge or bar area."
-    },
-    {
-      "query": "Bar stretch ceiling with abstract art print backlighting",
-      "description": "A backlit stretch ceiling featuring a custom printed design for bar ambiance."
-    },
-    {
-      "query": "Bar stretch ceiling 3D curved illuminated design",
-      "description": "A three-dimensional or curved stretch ceiling with integrated lighting in a bar."
     }
   ]
 },
@@ -1941,20 +1710,9 @@ const ServicesDetails = [
   "benefits_summary": "Stretch ceilings in airports not only improve visual identity and passenger experience but also help with energy-efficient lighting and acoustic control.",
   "images": [
     {
+      "image":"/TEXTILE AIRPORT STRETCH CEILING.png",
       "query": "Airport terminal large seamless stretch ceiling",
       "description": "A view of a vast, seamless stretch ceiling in a modern airport terminal or hall."
-    },
-    {
-      "query": "Airport lounge translucent stretch ceiling backlit",
-      "description": "A stretch ceiling providing diffused, elegant backlighting in an airport lounge."
-    },
-    {
-      "query": "Airport check-in hall stretch ceiling with integrated linear lights",
-      "description": "A clean ceiling design in an airport check-in area with integrated linear LED lighting."
-    },
-    {
-      "query": "Acoustic stretch ceiling in busy airport gate area",
-      "description": "A stretch ceiling with sound-absorbing features installed in a high-traffic airport waiting area."
     }
   ]
 },
@@ -2001,21 +1759,11 @@ const ServicesDetails = [
   "in_short": "A hygienic, functional, and aesthetic ceiling that significantly improves the patient experience by creating a professional yet relaxing atmosphere.",
   "images": [
     {
+      "image":"/TEXTILE DENTAL CLINIC STRETCH CEILING.png",
       "query": "Dental clinic stretch ceiling with sky print and backlighting",
       "description": "A ceiling in a dental office featuring a calming blue sky print with soft backlighting."
     },
-    {
-      "query": "Dental treatment room ceiling with seamless diffused LED light",
-      "description": "A smooth, stretch ceiling providing uniform, glare-free illumination over a dental chair."
-    },
-    {
-      "query": "Hygienic stretch ceiling in healthcare setting",
-      "description": "A view of a non-porous, easy-to-clean stretch ceiling suitable for medical use."
-    },
-    {
-      "query": "Calming nature print stretch ceiling in waiting room",
-      "description": "A stretch ceiling with a soothing nature theme in a patient waiting area."
-    }
+   
   ]
 },
 {
@@ -2137,20 +1885,9 @@ const ServicesDetails = [
   "in_short": "A villa stretch ceiling provides a luxurious, maintenance-free, and highly customizable finish, serving as a primary design element to define the elegance and ambiance of a high-end home.",
   "images": [
     {
+      "image":"/TEXTILE VILLA STRETCH CEILING.png",
       "query": "Luxury villa stretch ceiling living room chandelier integration",
       "description": "A high-end villa living room featuring a stretch ceiling with an integrated chandelier."
-    },
-    {
-      "query": "Villa home theater acoustic stretch ceiling dark matte",
-      "description": "A dark, sound-absorbing stretch ceiling in a residential home theater."
-    },
-    {
-      "query": "Villa indoor pool area stretch ceiling sky design",
-      "description": "A moisture-resistant stretch ceiling with a sky print over an indoor swimming pool."
-    },
-    {
-      "query": "Villa dining hall glossy reflective stretch ceiling",
-      "description": "A reflective, glossy stretch ceiling enhancing a luxurious villa dining room."
     }
   ]
 },
@@ -2197,21 +1934,11 @@ const ServicesDetails = [
   "in_short": "A car showroom stretch ceiling is essential for creating a captivating, well-lit display area that uses reflective surfaces and customized lighting to enhance the perceived value and aesthetic appeal of the vehicles.",
   "images": [
     {
+      "image":"/TEXTILE AUTOMOBILE STRETCH CEILING.png",
       "query": "Car showroom high gloss black stretch ceiling reflection",
       "description": "A glossy stretch ceiling reflecting the cars on the floor below."
     },
-    {
-      "query": "Car showroom stretch ceiling with integrated linear LED lighting",
-      "description": "A modern showroom ceiling with bright, linear LED lights integrated into the stretch membrane."
-    },
-    {
-      "query": "Car showroom stretch ceiling large seamless white finish",
-      "description": "A vast, joint-free stretch ceiling covering a large area of an automobile showroom."
-    },
-    {
-      "query": "Stretch ceiling with custom logo for car brand showroom",
-      "description": "A ceiling featuring a custom printed logo or graphic relevant to the car brand."
-    }
+  
   ]
 },
 {
@@ -2273,20 +2000,10 @@ const ServicesDetails = [
   "in_short": "The ideal ceiling for bathrooms, offering superior resistance to water damage and condensation while providing a high-end, maintenance-free finish with customizable lighting options.",
   "images": [
     {
+
+      "image":"/TEXTILE BATHROOM STRETCH CEILING.png",
       "query": "Bathroom glossy stretch ceiling reflection",
       "description": "A reflective, mirror-like stretch ceiling in a modern bathroom."
-    },
-    {
-      "query": "Bathroom translucent stretch ceiling backlit spa ambiance",
-      "description": "A stretch ceiling providing soft, diffused backlighting in a spa-style bathroom."
-    },
-    {
-      "query": "Bathroom stretch ceiling with integrated moisture-proof spotlights",
-      "description": "A seamless stretch ceiling in a shower area with recessed waterproof lighting."
-    },
-    {
-      "query": "Bathroom stretch ceiling with sky or cloud print",
-      "description": "A ceiling featuring a custom printed sky design in a bathroom."
     }
   ]
 }
@@ -2346,21 +2063,11 @@ const ServicesDetails = [
   "in_short": "A Retail Showroom Stretch Ceiling is a high-impact design tool that enhances product visibility, reinforces branding, and creates a luxurious, comfortable shopping atmosphere.",
   "images": [
     {
+      "image":"/TEXTILE RETAIL SHOWROOM STRETCH CEILING.png",
       "query": "Retail showroom stretch ceiling with integrated linear LED lighting",
       "description": "A stretch ceiling with integrated linear lights highlighting a retail display."
     },
-    {
-      "query": "Jewelry store glossy mirror stretch ceiling reflection",
-      "description": "A highly reflective, mirror-like stretch ceiling in a luxury retail environment."
-    },
-    {
-      "query": "Fashion store translucent stretch ceiling with backlight",
-      "description": "A backlit stretch ceiling providing soft, diffused light in an apparel store."
-    },
-    {
-      "query": "Retail stretch ceiling with custom logo print",
-      "description": "A ceiling featuring custom printed branding or logos in a showroom."
-    }
+   
   ]
 },
 {
@@ -2409,20 +2116,9 @@ const ServicesDetails = [
   "in_short": "A Dome Stretch Ceiling is an elegant, lightweight, and customizable alternative to traditional architectural domes, perfect for creating a luxurious, dramatically lit, and acoustically enhanced ceiling feature.",
   "images": [
     {
+      "image":"/TEXTILE DOME STRETCH CEILING.png",
       "query": "Dome stretch ceiling with starry sky effect",
       "description": "A curved ceiling dome featuring fiber optic lights simulating a night sky."
-    },
-    {
-      "query": "Dome stretch ceiling glossy finish luxury hotel lobby",
-      "description": "A large, reflective stretch ceiling dome in a luxurious hotel lobby."
-    },
-    {
-      "query": "Dome stretch ceiling with translucent backlighting",
-      "description": "A glowing, curved stretch ceiling dome with diffused internal lighting."
-    },
-    {
-      "query": "Dome stretch ceiling installation religious or cultural space",
-      "description": "An artistic dome stretch ceiling design in a large cultural or religious building."
     }
   ]
 },
@@ -2470,21 +2166,11 @@ const ServicesDetails = [
   "in_short": "A round stretch ceiling offers a soft, highly customizable, and elegant design element, perfect for drawing attention and integrating sophisticated lighting in any modern space.",
   "images": [
     {
+      "image":"/TEXTILE ROUND SHAPE STRETCH CEILING.png",
       "query": "Round stretch ceiling with integrated LED strip lighting",
       "description": "A circular stretch ceiling with hidden LED lights defining its edge."
     },
-    {
-      "query": "Round glossy stretch ceiling with chandelier reflection",
-      "description": "A reflective, glossy round ceiling highlighting a central chandelier."
-    },
-    {
-      "query": "Round stretch ceiling with dome or convex shape",
-      "description": "A circular stretch ceiling designed with a curved, 3D shape."
-    },
-    {
-      "query": "Round translucent stretch ceiling backlit design",
-      "description": "A circular ceiling that glows brightly from internal backlighting."
-    }
+    
   ]
 },
 {
@@ -2546,16 +2232,9 @@ const ServicesDetails = [
   },
   "images": [
     {
+      "image":"/3D TEXTILE STRETCH CEILING IMPORTER & EXPORTER.png",
       "query": "Shipping stretch ceiling material cargo logistics",
       "description": "Image illustrating the logistics of importing/exporting stretch ceiling rolls."
-    },
-    {
-      "query": "International trade fair interior design booth stretch ceiling",
-      "description": "Image of a stretch ceiling being showcased at a major international trade exhibition."
-    },
-    {
-      "query": "Stretch ceiling manufacturing factory machinery",
-      "description": "View of the manufacturing process for PVC or polyester stretch ceiling films."
     }
   ]
 },
@@ -2611,21 +2290,11 @@ const ServicesDetails = [
   },
   "images": [
     {
+      "image":"/D TEXTILE STRETCH CEILING PROFILE HARPOON.png",
       "query": "Stretch ceiling standard harpoon and profile cross-section",
       "description": "Diagram showing how the standard harpoon hooks into the perimeter profile."
     },
-    {
-      "query": "Textile stretch ceiling clip system installation detail",
-      "description": "Close-up of the clip/clamp mechanism for textile stretch ceilings."
-    },
-    {
-      "query": "Mini harpoon stretch ceiling edge detail 3D shape",
-      "description": "Image illustrating the use of a small harpoon for a minimalist, invisible edge."
-    },
-    {
-      "query": "Stretch ceiling reverse harpoon invisible fixing profile",
-      "description": "A diagram or photo showing the reverse harpoon technique for frameless ceiling panels."
-    }
+    
   ]
 },
 
@@ -2690,20 +2359,9 @@ const ServicesDetails = [
   "in_short": "A Kitchen Stretch Ceiling is the perfect fusion of hygiene, durability, and contemporary design, offering a bright, easily maintainable, and stylish ceiling solution for the modern kitchen.",
   "images": [
     {
+      "image":"/A Textile Barrisol kitchen stretch ceiling.png",
       "query": "Kitchen glossy white stretch ceiling reflection",
       "description": "A highly reflective, mirror-like white stretch ceiling in a modern kitchen."
-    },
-    {
-      "query": "Kitchen stretch ceiling with integrated recessed LED spotlights",
-      "description": "A matte stretch ceiling with strategically placed recessed spotlights for task lighting."
-    },
-    {
-      "query": "Kitchen two-level stretch ceiling design with cove lighting",
-      "description": "A multi-layered ceiling combining finishes with hidden indirect LED lighting."
-    },
-    {
-      "query": "Kitchen stretch ceiling with geometric print design",
-      "description": "A ceiling featuring a custom printed pattern to add a decorative element to the kitchen."
     }
   ]
 },
@@ -2758,16 +2416,9 @@ const ServicesDetails = [
   "example_use_case": "In a hospital room, a virtual skylight ceiling with moving clouds helps patients feel calm, while a virtual window showing greenery improves the atmosphere.",
   "images": [
     {
+      "image":"/A Textile Barrisol virtual window and ceiling.png",
       "query": "Virtual skylight stretch ceiling with clouds",
       "description": "A stretch ceiling backlit with LEDs displaying a realistic sky/cloud image."
-    },
-    {
-      "query": "Virtual window LED panel simulation nature view in office",
-      "description": "An LED screen mounted on an interior wall simulating a window view of nature."
-    },
-    {
-      "query": "Dynamic projection ceiling stars and galaxy effect",
-      "description": "A ceiling displaying moving star or galaxy effects."
     }
   ]
 },
@@ -2805,12 +2456,9 @@ const ServicesDetails = [
   "in_short": "The backlit 2x2 panel is a high-performance, energy-efficient lighting fixture favored for its high brightness and uniform output, making it an excellent hidden or visible light source in modern commercial and residential ceilings.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL BACKLIT TILES BY ASIF ALI.png",
       "query": "Backlit 2x2 LED panel cross-section diagram",
       "description": "Diagram showing the back-illuminated structure of a 2x2 LED panel."
-    },
-    {
-      "query": "2x2 LED panel integrated into stretch ceiling",
-      "description": "A finished ceiling showing a 2x2 LED panel providing uniform light."
     }
   ]
 },
@@ -2863,17 +2511,11 @@ const ServicesDetails = [
   "in_short": "The Wave Ceiling is a high-impact 3D architectural solution that provides superior aesthetic dynamism and improved acoustics, particularly when enhanced with integrated, glowing LED lighting.",
   "images": [
     {
+      "image":"/3D TEXTILE WAVE FABRIC CEILING.png",
       "query": "Stretch ceiling wave shape design with backlighting",
       "description": "A stretch ceiling installed in a flowing wave pattern with integrated backlighting."
     },
-    {
-      "query": "Acoustic stretch ceiling wave design auditorium",
-      "description": "A wave-shaped stretch ceiling used for acoustic control in a large venue."
-    },
-    {
-      "query": "Stretch ceiling 3D curved installation showroom",
-      "description": "A detailed view of a curved stretch ceiling installation in a commercial showroom."
-    }
+   
   ]
 },
 {
@@ -2932,16 +2574,9 @@ const ServicesDetails = [
   "in_short": "The Marble Stretch Ceiling delivers a high-end, maintenance-free, and customizable marble aesthetic, making it an ideal choice for luxury interiors where classic stone grandeur is desired safely and efficiently.",
   "images": [
     {
+      "image":"/3D TEXTILE BARRISOL MARBLE STRETCH  CEILING.png",
       "query": "Stretch ceiling backlit marble onyx effect",
       "description": "A stretch ceiling with an illuminated, translucent onyx marble print."
-    },
-    {
-      "query": "Glossy white marble print stretch ceiling luxury lobby",
-      "description": "A reflective stretch ceiling printed with a white or Carrara marble design."
-    },
-    {
-      "query": "Stretch ceiling black marble print design",
-      "description": "A stretch ceiling featuring a luxurious black marble pattern."
     }
   ]
 },
@@ -2990,17 +2625,11 @@ const ServicesDetails = [
   "in_short": "The Cloud Stretch Ceiling is an artistic, suspended design element that delivers a striking 3D visual centerpiece, often enhanced with backlighting, ideal for creating a soft, unique, and acoustically pleasant atmosphere in luxury and commercial spaces.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL CLOUD STRETCH CEILING.png",
       "query": "Stretch ceiling cloud shapes with integrated backlighting",
       "description": "Suspended, cloud-shaped stretch ceiling panels with internal glow."
     },
-    {
-      "query": "3D stretch ceiling cloud design in modern lobby",
-      "description": "An image of multiple cloud-like stretch ceiling installations in a commercial space."
-    },
-    {
-      "query": "Circular cloud stretch ceiling design restaurant",
-      "description": "A round, suspended stretch ceiling 'cloud' used as a centerpiece in a restaurant."
-    }
+ 
   ]
 },
 {
@@ -3053,16 +2682,9 @@ const ServicesDetails = [
   "in_short": "The Sky Stretch Ceiling is a premium decorative and functional ceiling that delivers the psychological benefits of natural light and open space, making it a perfect solution for enclosed or windowless interiors.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL SKY STRETCH CEILING.png",
       "query": "Stretch ceiling blue sky and white clouds print",
       "description": "A stretch ceiling printed with a bright day sky and clouds, often backlit."
-    },
-    {
-      "query": "Stretch ceiling night sky starry fiber optic effect",
-      "description": "A dark stretch ceiling simulating a night sky with glowing stars."
-    },
-    {
-      "query": "Hospital room virtual skylight stretch ceiling",
-      "description": "A sky-printed stretch ceiling used in a healthcare setting to reduce anxiety."
     }
   ]
 },
@@ -3111,16 +2733,9 @@ const ServicesDetails = [
   ],
   "images": [
     {
+      "image":"/TEXTILE BARRISOL FOREST STRETCH CEILING.png",
       "query": "Stretch ceiling printed forest canopy with backlighting",
       "description": "A translucent stretch ceiling printed with a realistic view of tree leaves and sky, illuminated from behind."
-    },
-    {
-      "query": "Stretch ceiling printed bamboo forest view",
-      "description": "A ceiling printed with a tall, light bamboo forest scene."
-    },
-    {
-      "query": "Stretch ceiling leaf pattern cut-out with backlighting",
-      "description": "A ceiling featuring abstract or detailed leaf patterns highlighted by integrated lighting."
     }
   ]
 },
@@ -3168,16 +2783,9 @@ const ServicesDetails = [
   "in_short": "A Shopping Complex Stretch Ceiling is an essential architectural tool that combines large-scale seamless coverage with superior design flexibility, advanced lighting integration, and acoustic control to elevate the modern retail environment.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL SHOPING COMPLEX STRETCH CEILING.png",
       "query": "Shopping mall atrium large stretch ceiling",
       "description": "A vast, seamless stretch ceiling covering a large central area of a shopping complex."
-    },
-    {
-      "query": "Shopping complex translucent stretch ceiling with backlighting",
-      "description": "A brightly illuminated, translucent stretch ceiling in a retail corridor."
-    },
-    {
-      "query": "3D dome stretch ceiling mall architectural feature",
-      "description": "A 3D shaped stretch ceiling (dome or wave) used as an artistic centerpiece in a mall."
     }
   ]
 },
@@ -3240,16 +2848,9 @@ const ServicesDetails = [
   "in_short": "A Banquet Hall Stretch Ceiling provides a grand, seamless, and customizable surface that is crucial for integrating decorative lighting and managing acoustics, significantly elevating the luxury and atmosphere of any event.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL BANQUET HALL STRETCH CEILING.png",
       "query": "Banquet hall stretch ceiling with integrated chandelier",
       "description": "A luxury banquet hall with a stretch ceiling featuring a prominent chandelier."
-    },
-    {
-      "query": "Banquet hall stretch ceiling starry night fiber optics",
-      "description": "A stretch ceiling simulating a magical starry night sky in an event hall."
-    },
-    {
-      "query": "Glossy white stretch ceiling large banquet hall reflection",
-      "description": "A reflective, high-gloss stretch ceiling covering a wide area of a hall."
     }
   ]
 },
@@ -3308,21 +2909,11 @@ const ServicesDetails = [
   "in_short": "The Supermarket Stretch Ceiling is a practical, hygienic, and aesthetic solution that provides large-scale seamless coverage, superior lighting integration, and noise reduction, significantly enhancing the commercial retail environment.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL SUPER MARKET STRETCH CEILING.png",
       "query": "Supermarket stretch ceiling large seamless white",
       "description": "A wide, seamless white stretch ceiling covering a supermarket aisle."
     },
-    {
-      "query": "Supermarket fresh produce backlit stretch ceiling",
-      "description": "A translucent, brightly backlit stretch ceiling over a fresh produce display."
-    },
-    {
-      "query": "Commercial stretch ceiling with acoustic panels in retail food court",
-      "description": "A stretch ceiling designed with acoustic features in a busy food court area."
-    },
-    {
-      "query": "Supermarket stretch ceiling with integrated linear LED lights",
-      "description": "A ceiling with seamless integrated linear LED lighting to illuminate aisles."
-    }
+    
   ]
 },
 
@@ -3366,17 +2957,11 @@ const ServicesDetails = [
   "in_short": "The 3D Stretch Ceiling is an advanced architectural solution that uses flexible materials to sculpt spaces, offering limitless possibilities for creating dramatic, illuminated, and highly customized ceiling focal points.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL  NEAR ME STRETCH CEILING.png",
       "query": "3D stretch ceiling wave shape lighting",
       "description": "A ceiling installed in a dynamic, three-dimensional wave pattern with integrated lighting."
     },
-    {
-      "query": "Dome stretch ceiling with indirect backlighting",
-      "description": "A large, curved dome ceiling shape with hidden illumination."
-    },
-    {
-      "query": "3D stretch ceiling layered geometric design",
-      "description": "A multi-layered or stepped stretch ceiling creating a contemporary 3D effect."
-    }
+    
   ]
 },
 {
@@ -3423,20 +3008,9 @@ const ServicesDetails = [
   "in_short": "The 3D stretch decorative ceiling transforms flat ceilings into an architectural statement, hiding wiring and ductwork while becoming a focal point of luxurious, dynamic design.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL  INDIAMART STRETCH CEILING.png",
       "query": "3D stretch ceiling wave structure with color lighting",
       "description": "A stretch ceiling installed in a wave pattern with integrated dynamic lighting."
-    },
-    {
-      "query": "Dome stretch ceiling luxury interior design",
-      "description": "A curved dome stretch ceiling adding height and elegance to a space."
-    },
-    {
-      "query": "3D printed stretch ceiling with illusion of depth",
-      "description": "A flat stretch ceiling printed with a 3D visual design that creates depth."
-    },
-    {
-      "query": "Stretch ceiling layered design with hidden LED strip lights",
-      "description": "A multi-layered or stepped stretch ceiling illuminated by cove lighting."
     }
   ]
 },
@@ -3485,21 +3059,11 @@ const ServicesDetails = [
   "in_short": "The 3D stretch decorative ceiling transforms flat ceilings into an architectural statement, hiding wiring and ductwork while becoming a focal point of luxurious, dynamic design.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL  FLEX CANVAS  STRETCH CEILING.png",
       "query": "3D stretch ceiling wave structure with color lighting",
       "description": "A stretch ceiling installed in a dynamic, three-dimensional wave pattern with integrated lighting."
     },
-    {
-      "query": "Dome stretch ceiling luxury interior design",
-      "description": "A curved dome stretch ceiling adding height and elegance to a space."
-    },
-    {
-      "query": "3D printed stretch ceiling with illusion of depth",
-      "description": "A flat stretch ceiling printed with a 3D visual design that creates depth."
-    },
-    {
-      "query": "Stretch ceiling layered design with hidden LED strip lights",
-      "description": "A multi-layered or stepped stretch ceiling illuminated by cove lighting."
-    }
+   
   ]
 },
 
@@ -3542,16 +3106,9 @@ const ServicesDetails = [
   "in_short": "The Royal Stretch Ceiling is a definitive statement of luxury, utilizing metallic finishes, intricate custom designs, and seamless integration with grand lighting fixtures to create interiors of regal splendor.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL  ROYAL STRETCH CEILING.png",
       "query": "Luxury stretch ceiling with gold metallic finish and chandelier",
       "description": "A stretch ceiling featuring a gold or metallic finish with a crystal chandelier."
-    },
-    {
-      "query": "Stretch ceiling with classical ornamental print in a banquet hall",
-      "description": "A ceiling printed with intricate classical or baroque patterns."
-    },
-    {
-      "query": "3D dome stretch ceiling with royal design and cove lighting",
-      "description": "A curved 3D ceiling with indirect lighting for a grand effect."
     }
   ]
 },
@@ -3600,17 +3157,11 @@ const ServicesDetails = [
   "in_short": "The Roman Stretch Ceiling offers a magnificent, classical aesthetic, using 3D shaping and luxurious finishes to transform modern spaces into elegant, historically inspired environments, complete with integrated, ambient lighting.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL ROMAN STRETCH CEILING.png",
       "query": "Stretch ceiling dome Roman architecture style with arch details",
       "description": "A curved or domed stretch ceiling featuring Roman architectural elements and symmetry."
     },
-    {
-      "query": "Stretch ceiling Roman classical pattern print with golden accents",
-      "description": "A stretch ceiling printed with classical Roman patterns or frescoes, possibly with metallic details."
-    },
-    {
-      "query": "Stretch ceiling marble texture with Roman cove lighting",
-      "description": "A marble-printed stretch ceiling highlighted by indirect lighting to mimic historical luxury."
-    }
+
   ]
 },
 
@@ -3666,21 +3217,11 @@ const ServicesDetails = [
   "in_short": "The Texture Stretch Ceiling allows designers to introduce material aesthetics like marble, wood, or metal onto the ceiling efficiently and safely, leveraging texture and lighting to create highly personalized, luxurious interiors.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL TEXTURE PARTTEN STRETCH CEILING.png",
       "query": "Stretch ceiling with wood texture print",
       "description": "A stretch ceiling surface printed to look like natural wood panels."
     },
-    {
-      "query": "Stretch ceiling with metallic silver finish texture",
-      "description": "A stretch ceiling displaying a shiny, brushed metallic texture."
-    },
-    {
-      "query": "Stretch ceiling with marble texture and backlighting",
-      "description": "A translucent stretch ceiling with a marble pattern illuminated from behind."
-    },
-    {
-      "query": "Stretch ceiling with satin texture elegant finish",
-      "description": "A ceiling with a soft, satin finish, showing minimal reflection."
-    }
+
   ]
 },
 
@@ -3731,17 +3272,11 @@ const ServicesDetails = [
   "in_short": "The Yoga Center Stretch Ceiling combines biophilic design and acoustic performance with customized, dimmable lighting to transform a studio into a serene, meditative, and aesthetically pleasing sanctuary for wellness.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL YOGA STRETCH CEILING.png",
       "query": "Yoga studio stretch ceiling with backlit clouds",
       "description": "A ceiling in a yoga center printed with soft clouds and illuminated from behind."
     },
-    {
-      "query": "Yoga studio stretch ceiling with mandala print and soft lighting",
-      "description": "A ceiling featuring a central printed mandala design."
-    },
-    {
-      "query": "Acoustic stretch ceiling in meditation room neutral color",
-      "description": "A sound-absorbing stretch ceiling in a calming, minimalist meditation space."
-    }
+   
   ]
 },
 {
@@ -3779,16 +3314,9 @@ const ServicesDetails = [
   "in_short": "The Aqua Stretch Ceiling is a premium, moisture-resistant solution that uses light and custom printing to transform spaces into serene, dynamic, and reflective environments, perfect for creating a luxurious water-based theme in wet areas.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL AQUA  STRETCH CEILING.png",
       "query": "Stretch ceiling printed underwater aquarium theme",
       "description": "A ceiling printed with an underwater scene or aquarium view."
-    },
-    {
-      "query": "Stretch ceiling 3D water wave effect with blue lighting",
-      "description": "A 3D shaped stretch ceiling designed to look like flowing water waves with blue illumination."
-    },
-    {
-      "query": "Swimming pool stretch ceiling with water reflection effect",
-      "description": "A glossy stretch ceiling reflecting the water surface of a pool."
     }
   ]
 },
@@ -3854,17 +3382,9 @@ const ServicesDetails = [
     "Complementary Decor (Floral walls, soft drapery, or natural wood finishes to enhance the theme)."
   ],
   "images": [
-    {
+    {"image":"/TEXTILE BARRISOL FLORAL  STRETCH CEILING.png",
       "query": "Stretch ceiling printed floral design with backlighting",
       "description": "A stretch ceiling with a realistic, backlit floral print."
-    },
-    {
-      "query": "3D stretch ceiling with raised floral pattern",
-      "description": "A ceiling featuring a three-dimensional, sculptural floral design."
-    },
-    {
-      "query": "Stretch ceiling abstract floral motif modern interior",
-      "description": "A ceiling with a stylized or abstract floral pattern."
     }
   ]
 }
@@ -3943,21 +3463,11 @@ const ServicesDetails = [
   ],
   "images": [
     {
+      "image":"/TEXTILE BARRISOL LED stretch ceilings by Asif Ali.png",
       "query": "Matte grey stretch ceiling with integrated linear LED light",
       "description": "A modern interior showing a smooth, matte gray stretch ceiling."
     },
-    {
-      "query": "Translucent stretch ceiling with backlit printed sky mural",
-      "description": "A glowing stretch ceiling displaying a high-resolution sky print."
-    },
-    {
-      "query": "Black stretch ceiling with LED fiber optic starry night effect",
-      "description": "A deep black ceiling simulating a dynamic starry night using fiber optics."
-    },
-    {
-      "query": "Perforated acoustic stretch ceiling backlit pattern",
-      "description": "A textured stretch ceiling with micro-perforations and backlighting."
-    }
+   
   ]
 }
 ,
@@ -4075,17 +3585,11 @@ const ServicesDetails = [
   ],
   "images": [
     {
+      "image":"/TEXTILE BARRISOL DALI TUNABLE STRETCH CEILING.png",
       "query": "DALI tuneable stretch ceiling color temperature shift",
       "description": "A translucent stretch ceiling demonstrating the shift between warm (2700K) and cool (6500K) white light."
     },
-    {
-      "query": "Stretch ceiling integrated with DALI lighting control panel",
-      "description": "An image showing a DALI lighting control interface integrated with the ceiling system."
-    },
-    {
-      "query": "Commercial office stretch ceiling with uniform tuneable backlighting",
-      "description": "A modern office space with a large stretch ceiling providing dynamic, uniform, tuneable white light."
-    }
+   
   ]
 },
 {
@@ -4133,17 +3637,11 @@ const ServicesDetails = [
   ],
   "images": [
     {
+      "image":"/BARRISOL MADRIX DMX STRETCH CEILING.png",
       "query": "Stretch ceiling with MADRIX DMX dynamic RGB lighting effects",
       "description": "A translucent stretch ceiling displaying complex, synchronized color-changing patterns controlled by MADRIX."
     },
-    {
-      "query": "Nightclub ceiling DMX pixel mapped lighting installation",
-      "description": "A dynamic club ceiling with intricate, addressable LED patterns."
-    },
-    {
-      "query": "MADRIX 5 software interface showing LED pixel mapping",
-      "description": "A screenshot or diagram of the MADRIX software controlling an LED installation."
-    }
+   
   ]
 },
 {
@@ -4203,17 +3701,11 @@ const ServicesDetails = [
   "in_short": "A fiber optic stretch ceiling delivers a safe, high-impact aesthetic, most notably the 'starry sky' effect, achieved by integrating durable, customizable light-carrying fibers with a seamless ceiling membrane.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL Mandir  Masjid Church  Gurudwara stretch ceiling.png",
       "query": "Stretch ceiling starry night sky with fiber optics home theater",
       "description": "A dark stretch ceiling simulating a night sky with numerous fiber optic light points."
     },
-    {
-      "query": "Stretch ceiling fiber optic lighting close-up installation",
-      "description": "A detailed view of fiber optic cable ends integrated into the stretch membrane."
-    },
-    {
-      "query": "Fiber optic light source and harness illuminator box",
-      "description": "Image showing the central LED illuminator and the bundle of fiber optic cables."
-    }
+
   ]
 },
 {
@@ -4271,17 +3763,11 @@ const ServicesDetails = [
   ],
   "images": [
     {
+      "image":"/TEXTILE BARRIOSL FIBER OPTIC MESH CEILING.png",
       "query": "Stretch ceiling starry night sky with fiber optics home theater",
       "description": "A dark stretch ceiling simulating a night sky with numerous fiber optic light points."
     },
-    {
-      "query": "Stretch ceiling fiber optic lighting close-up installation",
-      "description": "A detailed view of fiber optic cable ends integrated into the stretch membrane."
-    },
-    {
-      "query": "Fiber optic light source and harness illuminator box",
-      "description": "Image showing the central LED illuminator and the bundle of fiber optic cables."
-    }
+
   ]
 },
 {
@@ -4326,16 +3812,9 @@ const ServicesDetails = [
   "in_short": "The Printed Mural Ceiling is a versatile, high-impact design tool that uses high-definition printing and seamless integration to customize the ambiance, thematic element, and visual depth of any space.",
   "images": [
     {
+      "image":"/TEXTILE MURAL ART WALL and CEILING.png",
       "query": "Stretch ceiling printed with Renaissance art mural",
       "description": "A stretch ceiling featuring a classical, ornate artistic mural print."
-    },
-    {
-      "query": "Stretch ceiling printed with high-resolution forest or nature scene",
-      "description": "A backlit stretch ceiling printed with a realistic image of a forest canopy."
-    },
-    {
-      "query": "Stretch ceiling printed with corporate logo or custom graphics",
-      "description": "A commercial ceiling with a printed logo for branding."
     }
   ]
 },
@@ -4380,17 +3859,11 @@ const ServicesDetails = [
   "in_short": "The LED Frill Ceiling uses hidden strip lighting along decorative edges to produce a luxurious, soft glow, transforming the ceiling border into a focal point of ambient illumination.",
   "images": [
     {
+      "image":"/TEXTILE BARRIOSL LED  FRILL CEILING.png",
       "query": "Stretch ceiling LED frill design cove lighting multi-layer",
       "description": "A stretch ceiling with curved, layered edges illuminated by hidden LED strip lighting."
     },
-    {
-      "query": "POP false ceiling LED cove lighting wavy design",
-      "description": "A ceiling showing a wavy, frill-like border highlighted by indirect LED light."
-    },
-    {
-      "query": "Luxury living room ceiling cove lighting design",
-      "description": "An elegant residential ceiling design with a glowing border effect."
-    }
+   
   ]
 },
 {
@@ -4420,17 +3893,11 @@ const ServicesDetails = [
   "in_short": "The Live Cloud Ceiling is an innovative, immersive design solution that uses dynamic projection and translucent stretch material to bring the calming, ever-changing motion of the natural sky into any interior space.",
   "images": [
     {
+      "image":"/TEXTILE BARRISOL  LIVE CLOUD CEILING1.png",
       "query": "Stretch ceiling dynamic moving cloud effect LED panel",
       "description": "A ceiling displaying a realistic, moving cloud pattern using hidden LED projection."
     },
-    {
-      "query": "Virtual sky ceiling with sunrise effect",
-      "description": "A dynamic ceiling simulating the warm colors of a sunrise or sunset."
-    },
-    {
-      "query": "Live cloud ceiling spa or wellness center ambiance",
-      "description": "A soothing interior with a dynamic sky ceiling used for relaxation."
-    }
+
     
   ]
 },

@@ -262,7 +262,7 @@ const MoreServices =
       },
       {
         "name": "TEXTILE BARRISOL MURAL PAINTING",
-        "image": "TEXTILE MURAL ART WALL & CEILING.png"
+        "image": "TEXTILE MURAL ART WALL and CEILING.png"
       },
       {
         "name": "TEXTILE BARRISOL LED FRILL CEILING",

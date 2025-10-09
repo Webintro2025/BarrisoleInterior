@@ -7,6 +7,9 @@ import CustomBanner from "@/components/CustomBanner";
 import { motion } from "framer-motion";
 
 function slugify(name) {
+  if (typeof name !== "string") {
+    return ""; // Return an empty string if the input is not a valid string
+  }
   return name.toLowerCase().replace(/\s+/g, "-");
 }
 
