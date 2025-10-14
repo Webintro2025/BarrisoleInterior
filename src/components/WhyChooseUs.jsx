@@ -56,9 +56,9 @@ const WhyChooseUs = () => {
       description: "Printed tiles for creative and customizable ceiling designs. Perfect for personalized interior themes."
     },
     {
-      src: "/TEXTILE MURAL ART WALL & CEILING.png",
-      alt: "TEXTILE MURAL ART WALL & CEILING",
-      title: "TEXTILE MURAL ART WALL & CEILING",
+      src: "/TEXTILE MURAL ART WALL and CEILING.png",
+      alt: "TEXTILE MURAL ART WALL and CEILING",
+      title: "TEXTILE MURAL ART WALL and CEILING",
       description: "Artistic mural designs for walls and ceilings. Ideal for adding a unique and artistic flair."
     },
     {

@@ -197,9 +197,9 @@ const CEILING_SERVICES = [
   ]
 }
 ,{
-  title: "TEXTILE MURAL ART WALL & CEILING",
+  title: "TEXTILE MURAL ART WALL and CEILING",
   slug: "textile-mural-art-wall-ceiling",
-  description: "The Textile Mural Art Wall & Ceiling system by Barrisol transforms plain walls and ceilings into striking works of art through high-resolution digital printing on stretch material. This 'Print your Mind' service allows complete customization—whether it’s personal photographs, logos, or world-class artwork sourced from museum partnerships. The material can be installed seamlessly on flat, concave, or convex surfaces, and even combined with backlighting on translucent finishes to create luminous, atmospheric effects. Offering a modern alternative to traditional wallpaper, this system provides limitless design possibilities with professional, seamless installation.",
+  description: "The TEXTILE MURAL ART WALL and CEILING system by Barrisol transforms plain walls and ceilings into striking works of art through high-resolution digital printing on stretch material. This 'Print your Mind' service allows complete customization—whether it’s personal photographs, logos, or world-class artwork sourced from museum partnerships. The material can be installed seamlessly on flat, concave, or convex surfaces, and even combined with backlighting on translucent finishes to create luminous, atmospheric effects. Offering a modern alternative to traditional wallpaper, this system provides limitless design possibilities with professional, seamless installation.",
   keyCharacteristics: [
     "Full Customization: Print personal images, logos, or choose from curated artwork collections.",
     "High-Definition Printing: Advanced HD printing delivers millions of colors with sharp detail.",
@@ -218,7 +218,7 @@ const CEILING_SERVICES = [
     "Event & Exhibition Halls: Transform spaces with temporary or permanent artistic displays."
   ],
   images: [
-  "/TEXTILE MURAL ART WALL & CEILING.png"
+  "/TEXTILE MURAL ART WALL and CEILING.png"
   ]
 }
 ,{

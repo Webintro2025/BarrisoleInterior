@@ -207,7 +207,7 @@ With years of expertise, we specialize in<strong> Textile Barrisol Sky Stretch C
     Our 2x2 Panel Printed Tiles are a perfect blend of modern technology and design flexibility. These panels are easy to install and can be printed with custom graphics, logos, or patterns, making them an excellent choice for corporate and commercial projects.
   </li>
   <li>
-    <span className="font-bold">9. Textile Mural Art Wall & Ceiling Manufacturer And Services in {formattedLocation}:</span><br />
+    <span className="font-bold">9. TEXTILE MURAL ART WALL and CEILING Manufacturer And Services in {formattedLocation}:</span><br />
     For those who want to integrate art into architecture, our Mural Art Walls and Ceilings offer the perfect solution. From abstract art to themed murals, we transform spaces into captivating works of art.
   </li>
   <li>

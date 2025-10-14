@@ -50,9 +50,9 @@ const About = () => {
       title: "BARRISOL 2X2 PANEL PRINTED TILE"
     },
     {
-      src: "/TEXTILE MURAL ART WALL & CEILING.png",
-      alt: "TEXTILE MURAL ART WALL & CEILING",
-      title: "TEXTILE MURAL ART WALL & CEILING"
+      src: "/TEXTILE MURAL ART WALL and CEILING.png",
+      alt: "TEXTILE MURAL ART WALL and CEILING",
+      title: "TEXTILE MURAL ART WALL and CEILING"
     },
     {
       src: "/RGBWW PIXEL ASIFTEXTILE BARRISOL  STRETCH CEILING.png",
