@@ -118,6 +118,14 @@ const Navbar = () => {
     setHoverTimeout(timeout);
   };
 
+  const toggleServicesDropdown = () => {
+    if (hoverTimeout) {
+      clearTimeout(hoverTimeout);
+      setHoverTimeout(null);
+    }
+    setServicesDropdownOpen((prev) => !prev);
+  };
+
   // Handle more services dropdown hover effects
   const handleMoreServicesHover = () => {
     if (moreServicesTimeout) {
@@ -132,6 +140,14 @@ const Navbar = () => {
       setMoreServicesDropdownOpen(false);
     }, 400); // Delay of 400ms before closing
     setMoreServicesTimeout(timeout);
+  };
+
+  const toggleMoreServicesDropdown = () => {
+    if (moreServicesTimeout) {
+      clearTimeout(moreServicesTimeout);
+      setMoreServicesTimeout(null);
+    }
+    setMoreServicesDropdownOpen((prev) => !prev);
   };
 
   const handleDropdownEnter = () => {
@@ -312,9 +328,9 @@ const Navbar = () => {
                   </motion.div>
                 </Link>
               ) : (
-                <motion.a
-                  href="#"
-                  className={`relative flex items-center transition-all duration-300 ${
+                <motion.button
+                  type="button"
+                  className={`relative flex items-center transition-all duration-300 bg-transparent border-none focus:outline-none cursor-pointer ${
                     isScrolled
                       ? 'text-red-600 hover:text-blue-600'
                       : 'text-white hover:text-red-300'
@@ -327,6 +343,7 @@ const Navbar = () => {
                   whileTap={{ scale: 0.95 }}
                   onMouseEnter={item.name === 'SERVICES' ? handleServicesHover : item.name === 'MORE SERVICES' ? handleMoreServicesHover : undefined}
                   onMouseLeave={item.name === 'SERVICES' ? handleServicesLeave : item.name === 'MORE SERVICES' ? handleMoreServicesLeave : undefined}
+                  onClick={item.name === 'SERVICES' ? toggleServicesDropdown : toggleMoreServicesDropdown}
                 >
                   {item.name}
                   {item.hasDropdown && (
@@ -341,7 +358,7 @@ const Navbar = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </motion.svg>
                   )}
-                </motion.a>
+                </motion.button>
               )}
             </div>
           ))}
@@ -611,7 +628,8 @@ const Navbar = () => {
             style={{
               left: '50%',
               transform: 'translateX(-50%)',
-              marginLeft: '50px'
+              marginLeft: '50px',
+              pointerEvents: servicesDropdownOpen ? 'auto' : 'none'
             }}
             onMouseEnter={handleDropdownEnter}
             onMouseLeave={handleDropdownLeave}
@@ -679,7 +697,8 @@ const Navbar = () => {
             style={{
               left: '50%',
               transform: 'translateX(-50%)',
-              marginLeft: '200px'
+              marginLeft: '200px',
+              pointerEvents: moreServicesDropdownOpen ? 'auto' : 'none'
             }}
             onMouseEnter={handleMoreServicesDropdownEnter}
             onMouseLeave={handleMoreServicesDropdownLeave}

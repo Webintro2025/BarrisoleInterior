@@ -132,23 +132,23 @@ const MoreServices =
         "image": "3D TEXTILE STRETCH CEILING IMPORTER & EXPORTER.png"
       },
       {
-        "name": "3D TEXTILE STRETCH CEILING INSTAL...",
+        "name": "3D TEXTILE STRETCH CEILING INSTALLATION TRANING COURSE",
         "image": "3D TEXTILE STRETCH CEILING INSTALLATION  TRANING COURSE.png"
       },
       {
-        "name": "A Textile Barrisol Uv Xy 5 Lair printing stretch ...",
+        "name": "A TEXTILE BARRISOL UV XY 5 LAIR PRINTING STRETCH CEILING",
         "image": "A Textile Barrisol Uv Xv 5 Lair printing stretch ceiling.png"
       },
       {
-        "name": "3D TEXTILE STRETCH CEILING PROFIL...",
+        "name": "3D TEXTILE STRETCH CEILING PROFILE HARPOON",
         "image": "3D TEXTILE STRETCH CEILING PROFILE HARPOON.png"
       },
       {
-        "name": "3D TEXTILE STRETCH CEILING",
+        "name": "3D TRANSLUCENT  STRETCH CEILING BY ASIF ALI",
         "image": "3D TRANSLUCENT  STRETCH CEILING BY ASIF ALI.png"
       },
       {
-        "name": "3D TEXTILE GALAXY STAR STRETCH CEIL...",
+        "name": "3D TEXTILE GALAXY STAR  STRETCH CEILING",
         "image": "TEXTILE GALAXY STAR  STRETCH CEILING.png"
       },
       {

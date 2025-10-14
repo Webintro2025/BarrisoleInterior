@@ -4242,8 +4242,416 @@ const ServicesDetails = [
       "description": "A wall installation featuring a stretch membrane with a 3D geometric pattern illuminated from behind."
     }
   ]
+},
+{
+  "title": "TEXTILE BARRISOL DALI Tunable Stretch Ceiling",
+  "slug":"TEXTILE BARRISOL DALI TUNABLE STRETCH CEILING",
+  "description": "A premium stretch ceiling system that pairs a translucent Barrisol membrane with DALI-enabled tunable-white lighting for precise brightness and color-temperature control in high-end spaces.",
+  "product_details": {
+    "membrane": "Textile or PVC Barrisol canvas engineered for uniform light diffusion",
+    "lighting_system": "DALI (Digital Addressable Lighting Interface) controlled tunable-white LED array",
+    "control_range": "1800K warm ambience to 6500K crisp daylight with smooth dimming (0.1%–100%)",
+    "maintenance": "Low-maintenance, washable surface with replaceable LED modules and quick-access framing"
+  },
+  "dali_control_features": [
+    {
+      "feature": "Addressable lighting zones",
+      "details": "Each lighting channel can be programmed individually for layered scenes and dynamic transitions."
+    },
+    {
+      "feature": "Scene recall",
+      "details": "Pre-set scenes for presentations, hospitality moods, and wellness cycles are stored directly in the DALI driver."
+    },
+    {
+      "feature": "Smooth dimming",
+      "details": "Flicker-free fades from accent glow to full task lighting, ideal for audiovisual and hospitality environments."
+    }
+  ],
+  "smart_control_options": [
+    "Wall-mounted DALI touch panels",
+    "Building Management System (BMS) integration",
+    "Mobile app or voice assistant through DALI-to-IoT gateways",
+    "Astronomical clock and daylight harvesting automation"
+  ],
+  "technical_specifications": {
+    "profile_system": "Lightweight aluminum perimeter tracks with hidden fabric harpoon locking",
+    "power_supply": "DALI-2 compliant constant-current drivers with surge and thermal protection",
+    "lumen_output": "Up to 4500 lm per panel with 90+ CRI LED engines",
+    "sustainability": "Energy-efficient LEDs paired with recyclable stretch membrane materials"
+  },
+  "applications": [
+    "Corporate boardrooms and executive lounges",
+    "Luxury hotels, spas, and wellness centers",
+    "Premium retail and experiential showrooms",
+    "Healthcare projects requiring circadian lighting"
+  ],
+  "integration_notes": "Pairs seamlessly with RGBW accent layers, acoustic backers, HVAC diffusers, and ceiling service access panels without compromising the luminous surface.",
+  "images": [
+    {
+      "image":"/TEXTILE BARRISOL DALI TUNABLE STRETCH CEILING.png",
+      "query": "DALI tunable stretch ceiling with dynamic white control",
+      "description": "A Barrisol stretch ceiling softly illuminated with tunable-white lighting managed over DALI."
+    }
+  ]
+},
+{
+  "title": "TEXTILE BARRISOL Office Conference Stretch Ceiling",
+  "slug":"TEXTILE BARRISOL OFFICE CONFERENCE",
+  "description": "A tailored stretch ceiling specification for conference rooms and corporate boardrooms, balancing acoustics, lighting, and branding to deliver productive, guest-ready meeting spaces.",
+  "product_details": {
+    "ceiling_canvas": "High-performance Barrisol membrane with matte or satin finish to avoid glare on screens",
+    "profile_system": "Precision aluminum perimeter tracks with concealed harpoon locking for rapid maintenance access",
+    "lighting_layers": "Integrated tunable-white LED panels with optional RGB perimeter wash for presentation and collaboration modes",
+    "acoustic_backing": "Micro-perforated membrane paired with mineral wool or polyester acoustic fleece to control reverberation"
+  },
+  "meeting_room_challenges": [
+    {
+      "challenge": "Video conferencing glare",
+      "solution": "Low-gloss stretch canvas diffuses fixtures evenly, maintaining camera-friendly light levels."
+    },
+    {
+      "challenge": "Speech intelligibility",
+      "solution": "Acoustic perforation patterning and absorptive backers keep RT60 within recommended conferencing guidelines."
+    },
+    {
+      "challenge": "Flexible ambiance",
+      "solution": "Scene-based lighting presets support brainstorming, executive presentations, and client hospitality."
+    }
+  ],
+  "technology_integration": {
+    "sensors": "Occupancy, CO2, and daylight sensors mount behind the membrane with service hatches for calibration",
+    "av_hardware": "Ceiling hosts beamforming microphones, projection housings, and hidden cable trays without visible clutter",
+    "control_systems": "Compatible with DALI, 0-10V, KNX, and popular room control platforms (Crestron, Extron, Logitech)"
+  },
+  "design_options": [
+    "Printed corporate branding or subtle gradient graphics",
+    "Backlit logo reveals for client welcome sequences",
+    "Edge-lit lines guiding table orientation",
+    "Optional star-diffuser perforations for air supply integration"
+  ],
+  "applications": [
+    "Executive boardrooms",
+    "Hybrid collaboration suites",
+    "Training auditoriums",
+    "Client presentation lounges"
+  ],
+  "maintenance_notes": "Modular LED trays and quick-release membrane edges allow overnight servicing without major disruption to office schedules.",
+  "images": [
+    {
+      "image":"/TEXTILE OFFICE STRETCH CEILING.png",
+      "query": "Conference room stretch ceiling with integrated lighting",
+      "description": "A corporate meeting room featuring a stretch ceiling with diffused lighting above the conference table."
+    }
+  ]
+},
+{
+  "title": "A Textile Barrisol UV XY 5 Layer Printing Stretch Ceiling",
+  "slug":"A TEXTILE BARRISOL UV XY 5 LAIR PRINTING STRETCH CEILING",
+  "description": "A premium stretch ceiling that leverages five-layer UV/XY digital printing to deliver ultra-realistic visuals, deep color saturation, and long-lasting surface protection for statement interiors.",
+  "product_details": {
+    "membrane_base": "High-tensile Barrisol textile canvas engineered for dimensional stability",
+    "printing_process": "Five sequential UV/XY passes layering primer, high-opacity color, texture enhancement, protective varnish, and topcoat",
+    "curing_method": "Instant UV LED curing between layers to lock pigments and prevent bleeding",
+    "finish_options": [
+      "Matte anti-glare",
+      "Satin depth-enhance",
+      "High-gloss gallery sheen"
+    ]
+  },
+  "layer_breakdown": [
+    {
+      "layer": 1,
+      "name": "Adhesion primer",
+      "purpose": "Seals fabric micro-pores and promotes strong pigment bonding."
+    },
+    {
+      "layer": 2,
+      "name": "Base color flood",
+      "purpose": "Lays down consistent CMYK coverage for vivid backgrounds."
+    },
+    {
+      "layer": 3,
+      "name": "Detail enhancement",
+      "purpose": "Adds fine-line artwork, gradients, and metallic spot effects."
+    },
+    {
+      "layer": 4,
+      "name": "Protective varnish",
+      "purpose": "Introduces scratch resistance and chemical shielding for busy environments."
+    },
+    {
+      "layer": 5,
+      "name": "UV topcoat",
+      "purpose": "Blocks fading from daylight, enhances cleanability, and adds desired sheen."
+    }
+  ],
+  "performance_highlights": [
+    "Colorfast for 7+ years under indoor daylight exposure",
+    "Anti-yellowing polymers resist HVAC heat and humidity",
+    "Low-VOC inks meet GreenGuard indoor air quality benchmarks",
+    "Optional antimicrobial layer for healthcare or hospitality zones"
+  ],
+  "ideal_use_cases": [
+    "Luxury residences needing bespoke mural ceilings",
+    "Retail flagships and experience centers",
+    "Hospitality lobbies with thematic storytelling",
+    "Museums, galleries, and immersive art venues"
+  ],
+  "installation_notes": "Delivered in pre-finished prints, tensioned on-site with concealed harpoon system; edge sealing and micro-perf options available for acoustic or HVAC integration.",
+  "images": [
+    {
+      "image":"/A Textile Barrisol Uv Xv 5 Lair printing stretch ceiling.png",
+      "query": "Five layer UV printed stretch ceiling mural",
+      "description": "A stretch ceiling showcasing vibrant multi-layer UV printed artwork."
+    }
+  ]
+},
+{
+  "title": "3D Textile Stretch Ceiling Installation Training Course",
+  "slug":"3D TEXTILE STRETCH CEILING INSTALLATION TRANING COURSE",
+  "description": "A hands-on training curriculum covering every stage of 3D textile stretch ceiling installation, from site preparation to advanced finishing and maintenance best practices.",
+  "product_details": {
+    "course_format": "Instructor-led workshop with classroom briefs and on-site rigging practice",
+    "duration_options": [
+      "3-day intensive foundation",
+      "5-day advanced pro certification"
+    ],
+    "participant_profile": "Installers, fabricators, interior contractors, and project supervisors entering the stretch ceiling trade",
+    "assessment": "Practical installation exam plus multiple-choice theory test"
+  },
+  "training_modules": [
+    {
+      "module": "System fundamentals",
+      "focus": "Membrane types, harpoon welding, profile selection, structural load considerations"
+    },
+    {
+      "module": "Site preparation & surveying",
+      "focus": "Ceiling level mapping, service coordination (HVAC, sprinklers, lighting), substrate checks"
+    },
+    {
+      "module": "Frame fabrication",
+      "focus": "Cutting and anchoring aluminum profiles for complex 3D geometries and curves"
+    },
+    {
+      "module": "Membrane tensioning",
+      "focus": "Heat-assisted stretching, wrinkle mitigation, acoustic backing integration"
+    },
+    {
+      "module": "Lighting & finishing",
+      "focus": "Embedding LED grids, diffuser alignment, joint detailing, quality inspection"
+    }
+  ],
+  "equipment_covered": [
+    "Digital laser levels and layout lasers",
+    "Harpoon welding machines and hand tools",
+    "Hot air blowers and temperature monitors",
+    "Suspension anchors, fasteners, and safety rigging kits"
+  ],
+  "certification_benefits": [
+    "Official completion certificate with installer ID",
+    "Eligibility for OEM warranty-backed installations",
+    "Access to project tender leads and technical helpline",
+    "Listing in approved installer directory"
+  ],
+  "schedule_and_support": {
+    "batch_sizes": "Limited to 12 participants for individualized mentorship",
+    "venues": "Delhi NCR training center with portable modules for on-site corporate batches",
+    "post_training": "30-day remote mentoring and corrective feedback on initial live projects"
+  },
+  "prerequisites": [
+    "Basic knowledge of interior contracting or ceiling works",
+    "Personal protective equipment (PPE) compliance",
+    "Ability to interpret architectural drawings"
+  ],
+  "images": [
+    {
+      "image":"/3D TEXTILE STRETCH CEILING INSTALLATION  TRANING COURSE.png",
+      "query": "Stretch ceiling installation training workshop",
+      "description": "Trainees practicing 3D stretch ceiling installation under instructor supervision."
+    }
+  ]
+},
+{
+  "title": "3D Textile Stretch Ceiling Profile Harpoon System",
+  "slug":"3D TEXTILE STRETCH CEILING PROFILE HARPOON",
+  "description": "A modular profile and harpoon locking system engineered for precise 3D textile stretch ceiling installations, enabling crisp edges, compound curves, and reliable long-term tensioning.",
+  "product_details": {
+    "profile_material": "High-grade anodized aluminum extrusions with corrosion-resistant coating",
+    "harpoon_material": "Flexible PVC or TPU welding strip ultrasonically fused to the membrane perimeter",
+    "tension_capacity": "Supports membrane stretch loads up to 40 kg/m with uniform distribution",
+    "standard_lengths": [
+      "2 m",
+      "2.5 m",
+      "3 m",
+      "custom curved segments"
+    ]
+  },
+  "profile_variants": [
+    {
+      "variant": "Classic perimeter",
+      "use_case": "Straight runs and perimeter frames for standard flat and angled ceilings."
+    },
+    {
+      "variant": "Shadow-gap recessed",
+      "use_case": "Floating ceiling effects with integrated LED coves or reveal joints."
+    },
+    {
+      "variant": "3D contour",
+      "use_case": "Organic shapes, wave ceilings, and multi-level transitions requiring flexible bending slots."
+    },
+    {
+      "variant": "Acoustic hybrid",
+      "use_case": "Membrane + acoustic panel assemblies with rear ventilation and service access."
+    }
+  ],
+  "installation_steps": [
+    "Laser-mark perimeter, anchor profiles at max 300 mm spacing",
+    "Weld harpoon strip around printed or translucent membrane using calibrated bar welder",
+    "Heat the membrane to 40–60°C, insert corners, then work towards mid-span for wrinkle-free tension",
+    "Finish with trim caps, plug lighting feeds, and verify uniform tension with infrared thermometer"
+  ],
+  "accessories": [
+    "Corner connectors (internal/external)",
+    "Profile-to-profile joiners",
+    "Adjustable suspension brackets",
+    "Perimeter LED diffuser clips"
+  ],
+  "quality_checks": {
+    "alignment": "Check level tolerance within ±2 mm across the run",
+    "tension": "Inspect for even membrane tension and absence of ripples",
+    "fixings": "Confirm all anchors meet substrate pull-out strength requirements",
+    "finish": "Ensure trims are flush and lighting reveals are continuous"
+  },
+  "applications": [
+    "Complex 3D feature ceilings",
+    "Backlit textile installations",
+    "Acoustic stretch ceiling retrofits",
+    "Custom exhibition pods and kiosks"
+  ],
+  "images": [
+    {
+      "image":"/3D TEXTILE STRETCH CEILING PROFILE HARPOON.png",
+      "query": "Stretch ceiling harpoon profile detail",
+      "description": "Close-up of a harpoon locking profile used for 3D textile stretch ceilings."
+    }
+  ]
+},
+{
+  "title": "3D Translucent Stretch Ceiling by Asif Ali",
+  "slug":"3D TRANSLUCENT  STRETCH CEILING BY ASIF ALI",
+  "description": "A translucent 3D stretch ceiling concept that blends sculpted textile forms with immersive backlighting to deliver dramatic, customizable ceilings for premium interiors.",
+  "product_details": {
+    "membrane_type": "High-transmission Barrisol textile membrane suitable for 3D thermoforming",
+    "support_structure": "CNC-curved aluminum subframe with integrated harpoon profiles",
+    "lighting_integration": "Edge-lit RGBW LED ribbons and diffuse panel arrays for uniform glow",
+    "control_protocols": [
+      "DALI",
+      "DMX512",
+      "App-based smart controls"
+    ]
+  },
+  "design_features": [
+    {
+      "feature": "3D geometry",
+      "details": "Wave, dome, and organic petal forms modeled in CAD and replicated on site with precision templates."
+    },
+    {
+      "feature": "Translucent depth",
+      "details": "Multi-layer diffusion creates floating, cloud-like luminosity without visible hotspots."
+    },
+    {
+      "feature": "Custom printing",
+      "details": "Optional UV graphics or gradient overlays add branding, sky motifs, or thematic art."
+    }
+  ],
+  "lighting_modes": [
+    "Static tunable white for day-to-night ambience",
+    "Dynamic RGB sequences for hospitality experiences",
+    "Scene presets synchronized with audio or AV cues"
+  ],
+  "installation_process": [
+    "Survey ceiling and map service penetrations (sprinklers, HVAC, sensors)",
+    "Prefabricate 3D frame segments and suspend to final datum",
+    "Mount LED arrays, run power/data cabling, and perform pre-commission checks",
+    "Heat and tension translucent membrane over the 3D frame, finishing with seam concealment trims"
+  ],
+  "performance_notes": {
+    "fire_rating": "Meets Class B-s2, d0 or equivalent fire performance when paired with certified membrane",
+    "acoustic_options": "Add acoustic fleece backing for reverberation control in large atriums",
+    "maintenance": "Membrane is wipe-clean; LED modules accessible via concealed service ports"
+  },
+  "applications": [
+    "Luxury hotel lobbies and lounges",
+    "Premium retail flagships",
+    "Executive residences and penthouses",
+    "Experience centers and event venues"
+  ],
+  "images": [
+    {
+      "image":"/3D TRANSLUCENT  STRETCH CEILING BY ASIF ALI.png",
+      "query": "3D translucent stretch ceiling with backlighting",
+      "description": "A flowing 3D translucent stretch ceiling illuminated with gradient lighting."
+    }
+  ]
+},
+{
+  "title": "3D Textile Galaxy Star Stretch Ceiling",
+  "slug":"3D TEXTILE GALAXY STAR  STRETCH CEILING",
+  "description": "An immersive stretch ceiling system that recreates a galaxy night sky using fiber optics, RGBW backlighting, and layered textile diffusion for boutique cinemas, lounges, and experiential spaces.",
+  "product_details": {
+    "membrane": "Premium black or midnight-blue Barrisol textile with micro-perforations for star-pin lighting",
+    "lighting_system": "Hybrid fiber optic harness with RGBW LED backwash and optional twinkle engines",
+    "control_suite": [
+      "DMX512 show control",
+      "DALI tunable white",
+      "Mobile app scene triggers"
+    ],
+    "ceiling_depth": "Multi-level subframe (50–150 mm) accommodates fiber bundles, acoustic fleece, and HVAC services"
+  },
+  "visual_layers": [
+    {
+      "layer": "Base glow",
+      "description": "Soft RGBW wash light establishes horizon gradients and nebula color palettes."
+    },
+    {
+      "layer": "Fiber optic stars",
+      "description": "Programmable end-emitters deliver static, shimmer, or shooting-star patterns."
+    },
+    {
+      "layer": "Printed constellations",
+      "description": "Optional UV printing adds Milky Way clusters, aurora accents, or client-branded formations."
+    }
+  ],
+  "experience_modes": [
+    "Cinematic mode with slow twinkle and deep blue backwash",
+    "Lounge mode with rotating nebula colors synced to audio",
+    "Wellness mode featuring warm dusk-to-dawn transitions"
+  ],
+  "installation_overview": [
+    "Construct blackened perimeter frame with integrated cable management",
+    "Route fiber optic harnesses and label star groups per layout plan",
+    "Mount RGBW backlighting panels and commission DMX/DALI drivers",
+    "Tension printed or plain galaxy membrane, pierce fiber tips, and polish for clarity"
+  ],
+  "performance_notes": {
+    "acoustics": "Acoustic fleece backing and perforated membrane reduce reverberation in theaters and lounges",
+    "energy": "Low-wattage LED sources with programmable dimming deliver high impact at minimal power",
+    "serviceability": "Access hatches and quick-disconnect fiber couplers simplify maintenance"
+  },
+  "applications": [
+    "Home theaters and media rooms",
+    "Luxury spas and wellness pods",
+    "Hospitality lounges and clubs",
+    "Planetarium-style exhibits and interactive museums"
+  ],
+  "images": [
+    {
+      "image":"/TEXTILE GALAXY STAR  STRETCH CEILING.png",
+      "query": "Galaxy star stretch ceiling with fiber optics",
+      "description": "A starry galaxy stretch ceiling glowing with constellations and nebula lighting."
+    }
+  ]
 }
-
 
 ];
 export default ServicesDetails;
