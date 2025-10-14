@@ -129,7 +129,7 @@ const MoreServices =
       },
       {
         "name": "TEXTILE IMPORT EXPORT STRETCH CEILING",
-        "image": "3D TEXTILE STRETCH CEILING IMPORTER & EXPORTER.png"
+        "image": "3D TEXTILE STRETCH CEILING IMPORTER and EXPORTER.png"
       },
       {
         "name": "3D TEXTILE STRETCH CEILING INSTALLATION TRANING COURSE",

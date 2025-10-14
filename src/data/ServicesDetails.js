@@ -2232,7 +2232,7 @@ const ServicesDetails = [
   },
   "images": [
     {
-      "image":"/3D TEXTILE STRETCH CEILING IMPORTER & EXPORTER.png",
+      "image":"/3D TEXTILE STRETCH CEILING IMPORTER and EXPORTER.png",
       "query": "Shipping stretch ceiling material cargo logistics",
       "description": "Image illustrating the logistics of importing/exporting stretch ceiling rolls."
     }
