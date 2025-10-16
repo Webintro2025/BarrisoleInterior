@@ -211,9 +211,9 @@ const About = () => {
             }}
           />
            <motion.img
-            src="/CHANDELIER  TEXTILE  BARRISOL CEILING.png"
-            alt="TEXTILE BARRISOL STRETCH CEILING INDUSTRIES - Premium Ceiling and Wall Solutions"
-            className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg"
+            src="/owner.png"
+            alt="Mr. Asif Ali - Founder of TEXTILE BARRISOL STRETCH CEILING INDUSTRIES"
+            className="w-full h-[350px] sm:h-[400px] md:h-[450px] lg:h-[500px] object-cover rounded-lg"
             initial={{ opacity: 0, scale: 1.1 }}
             whileInView={{ 
               opacity: 1, 
@@ -245,9 +245,9 @@ const About = () => {
             transition={{ delay: 0.5, duration: 0.6 }}
           >
             <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-1 sm:mb-2 bg-gradient-to-r from-red-400 to-blue-400 bg-clip-text text-transparent">
-              TEXTILE BARRISOL STRETCH CEILING INDUSTRIES
+         Mr. Asif Ali 
             </h3>
-            <p className="text-xs sm:text-sm opacity-90">Premium Architectural Finishes</p>
+            <p className="text-xs sm:text-sm opacity-90"> Founder of TEXTILE BARRISOL STRETCH CEILING INDUSTRIES</p>
           </motion.div>
         </motion.div>
         
