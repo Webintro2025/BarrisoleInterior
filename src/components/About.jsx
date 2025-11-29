@@ -211,6 +211,7 @@ const About = () => {
             }}
           />
            <motion.img
+           
             src="/owner.png"
             alt="Mr. Asif Ali - Founder of TEXTILE BARRISOL STRETCH CEILING INDUSTRIES"
             className="w-full h-[350px] sm:h-[400px] md:h-[450px] lg:h-[500px] object-cover rounded-lg"

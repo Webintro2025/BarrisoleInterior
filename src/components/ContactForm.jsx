@@ -18,11 +18,30 @@ const ContactForm = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    alert('Thank you for reaching out! We will get back to you soon.');
-    setFormData({ name: '', email: '', phone: '', message: '' });
+    try {
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          fullName: formData.name,
+          phoneNumber: formData.phone,
+          email: formData.email,
+          message: formData.message
+        })
+      });
+      const result = await response.json();
+      if (result.success) {
+        alert('Thank you for reaching out! We will get back to you soon.');
+        setFormData({ name: '', email: '', phone: '', message: '' });
+      } else {
+        alert('Failed to send message. Please try again later.');
+      }
+    } catch (error) {
+      alert('An error occurred. Please try again later.');
+    }
   };
 
   return (
